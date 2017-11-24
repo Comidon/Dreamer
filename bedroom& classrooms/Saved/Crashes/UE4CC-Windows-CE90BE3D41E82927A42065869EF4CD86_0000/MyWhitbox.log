@@ -1,0 +1,510 @@
+﻿Log file open, 10/30/17 05:00:20
+LogInit:Display: Running engine for game: MyWhitbox
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(2140878228) SRandInit(2140878228).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.093480
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.10.30-11.00.20:962][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.30-11.00.20:962][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.30-11.00.21:085][  0]LogInit: Computer: UNAMIS2016
+[2017.10.30-11.00.21:085][  0]LogInit: User: colson
+[2017.10.30-11.00.21:085][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.10.30-11.00.21:085][  0]LogInit: High frequency timer resolution =2.531248 MHz
+[2017.10.30-11.00.21:085][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2017.10.30-11.00.21:085][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.30-11.00.21:085][  0]LogMemory: Process Physical Memory: 273.83 MB used, 273.83 MB peak
+[2017.10.30-11.00.21:085][  0]LogMemory: Process Virtual Memory: 261.09 MB used, 261.09 MB peak
+[2017.10.30-11.00.21:085][  0]LogMemory: Physical Memory: 8874.19 MB used,  3352.39 MB free, 12226.59 MB total
+[2017.10.30-11.00.21:085][  0]LogMemory: Virtual Memory: 638.72 MB used,  3352.39 MB free, 134217728.00 MB total
+[2017.10.30-11.00.21:167][  0]LogInit: Using OS detected language (en-US).
+[2017.10.30-11.00.21:167][  0]LogInit: Using OS detected locale (en-US).
+[2017.10.30-11.00.21:352][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.10.30-11.00.26:754][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.30-11.00.26:788][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 965M' (Feature Level 11_0)
+[2017.10.30-11.00.26:788][  0]LogD3D11RHI:       1969/0/6113 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.10.30-11.00.26:789][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.10.30-11.00.26:789][  0]LogD3D11RHI:       0/0/6113 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.10.30-11.00.26:789][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.30-11.00.26:795][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.30-11.00.26:795][  0]LogD3D11RHI:     GPU DeviceId: 0x1619 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.30-11.00.26:795][  0]LogWindows: EnumDisplayDevices:
+[2017.10.30-11.00.26:796][  0]LogWindows:    0. 'NVIDIA GeForce GTX 965M' (P:1 D:1)
+[2017.10.30-11.00.26:796][  0]LogWindows:    1. 'NVIDIA GeForce GTX 965M' (P:0 D:1)
+[2017.10.30-11.00.26:796][  0]LogWindows:    2. 'NVIDIA GeForce GTX 965M' (P:0 D:0)
+[2017.10.30-11.00.26:796][  0]LogWindows:    3. 'NVIDIA GeForce GTX 965M' (P:0 D:0)
+[2017.10.30-11.00.26:796][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.10.30-11.00.26:796][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 965M
+[2017.10.30-11.00.26:796][  0]LogD3D11RHI:   Driver Version: 368.39 (internal:10.18.13.6839, unified:368.39)
+[2017.10.30-11.00.26:796][  0]LogD3D11RHI:      Driver Date: 6-2-2016
+[2017.10.30-11.00.26:796][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.30-11.00.26:822][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.30-11.00.26:833][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.10.30-11.00.26:923][  0]LogShaderCompilers: Guid format shader working directory is -4 characters bigger than the processId version (F:/EAE 3660/dream team/bedroom, classroom, stairs/Intermediate/Shaders/WorkingDirectory/15260/).
+[2017.10.30-11.00.26:923][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/colso/AppData/Local/Temp/UnrealShaderWorkingDir/9A8367A043DF9FB00BDF6292C833908E/'.
+[2017.10.30-11.00.26:923][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.10.30-11.00.31:806][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.30-11.00.31:864][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.10.30-11.00.31:915][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.30-11.00.31:973][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.10.30-11.00.32:050][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.10.30-11.00.32:103][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.30-11.00.32:163][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.30-11.00.32:220][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.30-11.00.32:272][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.10.30-11.00.32:338][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.10.30-11.00.32:391][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.30-11.00.32:453][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.30-11.00.32:505][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.30-11.00.32:559][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.30-11.00.32:611][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.30-11.00.32:718][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.30-11.00.32:718][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.30-11.00.32:762][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.10.30-11.00.32:896][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.10.30-11.00.32:931][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.10.30-11.00.32:988][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.30-11.00.33:039][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.30-11.00.33:090][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.30-11.00.33:146][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.10.30-11.00.33:146][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.10.30-11.00.33:748][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.10.30-11.00.34:829][  0]LogDerivedDataCache: Loaded boot cache 1.08s 90MB C:/Users/colso/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.10.30-11.00.34:829][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/colso/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.10.30-11.00.34:829][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/EAE 3660/dream team/bedroom, classroom, stairs/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.30-11.00.34:829][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.30-11.00.34:829][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file F:/EAE 3660/dream team/bedroom, classroom, stairs/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.30-11.00.34:829][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.30-11.00.34:846][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.30-11.00.34:857][  0]LogDerivedDataCache: Using Local data cache path C:/Users/colso/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.30-11.00.34:868][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.30-11.00.34:868][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.30-11.00.34:908][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.30-11.00.34:908][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.30-11.00.36:985][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.30-11.00.37:067][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.30-11.00.37:273][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.30-11.00.37:326][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.30-11.00.37:382][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.30-11.00.37:382][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.10.30-11.00.37:382][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.10.30-11.00.38:081][  0]LogNetVersion: MyWhitbox , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2666048892)
+[2017.10.30-11.00.38:144][  0]LogAssetRegistry: FAssetRegistry took 0.0260 seconds to start up
+[2017.10.30-11.00.38:544][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.370803 seconds
+[2017.10.30-11.00.38:551][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.10.30-11.00.38:551][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.10.30-11.00.38:551][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.30-11.00.38:629][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.30-11.01.22:960][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.30-11.01.23:002][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.30-11.01.24:077][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.30-11.01.24:581][  0]SourceControl: Info Source control is disabled
+[2017.10.30-11.01.24:582][  0]SourceControl: Info Source control is disabled
+[2017.10.30-11.01.24:632][  0]SourceControl: Info Source control is disabled
+[2017.10.30-11.01.24:680][  0]SourceControl: Info Source control is disabled
+[2017.10.30-11.01.25:707][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.30-11.01.26:349][  0]LogEngine: Initializing Engine...
+[2017.10.30-11.01.26:349][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.10.30-11.01.26:589][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.30-11.01.26:589][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.30-11.01.26:719][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.30-11.01.26:733][  0]LogInit: XAudio2 using 'M261VP-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.30-11.01.26:742][  0]LogInit: FAudioDevice initialized.
+[2017.10.30-11.01.26:789][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/colso/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.10.30-11.01.26:797][  0]LogInit: Texture streaming: Enabled
+[2017.10.30-11.01.26:898][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.30-11.01.27:264][  0]LogInit: Transaction tracking system initialized
+[2017.10.30-11.01.27:586][  0]BlueprintLog: New page: Editor Load
+[2017.10.30-11.01.28:626][  0]LocalizationService: Info Localization service is disabled
+[2017.10.30-11.01.29:610][  0]LogConsoleResponse:Display: 
+[2017.10.30-11.01.29:798][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.30-11.01.29:798][  0]LogCook:Display: Mobile HDR setting 1
+[2017.10.30-11.01.29:965][  0]LogFileCache: Scanning file cache for directory 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/' took 0.03s
+[2017.10.30-11.01.31:231][  0]SourceControl: Info Source control is disabled
+[2017.10.30-11.01.31:232][  0]Cmd: MAP LOAD FILE="F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.30-11.01.31:232][  0]LogEditorServer:Warning: Can't find file 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/StarterContent/Maps/Minimal_Default.umap'
+[2017.10.30-11.01.31:232][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.30-11.01.31:275][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 42.824ms to complete.
+[2017.10.30-11.01.31:275][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.043
+[2017.10.30-11.01.31:545][  0]LogCollectionManager: Loaded 0 collections in 0.001791 seconds
+[2017.10.30-11.01.31:631][  0]LogFileCache: Scanning file cache for directory 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/Collections/' took 0.01s
+[2017.10.30-11.01.31:631][  0]LogFileCache: Scanning file cache for directory 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/Developers/colson/Collections/' took 0.01s
+[2017.10.30-11.01.31:631][  0]LogFileCache: Scanning file cache for directory 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/Collections/' took 0.01s
+[2017.10.30-11.01.31:631][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.10.30-11.01.31:640][  0]LogContentBrowser: Native class hierarchy populated in 0.0096 seconds. Added 2329 classes and 491 folders.
+[2017.10.30-11.01.31:726][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.10.30-11.01.33:024][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.10.30-11.01.33:076][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.10.30-11.01.33:119][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.10.30-11.01.33:127][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.10.30-11.01.33:193][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.10.30-11.01.33:194][  0]LogLoad: (Engine Initialization) Total time: 77.27 seconds
+[2017.10.30-11.01.33:194][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.14 seconds
+[2017.10.30-11.01.33:194][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.10.30-11.01.33:194][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.10.30-11.01.33:216][  0]LogOcInput: OculusInput pre-init called
+[2017.10.30-11.01.33:216][  0]LogHMD: Starting GearVRController plugin
+[2017.10.30-11.01.33:234][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.10.30-11.01.33:255][  0]LogSlate: Took 0.020098 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.30-11.01.33:257][  0]LogSlate: Took 0.000139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.30-11.01.33:285][  0]LogSlate: Took 0.023422 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.30-11.01.33:423][  0]LogSlate: Took 0.000199 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.30-11.01.33:590][  1]LogRenderer: Reallocating scene render targets to support 1136x580 NumSamples 1 (Frame:1).
+[2017.10.30-11.01.33:601][  1]LogAssetRegistry: Asset discovery search completed in 55.4788 seconds
+[2017.10.30-11.01.33:603][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.10.30-11.01.33:603][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000051 seconds (updated 0 objects)
+[2017.10.30-11.02.23:571][987]LogSlate: Took 0.000134 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.30-11.02.24:592][987]LogSlate: Took 0.000173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.30-11.02.24:969][987]LogTexture:Display: Building textures: Dreamer_Bottom_Diffuse (AutoDXT, 1024X1024)
+[2017.10.30-11.02.25:501][987]LogTexture:Display: Building textures: Dreamer_Bottom_Specular (AutoDXT, 1024X1024)
+[2017.10.30-11.02.25:617][987]LogTexture:Display: Building textures: Dreamer_Bottom_Gloss (AutoDXT, 1024X1024)
+[2017.10.30-11.02.25:833][987]LogTexture:Display: Building textures: Dreamer_Bottom_Normal (BC5, 1024X1024)
+[2017.10.30-11.02.25:938][987]LogTexture:Display: Building textures: Dreamer_Bottom_Opacity (AutoDXT, 1024X1024)
+[2017.10.30-11.02.26:082][987]LogMaterial: Missing cached shader map for material Bottommat, compiling. 
+[2017.10.30-11.02.26:328][987]LogTexture:Display: Building textures: Dreamer_Body_Specular (AutoDXT, 2048X2048)
+[2017.10.30-11.02.27:284][987]LogTexture:Display: Building textures: Dreamer_Body_Opacity (AutoDXT, 2048X2048)
+[2017.10.30-11.02.28:354][987]LogTexture:Display: Building textures: Dreamer_Body_Normal (BC5, 2048X2048)
+[2017.10.30-11.02.28:981][987]LogTexture:Display: Building textures: Dreamer_Body_Gloss (AutoDXT, 2048X2048)
+[2017.10.30-11.02.30:264][987]LogTexture:Display: Building textures: Dreamer_Body_Diffuse (AutoDXT, 2048X2048)
+[2017.10.30-11.02.32:216][987]LogTexture:Display: Building textures: Dreamer_Hair_Diffuse (AutoDXT, 1024X1024)
+[2017.10.30-11.02.32:500][987]LogTexture:Display: Building textures: Dreamer_Hair_Specular (AutoDXT, 1024X1024)
+[2017.10.30-11.02.32:715][987]LogTexture:Display: Building textures: Dreamer_Hair_Gloss (AutoDXT, 1024X1024)
+[2017.10.30-11.02.32:933][987]LogTexture:Display: Building textures: Dreamer_Hair_Normal (BC5, 1024X1024)
+[2017.10.30-11.02.33:043][987]LogTexture:Display: Building textures: Dreamer_Hair_Opacity (AutoDXT, 1024X1024)
+[2017.10.30-11.02.33:329][987]LogMaterial: Missing cached shader map for material Hairmat, compiling. 
+[2017.10.30-11.02.33:538][987]LogTexture:Display: Building textures: Dreamer_Top_Specular (AutoDXT, 1024X1024)
+[2017.10.30-11.02.33:685][987]LogTexture:Display: Building textures: Dreamer_Top_Opacity (AutoDXT, 1024X1024)
+[2017.10.30-11.02.33:904][987]LogTexture:Display: Building textures: Dreamer_Top_Normal (BC5, 1024X1024)
+[2017.10.30-11.02.34:037][987]LogTexture:Display: Building textures: Dreamer_Top_Gloss (AutoDXT, 1024X1024)
+[2017.10.30-11.02.34:249][987]LogTexture:Display: Building textures: Dreamer_Top_Diffuse (AutoDXT, 1024X1024)
+[2017.10.30-11.02.34:520][987]LogTexture:Display: Building textures: Dreamer_Shoes_Diffuse (AutoDXT, 1024X1024)
+[2017.10.30-11.02.34:964][987]LogTexture:Display: Building textures: Dreamer_Shoes_Specular (AutoDXT, 1024X1024)
+[2017.10.30-11.02.35:148][987]LogTexture:Display: Building textures: Dreamer_Shoes_Gloss (AutoDXT, 1024X1024)
+[2017.10.30-11.02.35:451][987]LogTexture:Display: Building textures: Dreamer_Shoes_Normal (BC5, 1024X1024)
+[2017.10.30-11.02.35:583][987]LogTexture:Display: Building textures: Dreamer_Shoes_Opacity (AutoDXT, 1024X1024)
+[2017.10.30-11.02.35:778][987]LogMaterial: Missing cached shader map for material Shoesmat, compiling. 
+[2017.10.30-11.02.35:842][987]LogMaterial: Missing cached shader map for material Topmat, compiling. 
+[2017.10.30-11.02.35:910][987]LogMaterial: Missing cached shader map for material Bodymat, compiling. 
+[2017.10.30-11.02.36:202][987]LogAIModule: Creating AISystem for world CleanClassroom
+[2017.10.30-11.02.49:171][704]LogAIModule: Creating AISystem for world WhiteboxClean
+[2017.10.30-11.04.04:059][820]LogSavePackage: Save=53334.20ms
+[2017.10.30-11.04.04:059][820]LogSavePackage: Moving 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/WhiteboxClean6C4157504958B846AFDA01832C94016A.tmp' to 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/StarterContent/Maps/WhiteboxClean.umap'
+[2017.10.30-11.04.04:087][820]LogSavePackage:Display: Finished SavePackage F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/StarterContent/Maps/WhiteboxClean.umap
+[2017.10.30-11.04.04:124][820]LogFileHelpers: Saving map 'WhiteboxClean' took 53.738
+[2017.10.30-11.04.04:127][820]Cmd: MAP LOAD FILE="F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/StarterContent/Maps/cleanClassroom.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.30-11.04.04:127][820]LightingResults: New page: Lighting Build
+[2017.10.30-11.04.04:175][820]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0005 seconds. Added 5 classes and 0 folders.
+[2017.10.30-11.04.04:176][820]LoadErrors: New page: Loading map: cleanClassroom.umap
+[2017.10.30-11.04.04:176][820]MapCheck: New page: Map Check
+[2017.10.30-11.04.04:176][820]LightingResults: New page: Lighting Build
+[2017.10.30-11.04.25:414][820]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.30-11.04.25:566][820]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.30-11.04.25:625][820]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 59.512ms to complete.
+[2017.10.30-11.04.25:628][820]LogFileHelpers: Loading map 'cleanClassroom' took 21.503
+[2017.10.30-11.05.31:124][292]LogSavePackage: Save=55391.01ms
+[2017.10.30-11.05.31:124][292]LogSavePackage: Moving 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/WhiteboxClean571EB4B54F778728AD8FC9B511E627DA.tmp' to 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/StarterContent/Maps/WhiteboxClean.umap'
+[2017.10.30-11.05.31:205][292]LogSavePackage:Display: Finished SavePackage F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/StarterContent/Maps/WhiteboxClean.umap
+[2017.10.30-11.05.31:211][292]LogFileHelpers: Saving map 'WhiteboxClean' took 55.701
+[2017.10.30-11.05.31:217][292]Cmd: MAP LOAD FILE="F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/StarterContent/Maps/WhiteboxClean.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.30-11.05.31:217][292]LightingResults: New page: Lighting Build
+[2017.10.30-11.05.31:218][292]LoadErrors: New page: Loading map: WhiteboxClean.umap
+[2017.10.30-11.05.31:220][292]MapCheck: New page: Map Check
+[2017.10.30-11.05.31:220][292]LightingResults: New page: Lighting Build
+[2017.10.30-11.05.31:246][292]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.30-11.05.31:516][292]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.30-11.05.31:571][292]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 55.616ms to complete.
+[2017.10.30-11.05.31:572][292]LogFileHelpers: Loading map 'WhiteboxClean' took 0.357
+[2017.10.30-11.05.48:325][272]LogAIModule: Creating AISystem for world CleanClassroom
+[2017.10.30-11.05.49:920][272]Cmd: MAP LOAD FILE="F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/StarterContent/Maps/cleanClassroom.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.30-11.05.49:923][272]LightingResults: New page: Lighting Build
+[2017.10.30-11.05.49:923][272]LoadErrors: New page: Loading map: cleanClassroom.umap
+[2017.10.30-11.05.49:925][272]MapCheck: New page: Map Check
+[2017.10.30-11.05.49:925][272]LightingResults: New page: Lighting Build
+[2017.10.30-11.05.49:950][272]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.30-11.05.50:047][272]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.30-11.05.50:106][272]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 58.118ms to complete.
+[2017.10.30-11.05.50:106][272]LogFileHelpers: Loading map 'cleanClassroom' took 0.187
+[2017.10.30-11.08.08:595][113]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 F:\EAE 3660\dream team\my props\ScienceLabTable.fbx)
+[2017.10.30-11.08.08:610][113]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.10.30-11.08.08:610][113]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.10.30-11.08.08:610][113]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.10.30-11.08.08:610][113]LogFbx: ItemName: NodeAttribute, ItemCount : 8
+[2017.10.30-11.08.08:610][113]LogFbx: ItemName: Model, ItemCount : 9
+[2017.10.30-11.08.08:610][113]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.10.30-11.08.08:610][113]LogFbx: ItemName: Material, ItemCount : 2
+[2017.10.30-11.08.08:616][113]LogFbx: Loading FBX Scene from F:\EAE 3660\dream team\my props\ScienceLabTable.fbx
+[2017.10.30-11.08.08:625][113]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.30-11.08.12:885][113]LogFbx: Loading FBX Scene from F:\EAE 3660\dream team\my props\ScienceLabTable.fbx
+[2017.10.30-11.08.12:893][113]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.30-11.08.12:896][113]LogLinker: Can't find file '/Game/MyAssets/lambert1'
+[2017.10.30-11.08.12:896][113]LogLinker: Can't find file '/Game/MyAssets/lambert1'
+[2017.10.30-11.08.12:958][113]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2017.10.30-11.08.12:984][113]LogLinker: Can't find file '/Game/MyAssets/Default_Material'
+[2017.10.30-11.08.12:984][113]LogLinker: Can't find file '/Game/MyAssets/Default_Material'
+[2017.10.30-11.08.13:021][113]LogMaterial: Missing cached shader map for material Default_Material, compiling. 
+[2017.10.30-11.08.13:037][113]LogFbx:Warning: Triangulating static mesh pCube5
+[2017.10.30-11.08.13:127][113]LogStaticMesh: Building static mesh ScienceLabTable...
+[2017.10.30-11.08.13:158][113]LogStaticMesh: Built static mesh [0.03s] /Game/MyAssets/ScienceLabTable.ScienceLabTable
+[2017.10.30-11.08.13:210][113]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.10.30-11.08.13:210][113]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.10.30-11.08.43:896][793]LogActorFactory: Actor Factory created ScienceLabTable
+[2017.10.30-11.08.44:500][824]LogActorFactory: Actor Factory created ScienceLabTable
+[2017.10.30-11.10.04:109][372]LogSlate: Took 0.000183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.10.30-11.10.33:214][109]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
+[2017.10.30-11.10.40:483][539]Cmd: TRANSACTION UNDO
+[2017.10.30-11.10.40:483][539]LogEditorTransaction: Undo Move Actors
+[2017.10.30-11.10.40:513][539]LogSlate: Took 0.000228 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.30-11.10.52:861][269]Cmd: TRANSACTION UNDO
+[2017.10.30-11.10.52:861][269]LogEditorTransaction: Undo Rotate Actors
+[2017.10.30-11.11.10:141][296]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (protagonist4)
+[2017.10.30-11.11.15:415][589]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (protagonist4)
+[2017.10.30-11.11.21:655][925]Cmd: TRANSACTION UNDO
+[2017.10.30-11.11.21:655][925]LogEditorTransaction: Undo Set actor scale
+[2017.10.30-11.11.31:201][452]Cmd: TRANSACTION UNDO
+[2017.10.30-11.11.31:201][452]LogEditorTransaction: Undo Set actor scale
+[2017.10.30-11.12.19:942][243]Cmd: DELETE
+[2017.10.30-11.12.19:942][243]Cmd: ACTOR DELETE
+[2017.10.30-11.12.19:944][243]LogEditorActor: Deleted Actor: Brush
+[2017.10.30-11.12.20:059][243]LogEditorActor: Deleted 1 Actors (0.117 secs)
+[2017.10.30-11.12.20:624][274]Cmd: DELETE
+[2017.10.30-11.12.20:624][274]Cmd: ACTOR DELETE
+[2017.10.30-11.12.20:626][274]LogEditorActor: Deleted Actor: Brush
+[2017.10.30-11.12.20:726][274]LogEditorActor: Deleted 1 Actors (0.102 secs)
+[2017.10.30-11.12.21:473][315]Cmd: DELETE
+[2017.10.30-11.12.21:473][315]Cmd: ACTOR DELETE
+[2017.10.30-11.12.21:475][315]LogEditorActor: Deleted Actor: Brush
+[2017.10.30-11.12.21:644][315]LogEditorActor: Deleted 1 Actors (0.171 secs)
+[2017.10.30-11.12.22:089][338]Cmd: DELETE
+[2017.10.30-11.12.22:089][338]Cmd: ACTOR DELETE
+[2017.10.30-11.12.22:091][338]LogEditorActor: Deleted Actor: Brush
+[2017.10.30-11.12.22:294][338]LogEditorActor: Deleted 1 Actors (0.205 secs)
+[2017.10.30-11.12.23:724][423]Cmd: TRANSACTION UNDO
+[2017.10.30-11.12.23:724][423]LogEditorTransaction: Undo Delete Actors
+[2017.10.30-11.12.23:748][423]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/cleanClassroom.CleanClassroom:PersistentLevel.BoxBrush16.BrushComponent0) Component already registered.
+[2017.10.30-11.12.23:748][423]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/cleanClassroom.CleanClassroom:PersistentLevel.class_wallE.BrushComponent0) Component already registered.
+[2017.10.30-11.12.23:762][423]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/cleanClassroom.CleanClassroom:PersistentLevel.generalWallDimensions5.BrushComponent0) Component already registered.
+[2017.10.30-11.12.23:762][423]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/cleanClassroom.CleanClassroom:PersistentLevel.bottomfloor.BrushComponent0) Component already registered.
+[2017.10.30-11.12.23:763][423]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/cleanClassroom.CleanClassroom:PersistentLevel.bedroom_floor.BrushComponent0) Component already registered.
+[2017.10.30-11.12.23:763][423]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/cleanClassroom.CleanClassroom:PersistentLevel.CylinderBrush7.BrushComponent0) Component already registered.
+[2017.10.30-11.12.23:764][423]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/cleanClassroom.CleanClassroom:PersistentLevel.bedroom_wall3.BrushComponent0) Component already registered.
+[2017.10.30-11.12.23:765][423]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/cleanClassroom.CleanClassroom:PersistentLevel.CylinderBrush3.BrushComponent0) Component already registered.
+[2017.10.30-11.12.23:765][423]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/cleanClassroom.CleanClassroom:PersistentLevel.BoxBrush29.BrushComponent0) Component already registered.
+[2017.10.30-11.12.23:957][424]Cmd: TRANSACTION UNDO
+[2017.10.30-11.12.23:957][424]LogEditorTransaction: Undo Select Brush Surface
+[2017.10.30-11.12.24:254][430]Cmd: TRANSACTION UNDO
+[2017.10.30-11.12.24:254][430]LogEditorTransaction: Undo Delete Actors
+[2017.10.30-11.12.24:305][430]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/cleanClassroom.CleanClassroom:PersistentLevel.stairfloor.BrushComponent0) Component already registered.
+[2017.10.30-11.12.24:307][430]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/cleanClassroom.CleanClassroom:PersistentLevel.bedroom_wall3.BrushComponent0) Component already registered.
+[2017.10.30-11.12.24:307][430]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/cleanClassroom.CleanClassroom:PersistentLevel.BoxBrush27.BrushComponent0) Component already registered.
+[2017.10.30-11.12.24:308][430]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/cleanClassroom.CleanClassroom:PersistentLevel.BoxBrush19.BrushComponent0) Component already registered.
+[2017.10.30-11.12.24:308][430]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/cleanClassroom.CleanClassroom:PersistentLevel.CylinderBrush.BrushComponent0) Component already registered.
+[2017.10.30-11.12.24:846][452]Cmd: TRANSACTION UNDO
+[2017.10.30-11.12.24:846][452]LogEditorTransaction: Undo Select Brush Surface
+[2017.10.30-11.12.25:735][500]Cmd: TRANSACTION UNDO
+[2017.10.30-11.12.25:735][500]LogEditorTransaction: Undo Delete Actors
+[2017.10.30-11.12.25:760][500]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/cleanClassroom.CleanClassroom:PersistentLevel.class_wallS.BrushComponent0) Component already registered.
+[2017.10.30-11.12.25:761][500]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/cleanClassroom.CleanClassroom:PersistentLevel.BoxBrush5.BrushComponent0) Component already registered.
+[2017.10.30-11.12.25:761][500]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/cleanClassroom.CleanClassroom:PersistentLevel.BoxBrush6.BrushComponent0) Component already registered.
+[2017.10.30-11.12.25:761][500]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/cleanClassroom.CleanClassroom:PersistentLevel.class_floor.BrushComponent0) Component already registered.
+[2017.10.30-11.12.25:778][500]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/cleanClassroom.CleanClassroom:PersistentLevel.generalWallDimensions2.BrushComponent0) Component already registered.
+[2017.10.30-11.12.25:780][500]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/cleanClassroom.CleanClassroom:PersistentLevel.BoxBrush36.BrushComponent0) Component already registered.
+[2017.10.30-11.12.25:781][500]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/cleanClassroom.CleanClassroom:PersistentLevel.bedroom_wall2.BrushComponent0) Component already registered.
+[2017.10.30-11.12.25:781][500]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/cleanClassroom.CleanClassroom:PersistentLevel.bedroom_wall3.BrushComponent0) Component already registered.
+[2017.10.30-11.12.25:783][500]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/cleanClassroom.CleanClassroom:PersistentLevel.BoxBrush31.BrushComponent0) Component already registered.
+[2017.10.30-11.12.27:646][607]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ScienceLabTable)
+[2017.10.30-11.12.59:893][480]LogEditorViewport: Clicking Background
+[2017.10.30-11.13.02:043][608]Cmd: TRANSACTION UNDO
+[2017.10.30-11.13.02:043][608]LogEditorTransaction: Undo Clicking Background
+[2017.10.30-11.13.04:989][771]LogEditorViewport: Clicking Background
+[2017.10.30-11.13.08:308][965]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ScienceLabTable5)
+[2017.10.30-11.13.19:445][606]LogEditorViewport: Clicking Background
+[2017.10.30-11.13.22:704][797]Cmd: DELETE
+[2017.10.30-11.13.22:704][797]Cmd: ACTOR DELETE
+[2017.10.30-11.13.22:707][797]LogEditorActor: Deleted Actor: Brush
+[2017.10.30-11.13.22:927][797]LogEditorActor: Deleted 1 Actors (0.222 secs)
+[2017.10.30-11.13.23:752][843]Cmd: DELETE
+[2017.10.30-11.13.23:752][843]Cmd: ACTOR DELETE
+[2017.10.30-11.13.23:755][843]LogEditorActor: Deleted Actor: Brush
+[2017.10.30-11.13.23:859][843]LogEditorActor: Deleted 1 Actors (0.106 secs)
+[2017.10.30-11.13.24:518][879]Cmd: DELETE
+[2017.10.30-11.13.24:518][879]Cmd: ACTOR DELETE
+[2017.10.30-11.13.24:521][879]LogEditorActor: Deleted Actor: Brush
+[2017.10.30-11.13.24:721][879]LogEditorActor: Deleted 1 Actors (0.202 secs)
+[2017.10.30-11.13.25:611][923]Cmd: DELETE
+[2017.10.30-11.13.25:611][923]Cmd: ACTOR DELETE
+[2017.10.30-11.13.25:614][923]LogEditorActor: Deleted Actor: Brush
+[2017.10.30-11.13.25:687][923]LogEditorActor: Deleted 1 Actors (0.076 secs)
+[2017.10.30-11.13.32:026][300]Cmd: DELETE
+[2017.10.30-11.13.32:026][300]Cmd: ACTOR DELETE
+[2017.10.30-11.13.32:029][300]LogEditorActor: Deleted Actor: Brush
+[2017.10.30-11.13.32:189][300]LogEditorActor: Deleted 1 Actors (0.162 secs)
+[2017.10.30-11.13.32:932][344]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
+[2017.10.30-11.13.45:301][ 80]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
+[2017.10.30-11.13.47:315][193]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
+[2017.10.30-11.13.53:007][517]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
+[2017.10.30-11.14.02:388][ 74]Cmd: TRANSACTION UNDO
+[2017.10.30-11.14.02:388][ 74]LogEditorTransaction: Undo Move Actors
+[2017.10.30-11.14.19:116][ 59]Cmd: DELETE
+[2017.10.30-11.14.19:116][ 59]Cmd: ACTOR DELETE
+[2017.10.30-11.14.19:119][ 59]LogEditorActor: Deleted Actor: Brush
+[2017.10.30-11.14.19:288][ 59]LogEditorActor: Deleted 1 Actors (0.171 secs)
+[2017.10.30-11.14.19:653][ 80]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair4)
+[2017.10.30-11.14.19:843][ 88]Cmd: DELETE
+[2017.10.30-11.14.19:843][ 88]Cmd: ACTOR DELETE
+[2017.10.30-11.14.19:846][ 88]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.30-11.14.19:854][ 88]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2017.10.30-11.14.24:976][393]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
+[2017.10.30-11.14.30:503][704]Cmd: TRANSACTION UNDO
+[2017.10.30-11.14.30:503][704]LogEditorTransaction: Undo Move Actors
+[2017.10.30-11.14.30:529][704]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/cleanClassroom.CleanClassroom:PersistentLevel.female100w200h.BrushComponent0) Component already registered.
+[2017.10.30-11.14.30:543][704]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/cleanClassroom.CleanClassroom:PersistentLevel.upstairs.BrushComponent0) Component already registered.
+[2017.10.30-11.14.30:544][704]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/cleanClassroom.CleanClassroom:PersistentLevel.female100w200h4.BrushComponent0) Component already registered.
+[2017.10.30-11.14.30:544][704]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/cleanClassroom.CleanClassroom:PersistentLevel.CylinderBrush9.BrushComponent0) Component already registered.
+[2017.10.30-11.14.30:545][704]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/cleanClassroom.CleanClassroom:PersistentLevel.bedroom_door.BrushComponent0) Component already registered.
+[2017.10.30-11.14.30:545][704]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/cleanClassroom.CleanClassroom:PersistentLevel.BoxBrush24.BrushComponent0) Component already registered.
+[2017.10.30-11.14.30:545][704]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/cleanClassroom.CleanClassroom:PersistentLevel.BoxBrush19.BrushComponent0) Component already registered.
+[2017.10.30-11.15.52:666][539]LogEditorActor: Deleted Actor: Brush
+[2017.10.30-11.15.52:666][539]LogEditorActor: Deleted Actor: Brush
+[2017.10.30-11.15.52:666][539]LogEditorActor: Deleted Actor: Brush
+[2017.10.30-11.15.52:666][539]LogEditorActor: Deleted Actor: Brush
+[2017.10.30-11.15.52:666][539]LogEditorActor: Deleted Actor: Brush
+[2017.10.30-11.15.52:666][539]LogEditorActor: Deleted Actor: Brush
+[2017.10.30-11.15.52:666][539]LogEditorActor: Deleted Actor: Brush
+[2017.10.30-11.15.52:666][539]LogEditorActor: Deleted Actor: Brush
+[2017.10.30-11.15.52:666][539]LogEditorActor: Deleted Actor: Brush
+[2017.10.30-11.15.52:667][539]LogEditorActor: Deleted Actor: Brush
+[2017.10.30-11.15.52:667][539]LogEditorActor: Deleted Actor: Brush
+[2017.10.30-11.15.52:667][539]LogEditorActor: Deleted Actor: Brush
+[2017.10.30-11.15.52:667][539]LogEditorActor: Deleted Actor: Brush
+[2017.10.30-11.15.52:667][539]LogEditorActor: Deleted Actor: Brush
+[2017.10.30-11.15.52:832][539]LogEditorActor: Deleted 14 Actors (0.169 secs)
+[2017.10.30-11.16.03:167][156]Cmd: EDIT CUT
+[2017.10.30-11.16.03:173][156]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.30-11.16.03:174][156]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.30-11.16.03:174][156]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.30-11.16.03:174][156]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.30-11.16.03:174][156]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.30-11.16.03:174][156]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.30-11.16.03:174][156]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.30-11.16.03:174][156]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.30-11.16.03:174][156]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.30-11.16.03:175][156]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.30-11.16.03:175][156]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.30-11.16.03:175][156]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.30-11.16.03:175][156]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.30-11.16.03:175][156]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.30-11.16.03:175][156]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.30-11.16.03:175][156]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.30-11.16.03:186][156]LogEditorActor: Deleted 16 Actors (0.015 secs)
+[2017.10.30-11.16.12:843][723]Cmd: EDIT PASTE
+[2017.10.30-11.16.35:797][ 84]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.10.30-11.16.40:114][341]Cmd: DELETE
+[2017.10.30-11.16.40:114][341]Cmd: ACTOR DELETE
+[2017.10.30-11.16.40:118][341]LogEditorActor: Deleted Actor: Brush
+[2017.10.30-11.16.40:190][341]LogEditorActor: Deleted 1 Actors (0.075 secs)
+[2017.10.30-11.16.41:152][395]Cmd: DELETE
+[2017.10.30-11.16.41:152][395]Cmd: ACTOR DELETE
+[2017.10.30-11.16.41:155][395]LogEditorActor: Deleted Actor: Brush
+[2017.10.30-11.16.41:279][395]LogEditorActor: Deleted 1 Actors (0.126 secs)
+[2017.10.30-11.16.42:437][461]Cmd: DELETE
+[2017.10.30-11.16.42:437][461]Cmd: ACTOR DELETE
+[2017.10.30-11.16.42:440][461]LogEditorActor: Deleted Actor: Brush
+[2017.10.30-11.16.42:519][461]LogEditorActor: Deleted 1 Actors (0.082 secs)
+[2017.10.30-11.17.00:905][554]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.10.30-11.17.03:363][700]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.10.30-11.18.04:365][295]LogSavePackage: Save=46286.87ms
+[2017.10.30-11.18.04:366][295]LogSavePackage: Moving 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/cleanClassroom7C5343374C5E8ADE5BC86C8D625D4F27.tmp' to 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/StarterContent/Maps/cleanClassroom.umap'
+[2017.10.30-11.18.04:409][295]LogSavePackage:Display: Finished SavePackage F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/StarterContent/Maps/cleanClassroom.umap
+[2017.10.30-11.18.21:903][830]LogAssetTools:Warning: Failed to import 'F:\EAE 3660\dream team\HighSchoolClassroom/Blueprints/BP_Bin_02.uasset'. Unknown extension 'uasset'.
+[2017.10.30-11.18.23:081][830]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.177 s
+[2017.10.30-11.18.23:081][830]LogOutputDevice:Error: === Handled ensure: ===
+[2017.10.30-11.18.23:081][830]LogOutputDevice:Error: 
+[2017.10.30-11.18.23:081][830]LogOutputDevice:Error: Ensure condition failed: ExpectedWorkThisFrame <= 1.01f * TotalAmountOfWork - CompletedWork [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Runtime\Core\Private\Misc\SlowTask.cpp] [Line: 86]
+[2017.10.30-11.18.23:081][830]LogOutputDevice:Error: Work overflow in slow task. Please revise call-site to account for entire progress range.
+[2017.10.30-11.18.23:081][830]LogOutputDevice:Error: Stack: 
+[2017.10.30-11.18.23:081][830]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000A7D5E2B6
+[2017.10.30-11.18.23:081][830]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000A7B0B8C2
+[2017.10.30-11.18.23:081][830]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000A7B21E86
+[2017.10.30-11.18.23:081][830]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000A7B60EBE
+[2017.10.30-11.18.23:081][830]LogOutputDevice:Error: UE4Editor-AssetTools.dll!0x000000007A2DE177
+[2017.10.30-11.18.23:081][830]LogOutputDevice:Error: UE4Editor-AssetTools.dll!0x000000007A2DCC74
+[2017.10.30-11.18.23:081][830]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000007180AC04
+[2017.10.30-11.18.23:081][830]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x00000000717E8AF7
+[2017.10.30-11.18.23:081][830]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x00000000717EA387
+[2017.10.30-11.18.23:081][830]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x00000000717FB98C
+[2017.10.30-11.18.23:081][830]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000A745994B
+[2017.10.30-11.18.23:081][830]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000A7428B3E
+[2017.10.30-11.18.23:081][830]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000A74CE7FF
+[2017.10.30-11.18.23:081][830]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000A74B720F
+[2017.10.30-11.18.23:081][830]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000A74A41FE
+[2017.10.30-11.18.23:081][830]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000A7D4F23D
+[2017.10.30-11.18.23:081][830]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000A7D6760A
+[2017.10.30-11.18.23:081][830]LogOutputDevice:Error: ole32.dll!0x00000000F5A7E188
+[2017.10.30-11.18.23:081][830]LogOutputDevice:Error: RPCRT4.dll!0x00000000F5909083
+[2017.10.30-11.18.23:081][830]LogOutputDevice:Error: RPCRT4.dll!0x00000000F596C93E
+[2017.10.30-11.18.23:081][830]LogOutputDevice:Error: RPCRT4.dll!0x00000000F58A91B4
+[2017.10.30-11.18.23:081][830]LogOutputDevice:Error: combase.dll!0x00000000F7B14D99
+[2017.10.30-11.18.23:081][830]LogOutputDevice:Error: combase.dll!0x00000000F7BB795B
+[2017.10.30-11.18.23:081][830]LogOutputDevice:Error: combase.dll!0x00000000F7BB6286
+[2017.10.30-11.18.23:081][830]LogOutputDevice:Error: combase.dll!0x00000000F7BBC75E
+[2017.10.30-11.18.23:081][830]LogOutputDevice:Error: combase.dll!0x00000000F7BB83FF
+[2017.10.30-11.18.23:081][830]LogOutputDevice:Error: combase.dll!0x00000000F7BB48AA
+[2017.10.30-11.18.23:081][830]LogOutputDevice:Error: combase.dll!0x00000000F7B53369
+[2017.10.30-11.18.23:081][830]LogOutputDevice:Error: combase.dll!0x00000000F7B52FE8
+[2017.10.30-11.18.23:081][830]LogOutputDevice:Error: USER32.dll!0x00000000F718BC50
+[2017.10.30-11.18.23:081][830]LogOutputDevice:Error: USER32.dll!0x00000000F718B5CF
+[2017.10.30-11.18.23:081][830]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000A7D53CE6
+[2017.10.30-11.18.23:081][830]LogOutputDevice:Error: UE4Editor.exe!0x000000000D6FDB44
+[2017.10.30-11.18.23:081][830]LogOutputDevice:Error: UE4Editor.exe!0x000000000D6EF0B0
+[2017.10.30-11.18.23:081][830]LogOutputDevice:Error: UE4Editor.exe!0x000000000D6EF12A
+[2017.10.30-11.18.23:081][830]LogOutputDevice:Error: UE4Editor.exe!0x000000000D700CF9
+[2017.10.30-11.18.23:081][830]LogOutputDevice:Error: UE4Editor.exe!0x000000000D7025F7
+[2017.10.30-11.18.23:081][830]LogOutputDevice:Error: KERNEL32.DLL!0x00000000F74C2774
+[2017.10.30-11.18.23:081][830]LogOutputDevice:Error: ntdll.dll!0x00000000F8300D51
+[2017.10.30-11.18.23:081][830]LogOutputDevice:Error: 
+[2017.10.30-11.18.23:085][830]LogStats:                SubmitErrorReport -  0.000 s

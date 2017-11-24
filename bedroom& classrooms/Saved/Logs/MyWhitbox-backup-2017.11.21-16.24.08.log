@@ -1,0 +1,1826 @@
+﻿Log file open, 11/20/17 18:04:15
+LogInit:Display: Running engine for game: MyWhitbox
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1512467852) SRandInit(1512467852).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.513424
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.11.21-01.04.16:957][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.21-01.04.16:957][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.21-01.04.17:234][  0]LogInit: Computer: UNAMIS2016
+[2017.11.21-01.04.17:234][  0]LogInit: User: colson
+[2017.11.21-01.04.17:234][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.11.21-01.04.17:234][  0]LogInit: High frequency timer resolution =2.531249 MHz
+[2017.11.21-01.04.17:234][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2017.11.21-01.04.17:234][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.21-01.04.17:234][  0]LogMemory: Process Physical Memory: 276.00 MB used, 276.00 MB peak
+[2017.11.21-01.04.17:234][  0]LogMemory: Process Virtual Memory: 261.24 MB used, 261.24 MB peak
+[2017.11.21-01.04.17:234][  0]LogMemory: Physical Memory: 8255.13 MB used,  3971.45 MB free, 12226.59 MB total
+[2017.11.21-01.04.17:234][  0]LogMemory: Virtual Memory: 639.21 MB used,  3971.45 MB free, 134217728.00 MB total
+[2017.11.21-01.04.18:561][  0]LogInit: Using OS detected language (en-US).
+[2017.11.21-01.04.18:561][  0]LogInit: Using OS detected locale (en-US).
+[2017.11.21-01.04.19:032][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.11.21-01.04.28:999][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.21-01.04.29:034][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 965M' (Feature Level 11_0)
+[2017.11.21-01.04.29:034][  0]LogD3D11RHI:       1969/0/6113 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.11.21-01.04.29:061][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.11.21-01.04.29:061][  0]LogD3D11RHI:       0/0/6113 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.11.21-01.04.29:061][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.11.21-01.04.29:072][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.21-01.04.29:072][  0]LogD3D11RHI:     GPU DeviceId: 0x1619 (for the marketing name, search the web for "GPU Device Id")
+[2017.11.21-01.04.29:072][  0]LogWindows: EnumDisplayDevices:
+[2017.11.21-01.04.29:072][  0]LogWindows:    0. 'NVIDIA GeForce GTX 965M' (P:1 D:1)
+[2017.11.21-01.04.29:073][  0]LogWindows:    1. 'NVIDIA GeForce GTX 965M' (P:0 D:1)
+[2017.11.21-01.04.29:073][  0]LogWindows:    2. 'NVIDIA GeForce GTX 965M' (P:0 D:0)
+[2017.11.21-01.04.29:073][  0]LogWindows:    3. 'NVIDIA GeForce GTX 965M' (P:0 D:0)
+[2017.11.21-01.04.29:073][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.11.21-01.04.29:073][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 965M
+[2017.11.21-01.04.29:073][  0]LogD3D11RHI:   Driver Version: 368.39 (internal:10.18.13.6839, unified:368.39)
+[2017.11.21-01.04.29:073][  0]LogD3D11RHI:      Driver Date: 6-2-2016
+[2017.11.21-01.04.29:073][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.11.21-01.04.29:298][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.21-01.04.29:309][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.11.21-01.04.29:400][  0]LogShaderCompilers: Guid format shader working directory is -4 characters bigger than the processId version (F:/EAE 3660/dream team/bedroom, classroom, stairs/Intermediate/Shaders/WorkingDirectory/19032/).
+[2017.11.21-01.04.29:401][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/colso/AppData/Local/Temp/UnrealShaderWorkingDir/46CD80F342761F0D2AE2AAAE1C2A02C3/'.
+[2017.11.21-01.04.29:401][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.11.21-01.04.38:891][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.21-01.04.38:943][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.11.21-01.04.38:999][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.21-01.04.39:054][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.11.21-01.04.39:172][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.11.21-01.04.39:230][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.21-01.04.39:294][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.21-01.04.39:353][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.21-01.04.39:403][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.11.21-01.04.39:485][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.11.21-01.04.39:540][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.21-01.04.39:594][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.21-01.04.39:653][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.21-01.04.39:708][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.21-01.04.39:763][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.21-01.04.39:870][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.21-01.04.39:870][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.21-01.04.39:917][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.11.21-01.04.40:147][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.11.21-01.04.40:181][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.11.21-01.04.40:232][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.21-01.04.40:289][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.21-01.04.40:345][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.21-01.04.40:411][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.11.21-01.04.40:411][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.11.21-01.04.42:567][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.11.21-01.04.44:123][  0]LogDerivedDataCache: Loaded boot cache 1.53s 90MB C:/Users/colso/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.11.21-01.04.44:123][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/colso/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.11.21-01.04.44:123][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/EAE 3660/dream team/bedroom, classroom, stairs/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.21-01.04.44:123][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.21-01.04.44:123][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file F:/EAE 3660/dream team/bedroom, classroom, stairs/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.21-01.04.44:123][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.21-01.04.44:226][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.21-01.04.44:263][  0]LogDerivedDataCache: Using Local data cache path C:/Users/colso/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.21-01.04.44:275][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.11.21-01.04.44:275][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.21-01.04.44:427][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.21-01.04.44:427][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.21-01.04.57:621][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.21-01.04.58:685][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.11.21-01.04.59:409][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.21-01.04.59:624][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.21-01.04.59:680][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.21-01.04.59:680][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.11.21-01.04.59:680][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.11.21-01.05.05:699][  0]LogNetVersion: MyWhitbox , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2666048892)
+[2017.11.21-01.05.05:906][  0]LogAssetRegistry: FAssetRegistry took 0.0273 seconds to start up
+[2017.11.21-01.05.06:297][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.364505 seconds
+[2017.11.21-01.05.06:303][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.11.21-01.05.06:303][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.11.21-01.05.06:303][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.21-01.05.06:377][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.21-01.05.50:595][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.21-01.05.50:639][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.21-01.05.52:471][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.21-01.05.53:683][  0]SourceControl: Info Source control is disabled
+[2017.11.21-01.05.53:684][  0]SourceControl: Info Source control is disabled
+[2017.11.21-01.05.53:732][  0]SourceControl: Info Source control is disabled
+[2017.11.21-01.05.53:781][  0]SourceControl: Info Source control is disabled
+[2017.11.21-01.05.54:992][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.21-01.05.56:032][  0]LogEngine: Initializing Engine...
+[2017.11.21-01.05.56:038][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.11.21-01.05.57:507][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.21-01.05.57:507][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.21-01.05.57:776][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.21-01.05.57:862][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.21-01.05.58:170][  0]LogInit: FAudioDevice initialized.
+[2017.11.21-01.05.58:222][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/colso/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.11.21-01.05.58:231][  0]LogInit: Texture streaming: Enabled
+[2017.11.21-01.05.58:325][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.21-01.05.58:325][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={D9B88865-48F1-C2C7-129B-99ABD772D5BA}
+[2017.11.21-01.05.59:118][  0]LogInit: Transaction tracking system initialized
+[2017.11.21-01.05.59:638][  0]BlueprintLog: New page: Editor Load
+[2017.11.21-01.06.01:067][  0]LocalizationService: Info Localization service is disabled
+[2017.11.21-01.06.02:802][  0]LogConsoleResponse:Display: 
+[2017.11.21-01.06.09:366][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.21-01.06.09:366][  0]LogCook:Display: Mobile HDR setting 1
+[2017.11.21-01.06.10:042][  0]LogFileCache: Scanning file cache for directory 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/' took 0.03s
+[2017.11.21-01.06.13:791][  0]SourceControl: Info Source control is disabled
+[2017.11.21-01.06.14:110][  0]LogSlate: Took 0.060964 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.21-01.10.01:447][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.11.21-01.10.01:645][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.11.21-01.10.07:520][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.11.21-01.10.15:156][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.11.21-01.10.15:283][  0]Cmd: MAP LOAD FILE="F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.21-01.10.15:286][  0]LogEditorServer:Warning: Can't find file 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/StarterContent/Maps/Minimal_Default.umap'
+[2017.11.21-01.10.15:336][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.21-01.10.15:472][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 123.569ms to complete.
+[2017.11.21-01.10.15:482][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.264
+[2017.11.21-01.10.19:615][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_21e8_0///####STATCAT_Advanced#### old //STATGROUP_Threads//SplashScreenThread///Thread_4c7c_0///####STATCAT_Advanced####
+[2017.11.21-01.10.19:615][  0]LogCollectionManager: Loaded 0 collections in 0.015197 seconds
+[2017.11.21-01.10.20:223][  0]LogFileCache: Scanning file cache for directory 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/Collections/' took 0.01s
+[2017.11.21-01.10.20:223][  0]LogFileCache: Scanning file cache for directory 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/Developers/colson/Collections/' took 0.01s
+[2017.11.21-01.10.20:223][  0]LogFileCache: Scanning file cache for directory 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/Collections/' took 0.01s
+[2017.11.21-01.10.20:223][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.11.21-01.10.20:295][  0]LogContentBrowser: Native class hierarchy populated in 0.0474 seconds. Added 2329 classes and 491 folders.
+[2017.11.21-01.10.20:838][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.11.21-01.10.24:829][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.11.21-01.10.24:996][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.11.21-01.10.26:125][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.11.21-01.10.26:457][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.11.21-01.10.26:636][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.11.21-01.10.26:636][  0]LogLoad: (Engine Initialization) Total time: 386.19 seconds
+[2017.11.21-01.10.26:637][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.33 seconds
+[2017.11.21-01.10.26:637][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.11.21-01.10.26:637][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.11.21-01.10.26:768][  0]LogOcInput: OculusInput pre-init called
+[2017.11.21-01.10.26:781][  0]LogHMD: Starting GearVRController plugin
+[2017.11.21-01.10.27:670][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.11.21-01.10.27:979][  0]LogSlate: Took 0.023602 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.21-01.10.28:148][  0]LogSlate: Took 0.038485 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.21-01.10.30:929][  0]LogRenderer: Reallocating scene render targets to support 1208x552 NumSamples 1 (Frame:1).
+[2017.11.21-01.10.30:929][  0]LogSlate: Took 0.095180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.21-01.10.31:281][  1]LogFileCache: Retrieving MD5 hashes for directory 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/' took 4.21s
+[2017.11.21-01.10.33:233][  3]LogAssetRegistry: Asset discovery search completed in 327.3490 seconds
+[2017.11.21-01.10.33:425][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.11.21-01.10.33:425][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000040 seconds (updated 0 objects)
+[2017.11.21-01.14.26:715][942]LogSlate: Took 0.000136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.21-01.14.27:701][942]LogSlate: Took 0.000178 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.21-01.14.30:609][942]LogLinker:Warning: Can't find file '/Game/MyAssets/internet_textures/Wood_14_UV_H_CM_1'
+[2017.11.21-01.14.30:610][942]LogLinker:Warning: Can't find file for asset '/Game/MyAssets/internet_textures/Wood_14_UV_H_CM_1' while loading F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/HighSchoolClassroom/Materials/Instance/Inst_Cupboard_Old.uasset.
+[2017.11.21-01.14.30:610][942]LoadErrors:Error: Error /Game/HighSchoolClassroom/Materials/Instance/Inst_Cupboard_Old : Can't find file for asset. /Game/MyAssets/internet_textures/Wood_14_UV_H_CM_1
+[2017.11.21-01.14.30:610][942]LogLinker:Warning: Can't find file '/Game/MyAssets/internet_textures/Wood_14_UV_H_CM_1'
+[2017.11.21-01.14.30:610][942]LogLinker:Warning: Can't find file for asset '/Game/MyAssets/internet_textures/Wood_14_UV_H_CM_1' while loading F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/HighSchoolClassroom/Materials/Instance/Inst_Cupboard_Old.uasset.
+[2017.11.21-01.14.38:042][942]LogLinker:Warning: Can't find file '/Game/MyAssets/internet_textures/Wood_14_UV_H_CM_1'
+[2017.11.21-01.14.38:042][942]LoadErrors: Info Failed to load /Game/MyAssets/internet_textures/Wood_14_UV_H_CM_1.Wood_14_UV_H_CM_1 Referenced by Inst_Cupboard_Old
+[2017.11.21-01.14.38:042][942]LogLinker:Warning: Can't find file for asset '/Game/MyAssets/internet_textures/Wood_14_UV_H_CM_1' while loading NULL.
+[2017.11.21-01.14.38:145][942]LogLinker:Warning: Can't find file '/Game/MyAssets/internet_textures/Wood_14_UV_H_CM_1'
+[2017.11.21-01.14.38:145][942]LogLinker:Warning: Can't find file for asset '/Game/MyAssets/internet_textures/Wood_14_UV_H_CM_1' while loading NULL.
+[2017.11.21-01.14.38:160][942]LogMaterial: Uniform references updated for custom material expression TemporalAA SampleID.
+[2017.11.21-01.14.38:161][942]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.21-01.15.24:754][942]LogAIModule: Creating AISystem for world CleanClassroom
+[2017.11.21-01.15.28:251][942]Cmd: MAP LOAD FILE="F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/Maps/CleanClassroom.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.21-01.15.28:252][942]LightingResults: New page: Lighting Build
+[2017.11.21-01.15.28:463][942]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0007 seconds. Added 5 classes and 0 folders.
+[2017.11.21-01.15.28:483][942]LoadErrors: New page: Loading map: CleanClassroom.umap
+[2017.11.21-01.15.28:857][942]MapCheck: New page: Map Check
+[2017.11.21-01.15.28:857][942]LightingResults: New page: Lighting Build
+[2017.11.21-01.15.30:550][942]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.21-01.15.30:819][942]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.21-01.15.31:502][942]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 682.072ms to complete.
+[2017.11.21-01.15.31:506][942]LogFileHelpers: Loading map 'CleanClassroom' took 3.592
+[2017.11.21-01.17.56:215][407]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Monster)
+[2017.11.21-01.18.01:351][495]Cmd: DELETE
+[2017.11.21-01.18.01:351][495]Cmd: ACTOR DELETE
+[2017.11.21-01.18.02:211][495]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2017.11.21-01.18.02:756][495]LogEditorActor: Deleted 1 Actors (0.786 secs)
+[2017.11.21-01.24.17:854][803]LogSlate: Took 0.000570 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.21-01.25.30:381][335]LogSavePackage: Save=63173.43ms
+[2017.11.21-01.25.30:381][335]LogSavePackage: Moving 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/CleanClassroom_Auto1CB4C570745349815F1C2D6B486DCDC43.tmp' to 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/Autosaves/Game/Maps/CleanClassroom_Auto1.umap'
+[2017.11.21-01.25.30:434][335]LogSavePackage:Display: Finished SavePackage F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/Autosaves/Game/Maps/CleanClassroom_Auto1.umap
+[2017.11.21-01.25.30:606][335]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/CleanClassroom' took 63.753
+[2017.11.21-01.25.30:606][335]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 63.753
+[2017.11.21-01.29.18:567][898]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.21-01.29.19:960][978]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.21-01.29.22:884][151]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.21-01.29.23:946][214]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.21-01.31.36:937][148]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.21-01.31.52:402][ 56]LogRenderer: Reallocating scene render targets to support 1208x600 NumSamples 1 (Frame:53423).
+[2017.11.21-01.36.32:746][ 80]LogSavePackage: Save=61610.57ms
+[2017.11.21-01.36.32:746][ 80]LogSavePackage: Moving 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/CleanClassroom_Auto222BD872D4F73FD3C81E16CB09C00F941.tmp' to 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/Autosaves/Game/Maps/CleanClassroom_Auto2.umap'
+[2017.11.21-01.36.32:798][ 80]LogSavePackage:Display: Finished SavePackage F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/Autosaves/Game/Maps/CleanClassroom_Auto2.umap
+[2017.11.21-01.36.32:874][ 80]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/CleanClassroom' took 61.884
+[2017.11.21-01.36.32:874][ 80]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 61.884
+[2017.11.21-01.39.41:532][477]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.11.21-01.39.42:033][478]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.11.21-01.40.50:373][100]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight24)
+[2017.11.21-01.44.46:874][ 27]MapCheck: New page: Map Check
+[2017.11.21-01.44.46:954][ 27]Cmd: MAP REBUILD ALLVISIBLE
+[2017.11.21-01.44.46:960][ 27]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.11.21-01.44.50:183][ 27]LightingResults: New page: Lighting Build - Nov 20, 2017, 11:44:50 AM
+[2017.11.21-01.44.53:769][ 27]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.11.21-01.44.55:054][ 27]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.11.21-01.44.55:922][ 27]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.11.21-01.45.00:903][ 27]LogSwarmInterface:Error: [TryOpenConnection] Waiting for the agent to start up ...
+[2017.11.21-01.45.01:246][ 27]LogSwarmInterface:Error: System.Net.Sockets.SocketException (0x80004005): No connection could be made because the target machine actively refused it 127.0.0.1:8008
+
+Server stack trace: 
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   at System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.AsyncProcessRequest(IClientChannelSinkStack sinkStack, IMessage msg, ITransportHeaders headers, Stream stream)
+   at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.AsyncProcessMessage(IMessage msg, IMessageSink replySink)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at NSwarm.IAgentInterfaceWrapper.MethodDelegate.EndInvoke(Hashtable& OutParameters, IAsyncResult result)
+   at NSwarm.FSwarmInterface.TryOpenConnection(FConnectionCallback CallbackFunc, IntPtr CallbackData, ELogFlags LoggingFlags)
+[2017.11.21-01.45.07:917][ 27]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.11.21-01.45.07:917][ 27]LogSwarmInterface: [TryOpenConnection] Local Process ID is 19032
+[2017.11.21-01.45.22:073][ 27]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.11.21-01.45.22:125][ 27]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.11.21-01.45.22:125][ 27]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.11.21-01.45.22:125][ 27]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.11.21-01.45.22:125][ 27]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.11.21-01.45.22:125][ 27]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.11.21-01.45.23:561][ 27]LogEditorBuildUtils: Build time 0:36
+[2017.11.21-01.45.23:849][ 28]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer TableBlackD_Mat1, compiling. 
+[2017.11.21-01.45.24:130][ 28]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer TableBlackD_Mat1, compiling. 
+[2017.11.21-01.45.24:314][ 32]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_Glass, compiling. 
+[2017.11.21-01.45.24:323][ 32]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Mat_Glass, compiling. 
+[2017.11.21-01.45.25:420][ 39]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Inst_Background, compiling. 
+[2017.11.21-01.45.25:426][ 39]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Inst_Background, compiling. 
+[2017.11.21-01.45.25:655][ 47]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Ceramic_Tile_Checker_rustier, compiling. 
+[2017.11.21-01.45.25:716][ 47]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Ceramic_Tile_Checker_rustier, compiling. 
+[2017.11.21-01.46.41:912][246]Job is a success!
+[2017.11.21-01.47.35:551][246]LogSavePackage: Save=61925.91ms
+[2017.11.21-01.47.35:551][246]LogSavePackage: Moving 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/CleanClassroom_Auto32BBA58F14432FCBB1F0D75AD7967290A.tmp' to 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/Autosaves/Game/Maps/CleanClassroom_Auto3.umap'
+[2017.11.21-01.47.35:572][246]LogSavePackage:Display: Finished SavePackage F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/Autosaves/Game/Maps/CleanClassroom_Auto3.umap
+[2017.11.21-01.47.35:598][246]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/CleanClassroom' took 62.255
+[2017.11.21-01.47.35:598][246]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 62.255
+[2017.11.21-01.47.36:638][247]LightingResults:Error: Error SpotLight29 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.11.21-01.47.36:638][247]LightingResults:Error: Error SpotLight24 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.11.21-01.47.36:638][247]LightingResults:Error: Error SpotLight22 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.11.21-01.47.36:638][247]LightingResults:Error: Error SpotLight28 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.11.21-01.47.36:638][247]LightingResults:Error: Error SpotLight27 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.11.21-01.47.36:638][247]LightingResults:Error: Error SpotLight31 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.11.21-01.47.36:638][247]LightingResults:Error: Error SpotLight32 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.11.21-01.47.36:638][247]LightingResults:Error: Error SpotLight23 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.11.21-01.47.36:638][247]LightingResults:Error: Error SpotLight33 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.11.21-01.47.36:638][247]LightingResults:Error: Error SpotLight25 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.11.21-01.47.38:743][247]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2017.11.21-01.47.38:744][247]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024)
+[2017.11.21-01.47.38:744][247]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024)
+[2017.11.21-01.47.38:744][247]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT, 1024X512)
+[2017.11.21-01.47.38:744][247]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2017.11.21-01.47.38:744][247]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2017.11.21-01.47.38:744][247]LogTexture:Display: Building textures: SkyOcclusion1_3 (AutoDXT, 1024X512)
+[2017.11.21-01.47.38:744][247]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 1024X1024)
+[2017.11.21-01.47.38:744][247]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1, 1024X1024)
+[2017.11.21-01.47.38:744][247]LogTexture:Display: Building textures: SkyOcclusion0_4 (AutoDXT, 64X32)
+[2017.11.21-01.47.38:744][247]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 64X64)
+[2017.11.21-01.47.38:744][247]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1, 64X64)
+[2017.11.21-01.47.38:944][247]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8, 32X32)
+[2017.11.21-01.47.38:944][247]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 1024X512)
+[2017.11.21-01.47.39:093][247]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8, 1024X1024)
+[2017.11.21-01.47.40:147][247]Lightmass on UNAMIS2016: 2:06 min total, 3.25 sec importing, 534 ms setup, 3.70 sec photons, 1:57 min processing, 0 ms extra exporting [575/575 mappings]. Threads: 13:44 min total, 5:57 min processing.
+[2017.11.21-01.47.40:919][247]LogStaticLightingSystem: Illumination: 2:50 min (2.09 sec encoding lightmaps, 346 ms encoding shadowmaps)
+[2017.11.21-01.47.40:919][247]LogStaticLightingSystem: Lightmap texture memory:  8.0 MB (5.3 MB streaming, 2.7 MB non-streaming), 8 textures
+[2017.11.21-01.47.40:919][247]LogStaticLightingSystem: Shadowmap texture memory: 8.0 MB (5.3 MB streaming, 2.7 MB non-streaming), 3 textures
+[2017.11.21-01.47.42:266][247]DumpUnbuiltLightIteractions
+[2017.11.21-01.47.42:266][247]Lights with unbuilt interactions: 0
+[2017.11.21-01.47.42:266][247]
+[2017.11.21-01.47.42:266][247]Primitives with unbuilt interactions: 0
+[2017.11.21-01.47.42:386][248]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.11.21-01.47.42:386][248]MapCheck: New page: CleanClassroom - Nov 20, 2017, 11:47:42 AM
+[2017.11.21-01.47.42:851][248]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 464.424ms to complete.
+[2017.11.21-01.53.27:458][700]LogMaterial: Missing cached shader map for material M_Ceramic_Tile_Checker, compiling. 
+[2017.11.21-01.53.29:009][700]LogMaterial: Missing cached shader map for material M_Ceramic_Tile_Checker, compiling. 
+[2017.11.21-01.53.29:087][700]LogMaterial: Missing cached shader map for material M_Ceramic_Tile_Checker, compiling. 
+[2017.11.21-01.53.29:140][700]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_51, compiling. 
+[2017.11.21-01.53.29:146][700]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_50, compiling. 
+[2017.11.21-01.53.29:157][700]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_52, compiling. 
+[2017.11.21-01.53.29:169][700]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.11.21-01.53.29:175][700]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2017.11.21-01.53.29:190][700]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.11.21-01.53.29:202][700]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.11.21-01.53.29:218][700]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.11.21-01.53.29:311][700]LogSlate: Took 0.039158 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.11.21-01.53.31:071][702]MaterialEditorStats: Info Base pass shader: 107 instructions
+[2017.11.21-01.53.31:071][702]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.11.21-01.53.31:071][702]MaterialEditorStats: Info Texture samplers: 8/16
+[2017.11.21-01.53.31:071][702]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.21-01.53.37:303][ 48]LogMaterial: Missing cached shader map for material M_Ceramic_Tile_Checker, compiling. 
+[2017.11.21-01.53.39:114][143]MaterialEditorStats: Info Base pass shader: 107 instructions
+[2017.11.21-01.53.39:114][143]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.11.21-01.53.39:114][143]MaterialEditorStats: Info Texture samplers: 8/16
+[2017.11.21-01.53.39:114][143]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.21-01.53.43:196][380]LogMaterial: Missing cached shader map for material M_Ceramic_Tile_Checker, compiling. 
+[2017.11.21-01.53.44:965][475]MaterialEditorStats: Info Base pass shader: 107 instructions
+[2017.11.21-01.53.44:965][475]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.11.21-01.53.44:965][475]MaterialEditorStats: Info Texture samplers: 8/16
+[2017.11.21-01.53.44:965][475]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.21-01.53.52:810][937]LogMaterial: Missing cached shader map for material M_Ceramic_Tile_Checker, compiling. 
+[2017.11.21-01.54.00:317][ 19]MaterialEditorStats: Info Base pass shader: 110 instructions
+[2017.11.21-01.54.00:317][ 19]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.11.21-01.54.00:317][ 19]MaterialEditorStats: Info Texture samplers: 8/16
+[2017.11.21-01.54.00:317][ 19]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.21-01.54.02:239][127]LogMaterialEditor: Saving and Compiling material M_Ceramic_Tile_Checker
+[2017.11.21-01.54.07:857][127]LogMaterial: Missing cached shader map for material M_Ceramic_Tile_Checker, compiling. 
+[2017.11.21-01.54.07:959][127]LogMaterial: Missing cached shader map for material M_Ceramic_Tile_Checker, compiling. 
+[2017.11.21-01.54.08:055][127]LogMaterial: Missing cached shader map for material M_Ceramic_Tile_Checker, compiling. 
+[2017.11.21-01.54.08:132][127]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Ceramic_Tile_Checker, compiling. 
+[2017.11.21-01.54.09:111][127]TextureStreamingBuild:Display: Compiling optional shaders took 0.989 seconds.
+[2017.11.21-01.54.15:281][127]LogSavePackage: Save=3807.70ms
+[2017.11.21-01.54.15:281][127]LogSavePackage: Moving 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/M_Ceramic_Tile_Checker3AE8F8034C15023A02076D9DED308681.tmp' to 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset'
+[2017.11.21-01.54.15:340][127]LogSavePackage:Display: Finished SavePackage F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset
+[2017.11.21-01.54.46:162][929]Cmd: SELECT NONE
+[2017.11.21-01.54.57:303][591]MapCheck: New page: Map Check
+[2017.11.21-01.54.57:337][591]Cmd: MAP REBUILD ALLVISIBLE
+[2017.11.21-01.54.57:338][591]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.11.21-01.55.00:093][591]LightingResults: New page: Lighting Build - Nov 20, 2017, 11:55:00 AM
+[2017.11.21-01.55.00:169][591]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.11.21-01.55.00:258][591]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.11.21-01.55.00:258][591]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.11.21-01.55.00:259][591]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.11.21-01.55.00:259][591]LogSwarmInterface: [TryOpenConnection] Local Process ID is 19032
+[2017.11.21-01.55.04:800][591]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.11.21-01.55.04:802][591]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.11.21-01.55.04:802][591]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.11.21-01.55.04:802][591]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.11.21-01.55.04:802][591]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.11.21-01.55.04:802][591]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.11.21-01.55.05:071][591]LogEditorBuildUtils: Build time 0:07
+[2017.11.21-01.55.05:172][592]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Ceramic_Tile_Checker, compiling. 
+[2017.11.21-01.55.05:182][592]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Ceramic_Tile_Checker, compiling. 
+[2017.11.21-01.56.10:714][391]Job is a success!
+[2017.11.21-01.56.11:175][392]LightingResults:Error: Error SpotLight29 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.11.21-01.56.11:175][392]LightingResults:Error: Error SpotLight24 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.11.21-01.56.11:175][392]LightingResults:Error: Error SpotLight22 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.11.21-01.56.11:175][392]LightingResults:Error: Error SpotLight28 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.11.21-01.56.11:175][392]LightingResults:Error: Error SpotLight27 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.11.21-01.56.11:175][392]LightingResults:Error: Error SpotLight31 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.11.21-01.56.11:175][392]LightingResults:Error: Error SpotLight32 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.11.21-01.56.11:175][392]LightingResults:Error: Error SpotLight23 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.11.21-01.56.11:175][392]LightingResults:Error: Error SpotLight33 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.11.21-01.56.11:175][392]LightingResults:Error: Error SpotLight25 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.11.21-01.56.13:134][392]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2017.11.21-01.56.13:134][392]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2017.11.21-01.56.13:134][392]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2017.11.21-01.56.13:134][392]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT, 1024X512)
+[2017.11.21-01.56.13:134][392]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
+[2017.11.21-01.56.13:134][392]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
+[2017.11.21-01.56.13:134][392]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT, 1024X512)
+[2017.11.21-01.56.13:134][392]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 1024X1024)
+[2017.11.21-01.56.13:134][392]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 1024X1024)
+[2017.11.21-01.56.13:134][392]LogTexture:Display: Building textures: SkyOcclusion1_4 (AutoDXT, 64X32)
+[2017.11.21-01.56.13:134][392]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 64X64)
+[2017.11.21-01.56.13:134][392]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1, 64X64)
+[2017.11.21-01.56.13:535][392]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (BGRA8, 32X32)
+[2017.11.21-01.56.13:535][392]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8, 1024X512)
+[2017.11.21-01.56.13:666][392]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (BGRA8, 1024X1024)
+[2017.11.21-01.56.14:770][392]Lightmass on UNAMIS2016: 1:06 min total, 455 ms importing, 147 ms setup, 3.12 sec photons, 1:02 min processing, 0 ms extra exporting [575/575 mappings]. Threads: 7:17 min total, 5:50 min processing.
+[2017.11.21-01.56.14:782][392]LogStaticLightingSystem: Illumination: 1:14 min (1.95 sec encoding lightmaps, 525 ms encoding shadowmaps)
+[2017.11.21-01.56.14:782][392]LogStaticLightingSystem: Lightmap texture memory:  8.0 MB (5.3 MB streaming, 2.7 MB non-streaming), 8 textures
+[2017.11.21-01.56.14:782][392]LogStaticLightingSystem: Shadowmap texture memory: 8.0 MB (5.3 MB streaming, 2.7 MB non-streaming), 3 textures
+[2017.11.21-01.56.14:815][392]DumpUnbuiltLightIteractions
+[2017.11.21-01.56.14:815][392]Lights with unbuilt interactions: 0
+[2017.11.21-01.56.14:815][392]
+[2017.11.21-01.56.14:815][392]Primitives with unbuilt interactions: 0
+[2017.11.21-01.56.14:831][393]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.11.21-01.56.14:831][393]MapCheck: New page: CleanClassroom - Nov 20, 2017, 11:56:14 AM
+[2017.11.21-01.56.15:009][393]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 177.587ms to complete.
+[2017.11.21-01.58.59:259][508]LogSavePackage: Save=61592.06ms
+[2017.11.21-01.58.59:259][508]LogSavePackage: Moving 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/CleanClassroom_Auto4C63B2CD14648ECCD4760969C79D72D0B.tmp' to 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/Autosaves/Game/Maps/CleanClassroom_Auto4.umap'
+[2017.11.21-01.58.59:283][508]LogSavePackage:Display: Finished SavePackage F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/Autosaves/Game/Maps/CleanClassroom_Auto4.umap
+[2017.11.21-01.58.59:308][508]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/CleanClassroom' took 61.838
+[2017.11.21-01.58.59:308][508]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 61.838
+[2017.11.21-01.58.59:427][508]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/cleanClassroom_BuiltData] ([1] browsable assets)...
+[2017.11.21-01.58.59:427][508]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/cleanClassroom_BuiltData]
+[2017.11.21-01.59.03:910][508]LogSavePackage: Save=3913.00ms
+[2017.11.21-01.59.03:910][508]LogSavePackage: Moving 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/cleanClassroom_BuiltData_Auto46A53AE3B48164EABF13542BDBF619AAF.tmp' to 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/Autosaves/Game/Maps/cleanClassroom_BuiltData_Auto4.uasset'
+[2017.11.21-01.59.03:918][508]LogSavePackage:Display: Finished SavePackage F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/Autosaves/Game/Maps/cleanClassroom_BuiltData_Auto4.uasset
+[2017.11.21-01.59.03:918][508]LogFileHelpers: Auto-saving content packages took 4.605
+[2017.11.21-02.29.48:440][817]LogEditorViewport: Clicking Background
+[2017.11.21-02.30.03:816][727]Cmd: POLY TEXSCALE  UU=0.500000 VV=0.500000
+[2017.11.21-02.30.11:366][162]Cmd: POLY TEXSCALE  UU=0.500000 VV=0.500000
+[2017.11.21-02.30.16:284][452]Cmd: POLY TEXPAN U=-0.000000 V=-16.000000
+[2017.11.21-02.30.17:449][522]Cmd: POLY TEXPAN U=-0.000000 V=-16.000000
+[2017.11.21-02.30.18:483][584]Cmd: POLY TEXPAN U=-0.000000 V=-16.000000
+[2017.11.21-02.30.19:269][631]Cmd: POLY TEXPAN U=-0.000000 V=-16.000000
+[2017.11.21-02.30.22:157][804]Cmd: POLY TEXPAN U=-0.000000 V=-4.000000
+[2017.11.21-02.30.22:907][849]Cmd: POLY TEXPAN U=-0.000000 V=-4.000000
+[2017.11.21-02.30.40:830][912]Cmd: POLY TEXPAN U=-0.000000 V=-4.000000
+[2017.11.21-02.30.41:597][958]Cmd: POLY TEXPAN U=-0.000000 V=-4.000000
+[2017.11.21-02.30.43:413][ 66]Cmd: POLY TEXSCALE  UU=0.500000 VV=0.500000
+[2017.11.21-02.30.49:666][437]Cmd: POLY TEXPAN U=4.000000 V=0.000000
+[2017.11.21-02.30.53:667][677]Cmd: POLY TEXPAN U=4.000000 V=0.000000
+[2017.11.21-02.31.12:712][811]Cmd: POLY TEXPAN U=0.000000 V=1.000000
+[2017.11.21-02.31.14:996][948]Cmd: POLY TEXPAN U=0.000000 V=1.000000
+[2017.11.21-02.31.17:156][ 77]Cmd: POLY TEXPAN U=-0.000000 V=-1.000000
+[2017.11.21-02.31.17:825][114]Cmd: SELECT NONE
+[2017.11.21-02.31.27:206][673]Cmd: POLY TEXPAN U=0.000000 V=1.000000
+[2017.11.21-02.31.27:736][702]Cmd: SELECT NONE
+[2017.11.21-02.31.33:015][ 13]Cmd: POLY TEXPAN U=-0.000000 V=-1.000000
+[2017.11.21-02.31.33:952][ 68]Cmd: SELECT NONE
+[2017.11.21-02.31.38:738][348]Cmd: POLY TEXPAN U=0.000000 V=4.000000
+[2017.11.21-02.31.39:301][381]Cmd: POLY TEXPAN U=0.000000 V=4.000000
+[2017.11.21-02.31.39:768][409]Cmd: POLY TEXPAN U=0.000000 V=4.000000
+[2017.11.21-02.31.40:251][438]Cmd: POLY TEXPAN U=0.000000 V=4.000000
+[2017.11.21-02.31.42:628][580]Cmd: POLY TEXPAN U=0.000000 V=1.000000
+[2017.11.21-02.31.43:478][631]Cmd: SELECT NONE
+[2017.11.21-02.31.46:544][804]Cmd: POLY TEXPAN U=0.000000 V=16.000000
+[2017.11.21-02.31.48:235][903]Cmd: SELECT NONE
+[2017.11.21-02.31.51:908][114]Cmd: POLY TEXPAN U=0.000000 V=1.000000
+[2017.11.21-02.31.57:375][439]Cmd: POLY TEXPAN U=-1.000000 V=-0.000000
+[2017.11.21-02.31.58:225][490]Cmd: POLY TEXPAN U=-1.000000 V=-0.000000
+[2017.11.21-02.31.58:392][500]Cmd: POLY TEXPAN U=-1.000000 V=-0.000000
+[2017.11.21-02.31.58:575][511]Cmd: POLY TEXPAN U=-1.000000 V=-0.000000
+[2017.11.21-02.31.58:758][522]Cmd: POLY TEXPAN U=-1.000000 V=-0.000000
+[2017.11.21-02.31.58:925][532]Cmd: POLY TEXPAN U=-1.000000 V=-0.000000
+[2017.11.21-02.32.02:409][740]Cmd: POLY TEXPAN U=1.000000 V=0.000000
+[2017.11.21-02.32.02:576][750]Cmd: POLY TEXPAN U=1.000000 V=0.000000
+[2017.11.21-02.32.02:826][765]Cmd: POLY TEXPAN U=1.000000 V=0.000000
+[2017.11.21-02.32.03:259][791]Cmd: POLY TEXPAN U=1.000000 V=0.000000
+[2017.11.21-02.32.03:442][802]Cmd: POLY TEXPAN U=1.000000 V=0.000000
+[2017.11.21-02.32.03:726][819]Cmd: POLY TEXPAN U=1.000000 V=0.000000
+[2017.11.21-02.32.04:192][847]Cmd: POLY TEXPAN U=1.000000 V=0.000000
+[2017.11.21-02.32.04:726][879]Cmd: POLY TEXPAN U=1.000000 V=0.000000
+[2017.11.21-02.32.05:176][906]Cmd: POLY TEXPAN U=1.000000 V=0.000000
+[2017.11.21-02.32.05:643][934]Cmd: POLY TEXPAN U=1.000000 V=0.000000
+[2017.11.21-02.32.06:386][975]Cmd: SELECT NONE
+[2017.11.21-02.33.57:469][877]LogSavePackage: Save=62335.30ms
+[2017.11.21-02.33.57:469][877]LogSavePackage: Moving 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/CleanClassroom_Auto5716DC81A4C5E18622CA5429258E09BCA.tmp' to 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/Autosaves/Game/Maps/CleanClassroom_Auto5.umap'
+[2017.11.21-02.33.57:486][877]LogSavePackage:Display: Finished SavePackage F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/Autosaves/Game/Maps/CleanClassroom_Auto5.umap
+[2017.11.21-02.33.57:506][877]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/CleanClassroom' took 62.544
+[2017.11.21-02.33.57:506][877]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 62.544
+[2017.11.21-02.36.38:920][668]Cmd: POLY TEXPAN U=0.000000 V=0.000000
+[2017.11.21-02.36.46:247][106]Cmd: POLY TEXPAN U=0.000000 V=1.000000
+[2017.11.21-02.36.57:878][793]Cmd: POLY TEXPAN U=-0.000000 V=-0.000000
+[2017.11.21-02.37.02:081][ 43]Cmd: POLY TEXPAN U=-0.000000 V=-0.000000
+[2017.11.21-02.37.08:612][432]Cmd: POLY TEXPAN U=-0.000000 V=-25.000000
+[2017.11.21-02.37.12:472][661]Cmd: POLY TEXPAN U=-0.000000 V=-1.000000
+[2017.11.21-02.37.13:038][695]Cmd: POLY TEXPAN U=-0.000000 V=-1.000000
+[2017.11.21-02.37.13:406][717]Cmd: POLY TEXPAN U=-0.000000 V=-1.000000
+[2017.11.21-02.37.13:622][730]Cmd: POLY TEXPAN U=-0.000000 V=-1.000000
+[2017.11.21-02.37.13:839][743]Cmd: POLY TEXPAN U=-0.000000 V=-1.000000
+[2017.11.21-02.37.14:039][755]Cmd: POLY TEXPAN U=-0.000000 V=-1.000000
+[2017.11.21-02.37.14:239][767]Cmd: POLY TEXPAN U=-0.000000 V=-1.000000
+[2017.11.21-02.37.14:655][792]Cmd: POLY TEXPAN U=-0.000000 V=-1.000000
+[2017.11.21-02.37.16:611][906]Cmd: POLY TEXPAN U=-0.000000 V=-1.000000
+[2017.11.21-02.37.24:419][363]Cmd: POLY TEXPAN U=-0.000000 V=-1.000000
+[2017.11.21-02.37.25:081][399]Cmd: SELECT NONE
+[2017.11.21-02.37.36:914][ 94]Cmd: POLY TEXSCALE  UU=0.500000 VV=0.500000
+[2017.11.21-02.37.42:536][416]Cmd: POLY TEXSCALE  UU=0.500000 VV=0.500000
+[2017.11.21-02.37.52:183][987]Cmd: POLY TEXSCALE  UU=0.500000 VV=0.500000
+[2017.11.21-02.38.04:117][678]Cmd: POLY TEXPAN U=0.000000 V=1.000000
+[2017.11.21-02.38.04:517][702]Cmd: POLY TEXPAN U=0.000000 V=1.000000
+[2017.11.21-02.38.04:700][713]Cmd: POLY TEXPAN U=0.000000 V=1.000000
+[2017.11.21-02.38.04:850][722]Cmd: POLY TEXPAN U=0.000000 V=1.000000
+[2017.11.21-02.38.05:017][732]Cmd: POLY TEXPAN U=0.000000 V=1.000000
+[2017.11.21-02.38.05:184][742]Cmd: POLY TEXPAN U=0.000000 V=1.000000
+[2017.11.21-02.38.05:350][752]Cmd: POLY TEXPAN U=0.000000 V=1.000000
+[2017.11.21-02.38.05:534][763]Cmd: POLY TEXPAN U=0.000000 V=1.000000
+[2017.11.21-02.38.05:700][773]Cmd: POLY TEXPAN U=0.000000 V=1.000000
+[2017.11.21-02.38.05:884][784]Cmd: POLY TEXPAN U=0.000000 V=1.000000
+[2017.11.21-02.38.06:067][795]Cmd: POLY TEXPAN U=0.000000 V=1.000000
+[2017.11.21-02.38.06:254][806]Cmd: POLY TEXPAN U=0.000000 V=1.000000
+[2017.11.21-02.38.06:438][817]Cmd: POLY TEXPAN U=0.000000 V=1.000000
+[2017.11.21-02.38.07:421][876]Cmd: POLY TEXPAN U=0.000000 V=1.000000
+[2017.11.21-02.38.12:691][185]Cmd: POLY TEXPAN U=-0.000000 V=-1.000000
+[2017.11.21-02.38.15:772][367]Cmd: SELECT NONE
+[2017.11.21-02.38.26:600][999]Cmd: SELECT NONE
+[2017.11.21-02.38.32:240][326]Cmd: POLY TEXPAN U=0.000000 V=4.000000
+[2017.11.21-02.38.33:110][378]Cmd: POLY TEXPAN U=0.000000 V=4.000000
+[2017.11.21-02.38.34:044][434]Cmd: POLY TEXPAN U=0.000000 V=4.000000
+[2017.11.21-02.38.38:813][719]Cmd: POLY TEXPAN U=0.000000 V=16.000000
+[2017.11.21-02.38.41:668][890]Cmd: POLY TEXPAN U=0.000000 V=16.000000
+[2017.11.21-02.38.42:451][937]Cmd: POLY TEXPAN U=0.000000 V=16.000000
+[2017.11.21-02.38.43:152][979]Cmd: POLY TEXPAN U=0.000000 V=16.000000
+[2017.11.21-02.38.43:668][ 10]Cmd: POLY TEXPAN U=0.000000 V=16.000000
+[2017.11.21-02.38.44:135][ 38]Cmd: POLY TEXPAN U=0.000000 V=16.000000
+[2017.11.21-02.38.44:569][ 64]Cmd: POLY TEXPAN U=0.000000 V=16.000000
+[2017.11.21-02.38.45:002][ 90]Cmd: POLY TEXPAN U=0.000000 V=16.000000
+[2017.11.21-02.38.45:418][115]Cmd: POLY TEXPAN U=0.000000 V=16.000000
+[2017.11.21-02.38.45:718][133]Cmd: POLY TEXPAN U=0.000000 V=16.000000
+[2017.11.21-02.38.46:135][158]Cmd: POLY TEXPAN U=0.000000 V=16.000000
+[2017.11.21-02.38.46:502][180]Cmd: POLY TEXPAN U=0.000000 V=16.000000
+[2017.11.21-02.38.46:703][192]Cmd: POLY TEXPAN U=0.000000 V=16.000000
+[2017.11.21-02.38.46:871][202]Cmd: POLY TEXPAN U=0.000000 V=16.000000
+[2017.11.21-02.38.47:071][214]Cmd: POLY TEXPAN U=0.000000 V=16.000000
+[2017.11.21-02.38.47:471][238]Cmd: POLY TEXPAN U=0.000000 V=16.000000
+[2017.11.21-02.38.47:655][249]Cmd: POLY TEXPAN U=0.000000 V=16.000000
+[2017.11.21-02.38.47:838][260]Cmd: POLY TEXPAN U=0.000000 V=16.000000
+[2017.11.21-02.38.48:021][271]Cmd: POLY TEXPAN U=0.000000 V=16.000000
+[2017.11.21-02.38.48:221][283]Cmd: POLY TEXPAN U=0.000000 V=16.000000
+[2017.11.21-02.38.48:771][316]Cmd: POLY TEXPAN U=0.000000 V=16.000000
+[2017.11.21-02.38.49:604][366]Cmd: POLY TEXPAN U=0.000000 V=16.000000
+[2017.11.21-02.38.52:182][520]Cmd: POLY TEXPAN U=0.000000 V=1.000000
+[2017.11.21-02.38.54:070][633]Cmd: POLY TEXPAN U=-0.000000 V=-1.000000
+[2017.11.21-02.38.54:637][667]Cmd: POLY TEXPAN U=-0.000000 V=-1.000000
+[2017.11.21-02.38.55:625][724]Cmd: SELECT NONE
+[2017.11.21-02.39.01:088][ 34]Cmd: POLY TEXPAN U=0.000000 V=4.000000
+[2017.11.21-02.39.02:238][103]Cmd: POLY TEXPAN U=0.000000 V=4.000000
+[2017.11.21-02.39.04:155][218]Cmd: POLY TEXPAN U=0.000000 V=16.000000
+[2017.11.21-02.39.04:889][262]Cmd: POLY TEXPAN U=0.000000 V=16.000000
+[2017.11.21-02.39.05:488][298]Cmd: POLY TEXPAN U=0.000000 V=16.000000
+[2017.11.21-02.39.05:938][325]Cmd: POLY TEXPAN U=0.000000 V=16.000000
+[2017.11.21-02.39.06:146][337]Cmd: POLY TEXPAN U=0.000000 V=16.000000
+[2017.11.21-02.39.06:335][348]Cmd: POLY TEXPAN U=0.000000 V=16.000000
+[2017.11.21-02.39.06:529][359]Cmd: POLY TEXPAN U=0.000000 V=16.000000
+[2017.11.21-02.39.06:705][369]Cmd: POLY TEXPAN U=0.000000 V=16.000000
+[2017.11.21-02.39.06:889][380]Cmd: POLY TEXPAN U=0.000000 V=16.000000
+[2017.11.21-02.39.07:089][392]Cmd: POLY TEXPAN U=0.000000 V=16.000000
+[2017.11.21-02.39.07:272][403]Cmd: POLY TEXPAN U=0.000000 V=16.000000
+[2017.11.21-02.39.07:455][414]Cmd: POLY TEXPAN U=0.000000 V=16.000000
+[2017.11.21-02.39.08:822][496]Cmd: SELECT NONE
+[2017.11.21-02.39.15:804][906]Cmd: SELECT NONE
+[2017.11.21-02.39.19:230][108]Cmd: POLY TEXPAN U=0.000000 V=16.000000
+[2017.11.21-02.39.20:217][166]Cmd: SELECT NONE
+[2017.11.21-02.39.26:796][548]Cmd: POLY TEXPAN U=0.000000 V=16.000000
+[2017.11.21-02.39.27:896][614]Cmd: SELECT NONE
+[2017.11.21-02.39.35:426][ 60]Cmd: POLY TEXPAN U=0.000000 V=16.000000
+[2017.11.21-02.39.37:538][186]Cmd: POLY TEXPAN U=0.000000 V=1.000000
+[2017.11.21-02.39.38:456][239]Cmd: SELECT NONE
+[2017.11.21-02.39.54:034][168]Cmd: POLY TEXPAN U=4.000000 V=0.000000
+[2017.11.21-02.39.55:402][250]Cmd: SELECT NONE
+[2017.11.21-02.40.42:240][ 38]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (OpenBook)
+[2017.11.21-02.41.33:024][ 57]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.21-02.41.58:713][562]Cmd: TRANSACTION UNDO
+[2017.11.21-02.41.58:713][562]LogEditorTransaction: Undo Rotate Actors
+[2017.11.21-02.42.00:357][646]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (OpenBook)
+[2017.11.21-02.42.07:462][ 62]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (OpenBook2)
+[2017.11.21-02.42.10:852][247]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (OpenBook)
+[2017.11.21-02.42.16:212][559]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (OpenBook2)
+[2017.11.21-02.42.26:053][ 51]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ScienceLabTable3)
+[2017.11.21-02.42.26:618][ 79]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (OpenBook3)
+[2017.11.21-02.42.29:738][234]LogSlate: Took 0.032898 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.11.21-02.43.06:356][409]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book2)
+[2017.11.21-02.43.16:255][981]Cmd: SELECT NONE
+[2017.11.21-02.43.32:617][949]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book7)
+[2017.11.21-02.43.38:232][280]Cmd: SELECT NONE
+[2017.11.21-02.43.43:165][567]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book11)
+[2017.11.21-02.44.17:262][590]Cmd: TRANSACTION UNDO
+[2017.11.21-02.44.17:262][590]LogEditorTransaction: Undo Move Actors
+[2017.11.21-02.44.17:568][605]Cmd: TRANSACTION UNDO
+[2017.11.21-02.44.17:568][605]LogEditorTransaction: Undo Clicking on Actors
+[2017.11.21-02.44.17:777][613]Cmd: TRANSACTION UNDO
+[2017.11.21-02.44.17:777][613]LogEditorTransaction: Undo Clicking on Actors
+[2017.11.21-02.44.18:010][624]Cmd: TRANSACTION UNDO
+[2017.11.21-02.44.18:010][624]LogEditorTransaction: Undo Move Actors
+[2017.11.21-02.44.18:228][636]Cmd: TRANSACTION UNDO
+[2017.11.21-02.44.18:228][636]LogEditorTransaction: Undo Clicking on Actors
+[2017.11.21-02.44.18:430][647]Cmd: TRANSACTION UNDO
+[2017.11.21-02.44.18:430][647]LogEditorTransaction: Undo Select None
+[2017.11.21-02.44.18:619][655]Cmd: TRANSACTION UNDO
+[2017.11.21-02.44.18:619][655]LogEditorTransaction: Undo Move Actors
+[2017.11.21-02.44.18:825][666]Cmd: TRANSACTION UNDO
+[2017.11.21-02.44.18:825][666]LogEditorTransaction: Undo Clicking on Actors
+[2017.11.21-02.44.19:015][674]Cmd: TRANSACTION UNDO
+[2017.11.21-02.44.19:015][674]LogEditorTransaction: Undo Move Actors
+[2017.11.21-02.44.19:222][685]Cmd: TRANSACTION UNDO
+[2017.11.21-02.44.19:222][685]LogEditorTransaction: Undo Move Actors
+[2017.11.21-02.44.19:394][695]Cmd: TRANSACTION UNDO
+[2017.11.21-02.44.19:394][695]LogEditorTransaction: Undo Clicking on Actors
+[2017.11.21-02.44.20:156][737]Cmd: TRANSACTION UNDO
+[2017.11.21-02.44.20:157][737]LogEditorTransaction: Undo Clicking on Actors
+[2017.11.21-02.44.20:658][767]Cmd: TRANSACTION UNDO
+[2017.11.21-02.44.20:658][767]LogEditorTransaction: Undo Select None
+[2017.11.21-02.44.28:112][200]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book5)
+[2017.11.21-02.44.32:734][471]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book10)
+[2017.11.21-02.44.37:206][734]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book4)
+[2017.11.21-02.44.41:001][954]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book11)
+[2017.11.21-02.44.45:632][225]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book7)
+[2017.11.21-02.44.46:606][280]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book8)
+[2017.11.21-02.44.56:707][869]Cmd: SELECT NONE
+[2017.11.21-02.45.10:732][688]Cmd: TRANSACTION UNDO
+[2017.11.21-02.45.10:732][688]LogEditorTransaction: Undo Move Actors
+[2017.11.21-02.45.10:736][688]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/CleanClassroom.CleanClassroom:PersistentLevel.Book5.StaticMeshComponent0) Component already registered.
+[2017.11.21-02.45.10:737][688]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/CleanClassroom.CleanClassroom:PersistentLevel.Book11.StaticMeshComponent0) Component already registered.
+[2017.11.21-02.45.32:987][943]Cmd: TRANSACTION UNDO
+[2017.11.21-02.45.32:987][943]LogEditorTransaction: Undo Move Actors
+[2017.11.21-02.45.32:999][943]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/CleanClassroom.CleanClassroom:PersistentLevel.Book31.StaticMeshComponent0) Component already registered.
+[2017.11.21-02.45.33:823][944]Cmd: TRANSACTION UNDO
+[2017.11.21-02.45.33:824][944]LogEditorTransaction: Undo Move Actors
+[2017.11.21-02.45.33:836][944]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/CleanClassroom.CleanClassroom:PersistentLevel.Book20.StaticMeshComponent0) Component already registered.
+[2017.11.21-02.45.34:646][975]Cmd: TRANSACTION UNDO
+[2017.11.21-02.45.34:646][975]LogEditorTransaction: Undo Move Actors
+[2017.11.21-02.45.34:659][975]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/CleanClassroom.CleanClassroom:PersistentLevel.Book9.StaticMeshComponent0) Component already registered.
+[2017.11.21-02.45.36:952][ 94]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book11)
+[2017.11.21-02.46.18:225][483]Cmd: TRANSACTION UNDO
+[2017.11.21-02.46.18:225][483]LogEditorTransaction: Undo Move Actors
+[2017.11.21-02.46.18:233][483]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/CleanClassroom.CleanClassroom:PersistentLevel.Book31.StaticMeshComponent0) Component already registered.
+[2017.11.21-02.46.30:733][193]Cmd: TRANSACTION UNDO
+[2017.11.21-02.46.30:733][193]LogEditorTransaction: Undo Move Actors
+[2017.11.21-02.46.30:735][193]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/CleanClassroom.CleanClassroom:PersistentLevel.Book49.StaticMeshComponent0) Component already registered.
+[2017.11.21-02.46.30:736][193]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/CleanClassroom.CleanClassroom:PersistentLevel.Book55.StaticMeshComponent0) Component already registered.
+[2017.11.21-02.48.02:089][561]Cmd: SELECT NONE
+[2017.11.21-02.48.05:842][782]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book2)
+[2017.11.21-02.48.28:723][123]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book104)
+[2017.11.21-02.48.30:685][236]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book108)
+[2017.11.21-02.49.15:110][832]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book108)
+[2017.11.21-02.49.18:641][ 21]Cmd: TRANSACTION UNDO
+[2017.11.21-02.49.18:641][ 21]LogEditorTransaction: Undo Clicking on Actors
+[2017.11.21-02.50.24:743][917]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book111)
+[2017.11.21-02.50.27:226][ 51]Cmd: DELETE
+[2017.11.21-02.50.27:226][ 51]Cmd: ACTOR DELETE
+[2017.11.21-02.50.27:229][ 51]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.21-02.50.27:229][ 51]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.21-02.50.27:229][ 51]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.21-02.50.27:294][ 51]LogEditorActor: Deleted 3 Actors (0.068 secs)
+[2017.11.21-02.50.31:741][317]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book104)
+[2017.11.21-02.50.39:073][739]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book101)
+[2017.11.21-02.50.50:336][398]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book108)
+[2017.11.21-02.51.13:280][709]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book108)
+[2017.11.21-02.51.14:103][754]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book110)
+[2017.11.21-02.51.26:674][484]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book115)
+[2017.11.21-02.51.31:440][757]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book114)
+[2017.11.21-02.52.02:428][588]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book15)
+[2017.11.21-02.52.13:007][192]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book13)
+[2017.11.21-02.52.16:398][389]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book121)
+[2017.11.21-02.52.17:769][467]Cmd: DELETE
+[2017.11.21-02.52.17:769][467]Cmd: ACTOR DELETE
+[2017.11.21-02.52.17:772][467]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.21-02.52.17:781][467]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2017.11.21-02.52.19:852][591]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book19)
+[2017.11.21-02.52.20:681][636]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book18)
+[2017.11.21-02.52.32:603][325]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book21)
+[2017.11.21-02.52.43:555][971]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book25)
+[2017.11.21-02.52.50:778][392]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book25)
+[2017.11.21-02.52.59:368][863]Cmd: DELETE
+[2017.11.21-02.52.59:368][863]Cmd: ACTOR DELETE
+[2017.11.21-02.52.59:371][863]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.21-02.52.59:371][863]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.21-02.52.59:372][863]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.21-02.52.59:372][863]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.21-02.52.59:372][863]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.21-02.52.59:372][863]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.21-02.52.59:372][863]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.21-02.52.59:372][863]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.21-02.52.59:372][863]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.21-02.52.59:372][863]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.21-02.52.59:383][863]LogEditorActor: Deleted 10 Actors (0.014 secs)
+[2017.11.21-02.53.01:202][971]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book27)
+[2017.11.21-02.53.16:854][838]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book27)
+[2017.11.21-02.53.42:115][284]Cmd: SELECT NONE
+[2017.11.21-02.53.44:328][414]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book139)
+[2017.11.21-02.53.45:378][467]Cmd: DELETE
+[2017.11.21-02.53.45:378][467]Cmd: ACTOR DELETE
+[2017.11.21-02.53.45:381][467]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.21-02.53.45:399][467]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2017.11.21-02.53.46:856][549]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book138)
+[2017.11.21-02.53.47:778][600]Cmd: DELETE
+[2017.11.21-02.53.47:778][600]Cmd: ACTOR DELETE
+[2017.11.21-02.53.47:781][600]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.21-02.53.47:790][600]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2017.11.21-02.53.53:048][913]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book137)
+[2017.11.21-02.53.55:927][ 76]Cmd: DELETE
+[2017.11.21-02.53.55:927][ 76]Cmd: ACTOR DELETE
+[2017.11.21-02.53.55:930][ 76]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.21-02.53.55:941][ 76]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2017.11.21-02.53.58:043][201]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book136)
+[2017.11.21-02.54.03:972][547]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book135)
+[2017.11.21-02.54.04:772][591]Cmd: DELETE
+[2017.11.21-02.54.04:772][591]Cmd: ACTOR DELETE
+[2017.11.21-02.54.04:774][591]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.21-02.54.04:784][591]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2017.11.21-02.54.06:817][711]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book136)
+[2017.11.21-02.54.14:809][179]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book134)
+[2017.11.21-02.54.24:293][735]Cmd: SELECT NONE
+[2017.11.21-02.54.25:541][809]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book134)
+[2017.11.21-02.54.31:948][171]Cmd: SELECT NONE
+[2017.11.21-02.54.33:757][279]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book138)
+[2017.11.21-02.54.35:210][361]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book133)
+[2017.11.21-02.54.40:617][674]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book136)
+[2017.11.21-02.54.52:720][387]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book132)
+[2017.11.21-02.54.56:270][595]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book133)
+[2017.11.21-02.55.02:078][928]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book132)
+[2017.11.21-02.55.26:710][387]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book131)
+[2017.11.21-02.55.29:685][560]Cmd: DELETE
+[2017.11.21-02.55.29:685][560]Cmd: ACTOR DELETE
+[2017.11.21-02.55.29:688][560]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.21-02.55.29:699][560]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2017.11.21-02.55.31:024][639]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book27)
+[2017.11.21-02.55.39:167][111]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book28)
+[2017.11.21-02.55.46:478][535]Cmd: SELECT NONE
+[2017.11.21-02.57.46:031][324]LogSavePackage: Save=89327.41ms
+[2017.11.21-02.57.46:031][324]LogSavePackage: Moving 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/CleanClassroom_Auto6C8AB38B641441DDBA36676A257045601.tmp' to 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/Autosaves/Game/Maps/CleanClassroom_Auto6.umap'
+[2017.11.21-02.57.46:054][324]LogSavePackage:Display: Finished SavePackage F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/Autosaves/Game/Maps/CleanClassroom_Auto6.umap
+[2017.11.21-02.57.46:093][324]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/CleanClassroom' took 89.577
+[2017.11.21-02.57.46:093][324]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 89.577
+[2017.11.21-02.59.35:828][865]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book27)
+[2017.11.21-02.59.53:060][878]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book29)
+[2017.11.21-02.59.55:123][997]Cmd: DELETE
+[2017.11.21-02.59.55:123][997]Cmd: ACTOR DELETE
+[2017.11.21-02.59.55:127][997]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.21-02.59.55:139][997]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2017.11.21-03.00.00:023][275]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book28)
+[2017.11.21-03.00.15:407][154]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book27)
+[2017.11.21-03.00.18:835][353]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book28)
+[2017.11.21-03.00.34:564][244]Cmd: SELECT NONE
+[2017.11.21-03.00.36:028][331]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book28)
+[2017.11.21-03.00.38:153][454]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book27)
+[2017.11.21-03.00.46:998][972]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book28)
+[2017.11.21-03.00.50:246][159]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bookshelf)
+[2017.11.21-03.00.50:856][190]Cmd: TRANSACTION UNDO
+[2017.11.21-03.00.50:856][190]LogEditorTransaction: Undo Clicking on Actors
+[2017.11.21-03.00.55:703][465]Cmd: SELECT NONE
+[2017.11.21-03.02.40:278][ 48]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book90)
+[2017.11.21-03.02.41:089][ 92]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book98)
+[2017.11.21-03.02.41:822][132]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book91)
+[2017.11.21-03.02.44:896][309]Cmd: TRANSACTION UNDO
+[2017.11.21-03.02.44:896][309]LogEditorTransaction: Undo Move Actors
+[2017.11.21-03.02.45:149][321]Cmd: TRANSACTION UNDO
+[2017.11.21-03.02.45:149][321]LogEditorTransaction: Undo Clicking on Actors
+[2017.11.21-03.02.45:580][342]Cmd: TRANSACTION UNDO
+[2017.11.21-03.02.45:580][342]LogEditorTransaction: Undo Clicking on Actors
+[2017.11.21-03.03.01:411][271]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book110)
+[2017.11.21-03.03.42:293][674]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book22)
+[2017.11.21-03.03.43:494][740]Cmd: DELETE
+[2017.11.21-03.03.43:494][740]Cmd: ACTOR DELETE
+[2017.11.21-03.03.43:497][740]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.21-03.03.43:507][740]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2017.11.21-03.03.48:543][ 32]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book21)
+[2017.11.21-03.03.51:780][220]Cmd: DELETE
+[2017.11.21-03.03.51:780][220]Cmd: ACTOR DELETE
+[2017.11.21-03.03.51:783][220]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.21-03.03.51:793][220]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2017.11.21-03.04.39:076][ 44]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book39)
+[2017.11.21-03.05.01:738][378]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book37)
+[2017.11.21-03.05.07:008][686]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book39)
+[2017.11.21-03.05.27:210][887]Cmd: TRANSACTION UNDO
+[2017.11.21-03.05.27:210][887]LogEditorTransaction: Undo Move Actors
+[2017.11.21-03.05.27:459][893]Cmd: TRANSACTION UNDO
+[2017.11.21-03.05.27:459][893]LogEditorTransaction: Undo Clicking on Actors
+[2017.11.21-03.05.27:652][897]Cmd: TRANSACTION UNDO
+[2017.11.21-03.05.27:652][897]LogEditorTransaction: Undo Move Actors
+[2017.11.21-03.05.27:850][907]Cmd: TRANSACTION UNDO
+[2017.11.21-03.05.27:850][907]LogEditorTransaction: Undo Clicking on Actors
+[2017.11.21-03.05.27:990][912]Cmd: TRANSACTION UNDO
+[2017.11.21-03.05.27:990][912]LogEditorTransaction: Undo Rotate Actors
+[2017.11.21-03.05.28:163][921]Cmd: TRANSACTION UNDO
+[2017.11.21-03.05.28:163][921]LogEditorTransaction: Undo Move Actors
+[2017.11.21-03.05.31:078][ 94]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book38)
+[2017.11.21-03.05.49:959][179]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book36)
+[2017.11.21-03.05.54:043][415]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book38)
+[2017.11.21-03.06.11:264][431]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book53)
+[2017.11.21-03.06.19:820][928]Cmd: SELECT NONE
+[2017.11.21-03.06.21:598][ 34]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book54)
+[2017.11.21-03.06.30:455][540]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book65)
+[2017.11.21-03.06.43:329][287]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book57)
+[2017.11.21-03.06.54:540][925]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book75)
+[2017.11.21-03.06.55:844][998]Cmd: DELETE
+[2017.11.21-03.06.55:844][998]Cmd: ACTOR DELETE
+[2017.11.21-03.06.55:847][998]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.21-03.06.55:857][998]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2017.11.21-03.07.00:310][264]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book67)
+[2017.11.21-03.07.01:768][347]Cmd: DELETE
+[2017.11.21-03.07.01:768][347]Cmd: ACTOR DELETE
+[2017.11.21-03.07.01:772][347]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.21-03.07.01:784][347]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2017.11.21-03.07.04:337][499]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book77)
+[2017.11.21-03.07.14:169][ 70]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book68)
+[2017.11.21-03.07.15:604][151]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book70)
+[2017.11.21-03.07.27:585][844]Cmd: TRANSACTION UNDO
+[2017.11.21-03.07.27:585][844]LogEditorTransaction: Undo Move Actors
+[2017.11.21-03.07.34:190][225]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book87)
+[2017.11.21-03.07.41:308][636]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book74)
+[2017.11.21-03.07.49:954][131]Cmd: SELECT NONE
+[2017.11.21-03.20.04:863][186]LogSavePackage: Save=100701.93ms
+[2017.11.21-03.20.04:863][186]LogSavePackage: Moving 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/CleanClassroom_Auto78D5156094259F92972A1EE83B6A3F6D6.tmp' to 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/Autosaves/Game/Maps/CleanClassroom_Auto7.umap'
+[2017.11.21-03.20.04:884][186]LogSavePackage:Display: Finished SavePackage F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/Autosaves/Game/Maps/CleanClassroom_Auto7.umap
+[2017.11.21-03.20.04:910][186]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/CleanClassroom' took 101.014
+[2017.11.21-03.20.04:910][186]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 101.014
+[2017.11.21-03.55.32:762][528]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book86)
+[2017.11.21-03.57.11:575][291]EditorErrors: New page: Actor attachment
+[2017.11.21-03.59.27:438][142]LogSavePackage: Save=99326.11ms
+[2017.11.21-03.59.27:439][142]LogSavePackage: Moving 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/CleanClassroom_Auto8BFC2967A4516AB87F34F479A89B9D1F6.tmp' to 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/Autosaves/Game/Maps/CleanClassroom_Auto8.umap'
+[2017.11.21-03.59.27:457][142]LogSavePackage:Display: Finished SavePackage F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/Autosaves/Game/Maps/CleanClassroom_Auto8.umap
+[2017.11.21-03.59.27:489][142]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/CleanClassroom' took 99.677
+[2017.11.21-03.59.27:489][142]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 99.677
+[2017.11.21-04.02.05:844][198]Cmd: TRANSACTION UNDO
+[2017.11.21-04.02.05:844][198]LogEditorTransaction: Undo Move Actors
+[2017.11.21-04.02.09:291][351]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book37)
+[2017.11.21-04.02.14:735][670]EditorErrors: New page: Actor attachment
+[2017.11.21-04.02.28:956][431]Cmd: TRANSACTION UNDO
+[2017.11.21-04.02.28:956][431]LogEditorTransaction: Undo Move Actors
+[2017.11.21-04.02.35:392][714]Cmd: TRANSACTION UNDO
+[2017.11.21-04.02.35:392][714]LogEditorTransaction: Undo Move Actors
+[2017.11.21-04.06.28:159][857]LogRenderer: Reallocating scene render targets to support 1892x1000 NumSamples 1 (Frame:273606).
+[2017.11.21-04.06.28:282][858]LogRenderer: Reallocating scene render targets to support 1932x1028 NumSamples 1 (Frame:273608).
+[2017.11.21-04.11.13:119][645]LogSavePackage: Save=97021.45ms
+[2017.11.21-04.11.13:119][645]LogSavePackage: Moving 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/CleanClassroom_Auto9BF7CC0424995C817A28472BDAE925D23.tmp' to 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/Autosaves/Game/Maps/CleanClassroom_Auto9.umap'
+[2017.11.21-04.11.13:146][645]LogSavePackage:Display: Finished SavePackage F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/Autosaves/Game/Maps/CleanClassroom_Auto9.umap
+[2017.11.21-04.11.13:274][645]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/CleanClassroom' took 97.358
+[2017.11.21-04.11.13:274][645]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 97.358
+[2017.11.21-04.58.09:489][234]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door2)
+[2017.11.21-04.58.40:115][669]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Inst_Door_01, compiling. 
+[2017.11.21-04.58.41:765][669]TextureStreamingBuild:Display: Compiling optional shaders took 1.690 seconds.
+[2017.11.21-04.58.43:045][735]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (DoorFrame)
+[2017.11.21-04.59.45:764][169]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Inst_DoorFrame_01, compiling. 
+[2017.11.21-04.59.46:257][169]TextureStreamingBuild:Display: Compiling optional shaders took 0.499 seconds.
+[2017.11.21-04.59.48:236][251]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door2)
+[2017.11.21-05.00.30:579][253]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Inst_Door_01, compiling. 
+[2017.11.21-05.00.31:104][253]TextureStreamingBuild:Display: Compiling optional shaders took 0.530 seconds.
+[2017.11.21-05.01.05:271][278]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
+[2017.11.21-05.01.19:602][ 20]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (malcolm)
+[2017.11.21-05.01.26:120][372]Cmd: TRANSACTION UNDO
+[2017.11.21-05.01.26:120][372]LogEditorTransaction: Undo Clicking on Actors
+[2017.11.21-05.01.44:140][361]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Armchair)
+[2017.11.21-05.01.48:164][593]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (malcolm)
+[2017.11.21-05.02.14:397][127]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
+[2017.11.21-05.02.16:434][232]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
+[2017.11.21-05.02.16:762][235]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.11.21-05.04.20:604][767]LogSavePackage: Save=97738.70ms
+[2017.11.21-05.04.20:604][767]LogSavePackage: Moving 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/CleanClassroom_Auto01BDEEA6F4536F886C5AA92B155AFFA19.tmp' to 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/Autosaves/Game/Maps/CleanClassroom_Auto0.umap'
+[2017.11.21-05.04.20:620][767]LogSavePackage:Display: Finished SavePackage F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/Autosaves/Game/Maps/CleanClassroom_Auto0.umap
+[2017.11.21-05.04.20:643][767]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/CleanClassroom' took 98.028
+[2017.11.21-05.04.20:643][767]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 98.028
+[2017.11.21-05.04.20:650][767]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/HighSchoolClassroom/Materials/Instance/Inst_Door_01] ([1] browsable assets)...
+[2017.11.21-05.04.20:718][767]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/HighSchoolClassroom/Materials/Instance/Inst_Door_01.Inst_Door_01]
+[2017.11.21-05.04.20:718][767]OBJ SavePackage: Finished generating thumbnails for package [/Game/HighSchoolClassroom/Materials/Instance/Inst_Door_01]
+[2017.11.21-05.04.20:970][767]LogSavePackage: Save=147.71ms
+[2017.11.21-05.04.20:970][767]LogSavePackage: Moving 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/Inst_Door_01_Auto0435BBF764F632EF51D3E5DA46D225916.tmp' to 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/Autosaves/Game/HighSchoolClassroom/Materials/Instance/Inst_Door_01_Auto0.uasset'
+[2017.11.21-05.04.20:980][767]LogSavePackage:Display: Finished SavePackage F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/Autosaves/Game/HighSchoolClassroom/Materials/Instance/Inst_Door_01_Auto0.uasset
+[2017.11.21-05.04.20:981][767]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/HighSchoolClassroom/Materials/Instance/Inst_DoorFrame_01] ([1] browsable assets)...
+[2017.11.21-05.04.21:006][767]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/HighSchoolClassroom/Materials/Instance/Inst_DoorFrame_01.Inst_DoorFrame_01]
+[2017.11.21-05.04.21:006][767]OBJ SavePackage: Finished generating thumbnails for package [/Game/HighSchoolClassroom/Materials/Instance/Inst_DoorFrame_01]
+[2017.11.21-05.04.21:133][767]LogSavePackage: Save=39.43ms
+[2017.11.21-05.04.21:133][767]LogSavePackage: Moving 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/Inst_DoorFrame_01_Auto07E13641042AE2FC02F7B019DE17EAE64.tmp' to 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/Autosaves/Game/HighSchoolClassroom/Materials/Instance/Inst_DoorFrame_01_Auto0.uasset'
+[2017.11.21-05.04.21:140][767]LogSavePackage:Display: Finished SavePackage F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/Autosaves/Game/HighSchoolClassroom/Materials/Instance/Inst_DoorFrame_01_Auto0.uasset
+[2017.11.21-05.04.21:141][767]LogFileHelpers: Auto-saving content packages took 0.494
+[2017.11.21-05.05.19:173][187]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Female_Student_4)
+[2017.11.21-05.05.26:955][474]LogMaterial: Missing cached shader map for material Bottommat, compiling. 
+[2017.11.21-05.05.27:147][474]LogMaterial: Missing cached shader map for material Bottommat, compiling. 
+[2017.11.21-05.05.27:190][474]LogMaterial: Missing cached shader map for material Bottommat, compiling. 
+[2017.11.21-05.05.27:247][474]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.11.21-05.05.27:322][474]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.11.21-05.05.27:327][474]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.11.21-05.05.27:332][474]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.11.21-05.05.27:368][474]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.11.21-05.05.35:989][884]MaterialEditorStats: Info Base pass shader: 96 instructions
+[2017.11.21-05.05.35:989][884]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.11.21-05.05.35:989][884]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.11.21-05.05.35:989][884]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.21-05.06.33:420][959]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (remy)
+[2017.11.21-05.06.42:256][394]LogMaterial: Missing cached shader map for material Hairmat1, compiling. 
+[2017.11.21-05.06.51:479][843]LogMaterial: Missing cached shader map for material Bottommat1, compiling. 
+[2017.11.21-05.06.57:074][103]LogMaterial: Missing cached shader map for material Bodymat_ncl1_2, compiling. 
+[2017.11.21-05.07.02:819][402]LogMaterial: Missing cached shader map for material Hairmat1, compiling. 
+[2017.11.21-05.07.03:033][402]LogMaterial: Missing cached shader map for material Hairmat1, compiling. 
+[2017.11.21-05.07.03:124][402]LogMaterial: Missing cached shader map for material Hairmat1, compiling. 
+[2017.11.21-05.07.03:236][402]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.11.21-05.07.03:287][402]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.11.21-05.07.03:308][402]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.11.21-05.07.03:329][402]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.11.21-05.07.03:351][402]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.11.21-05.07.09:533][677]LogMaterial: Missing cached shader map for material Hairmat1, compiling. 
+[2017.11.21-05.07.09:635][677]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.11.21-05.07.18:650][ 55]MaterialEditorStats: Info Base pass shader: 100 instructions
+[2017.11.21-05.07.18:650][ 55]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.11.21-05.07.18:650][ 55]MaterialEditorStats: Info Texture samplers: 6/16
+[2017.11.21-05.07.18:650][ 55]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.21-05.07.19:460][ 85]LogMaterial: Missing cached shader map for material Hairmat1, compiling. 
+[2017.11.21-05.07.26:104][407]LogMaterial: Missing cached shader map for material Hairmat1, compiling. 
+[2017.11.21-05.07.26:201][407]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.11.21-05.07.29:981][580]LogMaterial: Missing cached shader map for material Hairmat1, compiling. 
+[2017.11.21-05.07.30:113][580]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.11.21-05.07.34:447][778]LogMaterial: Missing cached shader map for material Hairmat1, compiling. 
+[2017.11.21-05.07.42:902][199]MaterialEditorStats: Info Base pass shader: 100 instructions
+[2017.11.21-05.07.42:902][199]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.11.21-05.07.42:902][199]MaterialEditorStats: Info Texture samplers: 6/16
+[2017.11.21-05.07.42:902][199]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.21-05.07.49:653][559]LogMaterial: Missing cached shader map for material Hairmat1, compiling. 
+[2017.11.21-05.07.58:195][982]MaterialEditorStats: Info Base pass shader: 98 instructions
+[2017.11.21-05.07.58:195][982]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.11.21-05.07.58:195][982]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.11.21-05.07.58:195][982]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.21-05.08.12:480][598]LogMaterial: Missing cached shader map for material Hairmat1, compiling. 
+[2017.11.21-05.08.12:546][598]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.11.21-05.08.21:120][ 42]MaterialEditorStats: Info Base pass shader: 97 instructions
+[2017.11.21-05.08.21:121][ 42]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.11.21-05.08.21:121][ 42]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.11.21-05.08.21:121][ 42]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.21-05.08.30:216][460]LogMaterialEditor: Saving and Compiling material Hairmat1
+[2017.11.21-05.08.35:682][460]LogMaterial: Missing cached shader map for material Hairmat1, compiling. 
+[2017.11.21-05.08.35:847][460]LogMaterial: Missing cached shader map for material Hairmat1, compiling. 
+[2017.11.21-05.08.35:994][460]LogMaterial: Missing cached shader map for material Hairmat1, compiling. 
+[2017.11.21-05.08.36:174][460]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Hairmat1, compiling. 
+[2017.11.21-05.08.41:285][460]TextureStreamingBuild:Display: Compiling optional shaders took 5.137 seconds.
+[2017.11.21-05.08.48:990][460]LogSavePackage: Save=801.48ms
+[2017.11.21-05.08.48:990][460]LogSavePackage: Moving 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/Hairmat1EC438BA949DB4D34F9C8BB90B5C323B7.tmp' to 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/HighSchoolClassroom/Characters/Remy/Hairmat1.uasset'
+[2017.11.21-05.08.49:028][460]LogSavePackage:Display: Finished SavePackage F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/HighSchoolClassroom/Characters/Remy/Hairmat1.uasset
+[2017.11.21-05.08.49:051][460]MaterialEditorStats: Info Base pass shader: 97 instructions
+[2017.11.21-05.08.49:051][460]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2017.11.21-05.08.49:051][460]MaterialEditorStats: Info Texture samplers: 6/16
+[2017.11.21-05.08.49:051][460]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.21-05.08.59:248][987]LogMaterial: Missing cached shader map for material Bottommat1, compiling. 
+[2017.11.21-05.08.59:591][987]LogMaterial: Missing cached shader map for material Bottommat1, compiling. 
+[2017.11.21-05.08.59:704][987]LogMaterial: Missing cached shader map for material Bottommat1, compiling. 
+[2017.11.21-05.08.59:851][987]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.11.21-05.09.00:036][987]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.11.21-05.09.00:042][987]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.11.21-05.09.00:376][987]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.11.21-05.09.00:407][987]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.11.21-05.09.09:317][434]MaterialEditorStats: Info Base pass shader: 96 instructions
+[2017.11.21-05.09.09:317][434]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.11.21-05.09.09:317][434]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.11.21-05.09.09:317][434]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.21-05.09.48:770][659]LogMaterial: Missing cached shader map for material Bottommat1, compiling. 
+[2017.11.21-05.09.48:811][659]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2017.11.21-05.09.54:721][958]LogMaterial: Missing cached shader map for material Bottommat1, compiling. 
+[2017.11.21-05.09.54:773][958]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2017.11.21-05.09.59:165][189]MaterialEditorStats: Info Base pass shader: 93 instructions
+[2017.11.21-05.09.59:165][189]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.11.21-05.09.59:165][189]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.11.21-05.09.59:165][189]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.21-05.10.06:197][560]LogMaterial: Missing cached shader map for material Bottommat1, compiling. 
+[2017.11.21-05.10.06:248][560]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2017.11.21-05.10.08:686][674]LogMaterial: Missing cached shader map for material Bottommat1, compiling. 
+[2017.11.21-05.10.08:767][674]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2017.11.21-05.10.10:297][749]LogMaterial: Missing cached shader map for material Bottommat1, compiling. 
+[2017.11.21-05.10.10:380][749]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2017.11.21-05.10.14:624][930]MaterialEditorStats: Info Base pass shader: 94 instructions
+[2017.11.21-05.10.14:624][930]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.11.21-05.10.14:624][930]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.11.21-05.10.14:624][930]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.21-05.10.27:758][649]LogMaterialEditor: Saving and Compiling material Bottommat1
+[2017.11.21-05.10.29:189][649]LogMaterial: Missing cached shader map for material Bottommat1, compiling. 
+[2017.11.21-05.10.29:291][649]LogMaterial: Missing cached shader map for material Bottommat1, compiling. 
+[2017.11.21-05.10.29:363][649]LogMaterial: Missing cached shader map for material Bottommat1, compiling. 
+[2017.11.21-05.10.29:457][649]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Bottommat1, compiling. 
+[2017.11.21-05.10.32:156][649]TextureStreamingBuild:Display: Compiling optional shaders took 2.721 seconds.
+[2017.11.21-05.10.36:205][649]LogSavePackage: Save=44.51ms
+[2017.11.21-05.10.36:205][649]LogSavePackage: Moving 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/Bottommat14F81D67F418EDDF8A2B719895096565C.tmp' to 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/HighSchoolClassroom/Characters/Remy/Bottommat1.uasset'
+[2017.11.21-05.10.36:236][649]LogSavePackage:Display: Finished SavePackage F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/HighSchoolClassroom/Characters/Remy/Bottommat1.uasset
+[2017.11.21-05.10.36:256][649]MaterialEditorStats: Info Base pass shader: 94 instructions
+[2017.11.21-05.10.36:256][649]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.11.21-05.10.36:256][649]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.11.21-05.10.36:256][649]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.21-05.10.43:080][  8]LogMaterial: Missing cached shader map for material Bodymat_ncl1_2, compiling. 
+[2017.11.21-05.10.43:256][  8]LogMaterial: Missing cached shader map for material Bodymat_ncl1_2, compiling. 
+[2017.11.21-05.10.43:354][  8]LogMaterial: Missing cached shader map for material Bodymat_ncl1_2, compiling. 
+[2017.11.21-05.10.43:470][  8]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.11.21-05.10.43:476][  8]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.11.21-05.10.43:482][  8]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.11.21-05.10.43:529][  8]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.11.21-05.10.43:555][  8]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.11.21-05.10.46:991][164]LogMaterial: Missing cached shader map for material Bodymat_ncl1_2, compiling. 
+[2017.11.21-05.10.47:100][164]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
+[2017.11.21-05.10.53:188][459]LogMaterial: Missing cached shader map for material Bodymat_ncl1_2, compiling. 
+[2017.11.21-05.10.53:295][459]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
+[2017.11.21-05.10.56:793][621]LogMaterial: Missing cached shader map for material Bodymat_ncl1_2, compiling. 
+[2017.11.21-05.10.56:936][621]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
+[2017.11.21-05.10.59:543][744]LogMaterial: Missing cached shader map for material Bodymat_ncl1_2, compiling. 
+[2017.11.21-05.10.59:672][744]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
+[2017.11.21-05.11.08:632][165]MaterialEditorStats: Info Base pass shader: 98 instructions
+[2017.11.21-05.11.08:632][165]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.11.21-05.11.08:632][165]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.11.21-05.11.08:632][165]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.21-05.11.33:256][283]LogMaterial: Missing cached shader map for material Bodymat_ncl1_2, compiling. 
+[2017.11.21-05.11.33:335][283]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
+[2017.11.21-05.11.37:124][469]LogMaterial: Missing cached shader map for material Bodymat_ncl1_2, compiling. 
+[2017.11.21-05.11.37:211][469]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
+[2017.11.21-05.11.39:792][593]LogMaterial: Missing cached shader map for material Bodymat_ncl1_2, compiling. 
+[2017.11.21-05.11.39:896][593]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
+[2017.11.21-05.11.44:793][806]LogMaterialEditor: Saving and Compiling material Bodymat_ncl1_2
+[2017.11.21-05.11.45:822][806]LogMaterial: Missing cached shader map for material Bodymat_ncl1_2, compiling. 
+[2017.11.21-05.11.46:050][806]LogMaterial: Missing cached shader map for material Bodymat_ncl1_2, compiling. 
+[2017.11.21-05.11.46:174][806]LogMaterial: Missing cached shader map for material Bodymat_ncl1_2, compiling. 
+[2017.11.21-05.11.46:332][806]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Bodymat_ncl1_2, compiling. 
+[2017.11.21-05.11.52:330][806]TextureStreamingBuild:Display: Compiling optional shaders took 6.029 seconds.
+[2017.11.21-05.11.59:342][806]LogSavePackage: Save=42.78ms
+[2017.11.21-05.11.59:342][806]LogSavePackage: Moving 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/Bodymat_ncl1_287BB64C34243765CE9C59A857404D468.tmp' to 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/HighSchoolClassroom/Characters/Remy/Bodymat_ncl1_2.uasset'
+[2017.11.21-05.11.59:367][806]LogSavePackage:Display: Finished SavePackage F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/HighSchoolClassroom/Characters/Remy/Bodymat_ncl1_2.uasset
+[2017.11.21-05.11.59:387][806]MaterialEditorStats: Info Base pass shader: 98 instructions
+[2017.11.21-05.11.59:387][806]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2017.11.21-05.11.59:387][806]MaterialEditorStats: Info Texture samplers: 6/16
+[2017.11.21-05.11.59:387][806]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.21-05.12.02:289][941]LogMaterial: Missing cached shader map for material Topmat, compiling. 
+[2017.11.21-05.12.02:513][941]LogMaterial: Missing cached shader map for material Topmat, compiling. 
+[2017.11.21-05.12.02:585][941]LogMaterial: Missing cached shader map for material Topmat, compiling. 
+[2017.11.21-05.12.02:701][941]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.11.21-05.12.02:750][941]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.11.21-05.12.02:796][941]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.11.21-05.12.02:839][941]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.11.21-05.12.02:886][941]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.11.21-05.12.07:319][154]LogMaterial: Missing cached shader map for material Topmat, compiling. 
+[2017.11.21-05.12.07:399][154]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_3, compiling. 
+[2017.11.21-05.12.11:704][363]LogMaterial: Missing cached shader map for material Topmat, compiling. 
+[2017.11.21-05.12.11:831][363]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_3, compiling. 
+[2017.11.21-05.12.14:611][490]LogMaterial: Missing cached shader map for material Topmat, compiling. 
+[2017.11.21-05.12.14:710][490]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_3, compiling. 
+[2017.11.21-05.12.16:459][569]LogMaterial: Missing cached shader map for material Topmat, compiling. 
+[2017.11.21-05.12.16:597][569]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_3, compiling. 
+[2017.11.21-05.12.25:297][976]LogMaterialEditor: Saving and Compiling material Topmat
+[2017.11.21-05.12.26:063][976]LogMaterial: Missing cached shader map for material Topmat, compiling. 
+[2017.11.21-05.12.26:241][976]LogMaterial: Missing cached shader map for material Topmat, compiling. 
+[2017.11.21-05.12.26:424][976]LogMaterial: Missing cached shader map for material Topmat, compiling. 
+[2017.11.21-05.12.26:612][976]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Topmat, compiling. 
+[2017.11.21-05.12.31:885][976]TextureStreamingBuild:Display: Compiling optional shaders took 5.333 seconds.
+[2017.11.21-05.12.39:266][976]LogSavePackage: Save=89.84ms
+[2017.11.21-05.12.39:266][976]LogSavePackage: Moving 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/TopmatFA3B38DA434095B254EA639CBDEFA390.tmp' to 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/HighSchoolClassroom/Characters/Remy/Topmat.uasset'
+[2017.11.21-05.12.39:307][976]LogSavePackage:Display: Finished SavePackage F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/HighSchoolClassroom/Characters/Remy/Topmat.uasset
+[2017.11.21-05.12.39:356][976]MaterialEditorStats: Info Base pass shader: 98 instructions
+[2017.11.21-05.12.39:356][976]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2017.11.21-05.12.39:356][976]MaterialEditorStats: Info Texture samplers: 6/16
+[2017.11.21-05.12.39:356][976]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.21-05.12.59:690][ 16]LogMaterial: Missing cached shader map for material Topmat, compiling. 
+[2017.11.21-05.13.09:245][493]LogMaterial: Missing cached shader map for material Topmat, compiling. 
+[2017.11.21-05.13.09:311][493]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_3, compiling. 
+[2017.11.21-05.13.17:062][726]MaterialEditorStats: Info Base pass shader: 98 instructions
+[2017.11.21-05.13.17:062][726]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.11.21-05.13.17:062][726]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.11.21-05.13.17:062][726]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.21-05.13.27:889][ 99]LogMaterial: Missing cached shader map for material Topmat, compiling. 
+[2017.11.21-05.13.27:972][ 99]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.11.21-05.13.35:231][432]LogMaterial: Missing cached shader map for material Topmat, compiling. 
+[2017.11.21-05.13.43:295][827]MaterialEditorStats: Info Base pass shader: 101 instructions
+[2017.11.21-05.13.43:295][827]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.11.21-05.13.43:295][827]MaterialEditorStats: Info Texture samplers: 6/16
+[2017.11.21-05.13.43:295][827]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.21-05.13.48:383][ 91]LogMaterialEditor: Saving and Compiling material Topmat
+[2017.11.21-05.13.49:307][ 91]LogMaterial: Missing cached shader map for material Topmat, compiling. 
+[2017.11.21-05.13.49:470][ 91]LogMaterial: Missing cached shader map for material Topmat, compiling. 
+[2017.11.21-05.13.49:589][ 91]LogMaterial: Missing cached shader map for material Topmat, compiling. 
+[2017.11.21-05.13.49:729][ 91]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Topmat, compiling. 
+[2017.11.21-05.13.54:835][ 91]TextureStreamingBuild:Display: Compiling optional shaders took 5.122 seconds.
+[2017.11.21-05.14.02:882][ 91]LogSavePackage: Save=736.32ms
+[2017.11.21-05.14.02:882][ 91]LogSavePackage: Moving 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/TopmatC4573DDE4F3571D6108854939FBA532F.tmp' to 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/HighSchoolClassroom/Characters/Remy/Topmat.uasset'
+[2017.11.21-05.14.02:927][ 91]LogSavePackage:Display: Finished SavePackage F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/HighSchoolClassroom/Characters/Remy/Topmat.uasset
+[2017.11.21-05.14.02:951][ 91]MaterialEditorStats: Info Base pass shader: 101 instructions
+[2017.11.21-05.14.02:951][ 91]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2017.11.21-05.14.02:951][ 91]MaterialEditorStats: Info Texture samplers: 7/16
+[2017.11.21-05.14.02:951][ 91]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.21-05.14.15:563][762]LogMaterial: Missing cached shader map for material Topmat1, compiling. 
+[2017.11.21-05.14.16:931][822]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.11.21-05.14.17:226][822]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.11.21-05.14.17:335][822]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.11.21-05.14.17:467][822]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.11.21-05.14.17:513][822]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.11.21-05.14.17:533][822]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.11.21-05.14.17:539][822]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.11.21-05.14.17:593][822]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.11.21-05.14.17:614][822]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_3, compiling. 
+[2017.11.21-05.14.24:931][149]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.11.21-05.14.25:059][149]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.11.21-05.14.29:340][323]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.11.21-05.14.32:704][476]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.11.21-05.14.42:849][998]MaterialEditorStats: Info Base pass shader: 100 instructions
+[2017.11.21-05.14.42:849][998]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.11.21-05.14.42:849][998]MaterialEditorStats: Info Texture samplers: 6/16
+[2017.11.21-05.14.42:849][998]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.21-05.14.58:448][797]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/CleanClassroom' took 0.012
+[2017.11.21-05.14.58:450][797]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/HighSchoolClassroom/Characters/Remy/Topmat1] ([1] browsable assets)...
+[2017.11.21-05.14.58:470][797]OBJ SavePackage:     Rendered thumbnail for [Material /Game/HighSchoolClassroom/Characters/Remy/Topmat1.Topmat1]
+[2017.11.21-05.14.58:470][797]OBJ SavePackage: Finished generating thumbnails for package [/Game/HighSchoolClassroom/Characters/Remy/Topmat1]
+[2017.11.21-05.14.59:232][797]LogSavePackage: Save=725.33ms
+[2017.11.21-05.14.59:232][797]LogSavePackage: Moving 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/Topmat1_Auto13499EAA24D7E60D20661A9AA4C13DBCD.tmp' to 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/Autosaves/Game/HighSchoolClassroom/Characters/Remy/Topmat1_Auto1.uasset'
+[2017.11.21-05.14.59:241][797]LogSavePackage:Display: Finished SavePackage F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/Autosaves/Game/HighSchoolClassroom/Characters/Remy/Topmat1_Auto1.uasset
+[2017.11.21-05.14.59:241][797]LogFileHelpers: Auto-saving content packages took 0.792
+[2017.11.21-05.15.52:096][553]LogMaterialEditor: Saving and Compiling material Topmat
+[2017.11.21-05.15.52:960][553]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.11.21-05.15.53:121][553]LogMaterial: Missing cached shader map for material Topmat, compiling. 
+[2017.11.21-05.15.53:237][553]LogMaterial: Missing cached shader map for material Topmat, compiling. 
+[2017.11.21-05.15.53:372][553]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Topmat, compiling. 
+[2017.11.21-05.15.58:991][553]TextureStreamingBuild:Display: Compiling optional shaders took 5.639 seconds.
+[2017.11.21-05.16.05:953][553]LogSavePackage: Save=43.92ms
+[2017.11.21-05.16.05:957][553]LogSavePackage: Moving 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/Topmat2E12E9EB421696855590D993E00E74C7.tmp' to 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/HighSchoolClassroom/Characters/Remy/Topmat.uasset'
+[2017.11.21-05.16.05:995][553]LogSavePackage:Display: Finished SavePackage F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/HighSchoolClassroom/Characters/Remy/Topmat.uasset
+[2017.11.21-05.16.06:011][553]MaterialEditorStats: Info Base pass shader: 100 instructions
+[2017.11.21-05.16.06:011][553]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2017.11.21-05.16.06:011][553]MaterialEditorStats: Info Texture samplers: 7/16
+[2017.11.21-05.16.06:011][553]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.21-05.16.17:045][144]Cmd: TRANSACTION UNDO
+[2017.11.21-05.16.17:045][144]LogEditorTransaction: Undo Move Actors
+[2017.11.21-05.17.11:626][975]Cmd: SELECT NONE
+[2017.11.21-05.17.16:113][232]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (remy3)
+[2017.11.21-05.18.53:572][670]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (regina)
+[2017.11.21-05.19.04:936][316]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (remy3)
+[2017.11.21-05.19.12:404][701]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (regina3)
+[2017.11.21-05.19.40:180][283]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.11.21-05.19.40:431][283]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.11.21-05.19.40:539][283]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.11.21-05.19.40:636][283]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.11.21-05.19.40:642][283]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.11.21-05.19.40:660][283]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.11.21-05.19.40:685][283]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.11.21-05.19.40:689][283]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.11.21-05.19.48:151][609]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.11.21-05.19.48:263][609]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_4, compiling. 
+[2017.11.21-05.19.54:236][898]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.11.21-05.19.54:337][898]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_4, compiling. 
+[2017.11.21-05.19.57:493][ 55]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.11.21-05.19.57:586][ 55]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_4, compiling. 
+[2017.11.21-05.19.58:716][100]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.11.21-05.19.58:836][100]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_4, compiling. 
+[2017.11.21-05.20.07:666][514]MaterialEditorStats: Info Base pass shader: 100 instructions
+[2017.11.21-05.20.07:666][514]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.11.21-05.20.07:666][514]MaterialEditorStats: Info Texture samplers: 6/16
+[2017.11.21-05.20.07:666][514]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.21-05.20.12:229][773]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.11.21-05.20.12:331][773]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_4, compiling. 
+[2017.11.21-05.20.20:275][180]MaterialEditorStats: Info Base pass shader: 98 instructions
+[2017.11.21-05.20.20:275][180]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.11.21-05.20.20:275][180]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.11.21-05.20.20:275][180]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.21-05.20.27:168][577]LogMaterialEditor: Saving and Compiling material Topmat
+[2017.11.21-05.20.28:076][577]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.11.21-05.20.28:257][577]LogMaterial: Missing cached shader map for material Topmat, compiling. 
+[2017.11.21-05.20.28:424][577]LogMaterial: Missing cached shader map for material Topmat, compiling. 
+[2017.11.21-05.20.28:586][577]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Topmat, compiling. 
+[2017.11.21-05.20.33:726][577]TextureStreamingBuild:Display: Compiling optional shaders took 5.171 seconds.
+[2017.11.21-05.20.40:724][577]LogSavePackage: Save=137.15ms
+[2017.11.21-05.20.40:728][577]LogSavePackage: Moving 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/TopmatC5ECA8A54C66C3FE51E6EDAE38E14F44.tmp' to 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/HighSchoolClassroom/Characters/Regina/Topmat.uasset'
+[2017.11.21-05.20.40:771][577]LogSavePackage:Display: Finished SavePackage F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/HighSchoolClassroom/Characters/Regina/Topmat.uasset
+[2017.11.21-05.20.40:831][577]MaterialEditorStats: Info Base pass shader: 98 instructions
+[2017.11.21-05.20.40:831][577]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2017.11.21-05.20.40:831][577]MaterialEditorStats: Info Texture samplers: 6/16
+[2017.11.21-05.20.40:831][577]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.21-05.20.44:792][795]LogMaterial: Missing cached shader map for material Topmat1, compiling. 
+[2017.11.21-05.20.50:218][ 15]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.11.21-05.20.50:316][ 15]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.11.21-05.20.51:922][ 82]LogMaterialEditor: Saving and Compiling material Topmat
+[2017.11.21-05.20.52:953][ 82]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.11.21-05.20.53:154][ 82]LogMaterial: Missing cached shader map for material Topmat, compiling. 
+[2017.11.21-05.20.53:295][ 82]LogMaterial: Missing cached shader map for material Topmat, compiling. 
+[2017.11.21-05.20.53:455][ 82]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Topmat, compiling. 
+[2017.11.21-05.20.58:859][ 82]TextureStreamingBuild:Display: Compiling optional shaders took 5.432 seconds.
+[2017.11.21-05.21.09:271][ 82]LogSavePackage: Save=535.71ms
+[2017.11.21-05.21.09:271][ 82]LogSavePackage: Moving 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/TopmatFCD3E74C49CB6CDD43C0D18178D82365.tmp' to 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/HighSchoolClassroom/Characters/Regina/Topmat.uasset'
+[2017.11.21-05.21.09:323][ 82]LogSavePackage:Display: Finished SavePackage F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/HighSchoolClassroom/Characters/Regina/Topmat.uasset
+[2017.11.21-05.21.09:349][ 82]MaterialEditorStats: Info Base pass shader: 100 instructions
+[2017.11.21-05.21.09:349][ 82]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2017.11.21-05.21.09:349][ 82]MaterialEditorStats: Info Texture samplers: 7/16
+[2017.11.21-05.21.09:349][ 82]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.21-05.21.35:725][561]LogMaterial: Missing cached shader map for material Hatmat1, compiling. 
+[2017.11.21-05.21.43:763][986]LogMaterial: Missing cached shader map for material Hatmat1, compiling. 
+[2017.11.21-05.21.43:867][986]LogMaterial: Missing cached shader map for material Hatmat1, compiling. 
+[2017.11.21-05.21.43:904][986]LogMaterial: Missing cached shader map for material Hatmat1, compiling. 
+[2017.11.21-05.21.43:976][986]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.11.21-05.21.43:999][986]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.11.21-05.21.44:043][986]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.11.21-05.21.44:065][986]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.11.21-05.21.44:087][986]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.11.21-05.21.47:090][119]LogMaterial: Missing cached shader map for material Hatmat1, compiling. 
+[2017.11.21-05.21.47:136][119]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_5, compiling. 
+[2017.11.21-05.21.50:439][273]LogMaterial: Missing cached shader map for material Hatmat1, compiling. 
+[2017.11.21-05.21.50:512][273]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_5, compiling. 
+[2017.11.21-05.21.51:828][333]LogMaterial: Missing cached shader map for material Hatmat1, compiling. 
+[2017.11.21-05.21.51:876][333]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_5, compiling. 
+[2017.11.21-05.21.53:672][421]LogMaterial: Missing cached shader map for material Hatmat1, compiling. 
+[2017.11.21-05.21.53:762][421]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_5, compiling. 
+[2017.11.21-05.21.56:014][529]LogMaterial: Missing cached shader map for material Hatmat1, compiling. 
+[2017.11.21-05.21.56:079][529]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_5, compiling. 
+[2017.11.21-05.22.00:710][776]LogMaterial: Missing cached shader map for material Hatmat1, compiling. 
+[2017.11.21-05.22.00:760][776]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_5, compiling. 
+[2017.11.21-05.22.04:216][920]LogMaterial: Missing cached shader map for material Hatmat1, compiling. 
+[2017.11.21-05.22.04:333][920]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_5, compiling. 
+[2017.11.21-05.22.08:289][117]MaterialEditorStats: Info Base pass shader: 94 instructions
+[2017.11.21-05.22.08:289][117]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.11.21-05.22.08:289][117]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.11.21-05.22.08:289][117]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.21-05.22.12:997][385]LogMaterial: Missing cached shader map for material Hatmat1, compiling. 
+[2017.11.21-05.22.13:042][385]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_5, compiling. 
+[2017.11.21-05.22.16:899][580]MaterialEditorStats: Info Base pass shader: 94 instructions
+[2017.11.21-05.22.16:899][580]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.11.21-05.22.16:899][580]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.11.21-05.22.16:899][580]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.21-05.22.19:782][751]LogMaterial: Missing cached shader map for material Hatmat1, compiling. 
+[2017.11.21-05.22.19:827][751]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_5, compiling. 
+[2017.11.21-05.22.22:268][869]LogMaterial: Missing cached shader map for material Hatmat1, compiling. 
+[2017.11.21-05.22.22:321][869]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_5, compiling. 
+[2017.11.21-05.22.24:182][957]LogMaterial: Missing cached shader map for material Hatmat1, compiling. 
+[2017.11.21-05.22.24:240][957]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_5, compiling. 
+[2017.11.21-05.22.28:180][148]MaterialEditorStats: Info Base pass shader: 94 instructions
+[2017.11.21-05.22.28:180][148]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.11.21-05.22.28:180][148]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.11.21-05.22.28:180][148]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.21-05.22.31:524][346]LogMaterial: Missing cached shader map for material Hatmat1, compiling. 
+[2017.11.21-05.22.31:558][346]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_5, compiling. 
+[2017.11.21-05.22.35:785][559]MaterialEditorStats: Info Base pass shader: 94 instructions
+[2017.11.21-05.22.35:785][559]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.11.21-05.22.35:785][559]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.11.21-05.22.35:785][559]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.21-05.22.37:370][644]LogMaterial: Missing cached shader map for material Hatmat1, compiling. 
+[2017.11.21-05.22.37:409][644]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_5, compiling. 
+[2017.11.21-05.22.41:005][790]MaterialEditorStats: Info Base pass shader: 94 instructions
+[2017.11.21-05.22.41:005][790]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.11.21-05.22.41:005][790]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.11.21-05.22.41:005][790]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.21-05.22.46:269][ 81]LogMaterial: Missing cached shader map for material Hatmat1, compiling. 
+[2017.11.21-05.22.46:317][ 81]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_5, compiling. 
+[2017.11.21-05.22.48:475][183]LogMaterial: Missing cached shader map for material Hatmat1, compiling. 
+[2017.11.21-05.22.48:540][183]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_5, compiling. 
+[2017.11.21-05.22.50:080][256]LogMaterial: Missing cached shader map for material Hatmat1, compiling. 
+[2017.11.21-05.22.50:123][256]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_5, compiling. 
+[2017.11.21-05.22.53:397][390]LogMaterial: Missing cached shader map for material Hatmat1, compiling. 
+[2017.11.21-05.22.53:468][390]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_5, compiling. 
+[2017.11.21-05.22.56:611][525]LogMaterial: Missing cached shader map for material Hatmat1, compiling. 
+[2017.11.21-05.22.56:676][525]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_5, compiling. 
+[2017.11.21-05.22.58:299][602]LogMaterial: Missing cached shader map for material Hatmat1, compiling. 
+[2017.11.21-05.22.58:344][602]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_5, compiling. 
+[2017.11.21-05.23.07:574][ 78]LogMaterial: Missing cached shader map for material Hatmat1, compiling. 
+[2017.11.21-05.23.11:582][261]MaterialEditorStats: Info Base pass shader: 94 instructions
+[2017.11.21-05.23.11:582][261]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.11.21-05.23.11:582][261]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.11.21-05.23.11:582][261]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.21-05.23.13:682][381]LogMaterial: Missing cached shader map for material Hatmat1, compiling. 
+[2017.11.21-05.23.13:737][381]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_5, compiling. 
+[2017.11.21-05.23.16:808][522]LogMaterial: Missing cached shader map for material Hatmat1, compiling. 
+[2017.11.21-05.23.16:883][522]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.11.21-05.23.20:067][660]LogMaterial: Missing cached shader map for material Hatmat1, compiling. 
+[2017.11.21-05.23.24:386][857]MaterialEditorStats: Info Base pass shader: 97 instructions
+[2017.11.21-05.23.24:386][857]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.11.21-05.23.24:386][857]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.11.21-05.23.24:386][857]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.21-05.23.30:735][220]LogMaterial: Missing cached shader map for material Hatmat1, compiling. 
+[2017.11.21-05.23.30:816][220]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_5, compiling. 
+[2017.11.21-05.23.34:843][402]MaterialEditorStats: Info Base pass shader: 97 instructions
+[2017.11.21-05.23.34:843][402]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.11.21-05.23.34:843][402]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.11.21-05.23.34:843][402]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.21-05.23.41:948][708]LogMaterialEditor: Saving and Compiling material Hatmat1
+[2017.11.21-05.23.42:615][708]LogMaterial: Missing cached shader map for material Hatmat1, compiling. 
+[2017.11.21-05.23.42:738][708]LogMaterial: Missing cached shader map for material Hatmat1, compiling. 
+[2017.11.21-05.23.42:809][708]LogMaterial: Missing cached shader map for material Hatmat1, compiling. 
+[2017.11.21-05.23.42:905][708]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Hatmat1, compiling. 
+[2017.11.21-05.23.45:358][708]TextureStreamingBuild:Display: Compiling optional shaders took 2.477 seconds.
+[2017.11.21-05.23.50:095][708]LogSavePackage: Save=638.87ms
+[2017.11.21-05.23.50:095][708]LogSavePackage: Moving 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/Hatmat12896A8FD4E487993760134947197F346.tmp' to 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/HighSchoolClassroom/Characters/Regina/Hatmat1.uasset'
+[2017.11.21-05.23.50:150][708]LogSavePackage:Display: Finished SavePackage F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/HighSchoolClassroom/Characters/Regina/Hatmat1.uasset
+[2017.11.21-05.23.50:174][708]MaterialEditorStats: Info Base pass shader: 97 instructions
+[2017.11.21-05.23.50:174][708]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.11.21-05.23.50:174][708]MaterialEditorStats: Info Texture samplers: 6/16
+[2017.11.21-05.23.50:174][708]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.21-05.24.04:891][481]Cmd: SELECT NONE
+[2017.11.21-05.25.11:064][387]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Faceless_Cloak_Rigged)
+[2017.11.21-05.26.48:761][407]LogSavePackage: Save=96950.81ms
+[2017.11.21-05.26.48:761][407]LogSavePackage: Moving 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/CleanClassroom_Auto23FDD97AB4ECDD0D79ACBCCAF1B9CF0E8.tmp' to 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/Autosaves/Game/Maps/CleanClassroom_Auto2.umap'
+[2017.11.21-05.26.48:776][407]LogSavePackage:Display: Finished SavePackage F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/Autosaves/Game/Maps/CleanClassroom_Auto2.umap
+[2017.11.21-05.26.48:796][407]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/CleanClassroom' took 97.206
+[2017.11.21-05.26.48:796][407]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 97.206
+[2017.11.21-05.26.48:800][407]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/HighSchoolClassroom/Characters/Regina/Topmat1] ([1] browsable assets)...
+[2017.11.21-05.26.48:830][407]OBJ SavePackage:     Rendered thumbnail for [Material /Game/HighSchoolClassroom/Characters/Regina/Topmat1.Topmat1]
+[2017.11.21-05.26.48:830][407]OBJ SavePackage: Finished generating thumbnails for package [/Game/HighSchoolClassroom/Characters/Regina/Topmat1]
+[2017.11.21-05.26.49:085][407]LogSavePackage: Save=177.65ms
+[2017.11.21-05.26.49:087][407]LogSavePackage: Moving 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/Topmat1_Auto27A6521CB4F21442A0E09BAB0FF619854.tmp' to 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/Autosaves/Game/HighSchoolClassroom/Characters/Regina/Topmat1_Auto2.uasset'
+[2017.11.21-05.26.49:098][407]LogSavePackage:Display: Finished SavePackage F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/Autosaves/Game/HighSchoolClassroom/Characters/Regina/Topmat1_Auto2.uasset
+[2017.11.21-05.26.49:098][407]LogFileHelpers: Auto-saving content packages took 0.299
+[2017.11.21-05.27.17:159][ 26]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Faceless_Cloak_Rigged2)
+[2017.11.21-05.27.17:374][ 35]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (SkeletalMeshComponent0)
+[2017.11.21-05.27.19:380][119]LogMaterial: Missing cached shader map for material Faceless_Mat, compiling. 
+[2017.11.21-05.27.19:612][119]LogMaterial: Missing cached shader map for material Faceless_Mat, compiling. 
+[2017.11.21-05.27.19:689][119]LogMaterial: Missing cached shader map for material Faceless_Mat, compiling. 
+[2017.11.21-05.27.19:761][119]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.11.21-05.27.19:785][119]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.11.21-05.38.26:082][379]LogSavePackage: Save=96463.08ms
+[2017.11.21-05.38.26:083][379]LogSavePackage: Moving 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/CleanClassroom_Auto379D97A2C4A10669FBEA92699D6149C1F.tmp' to 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/Autosaves/Game/Maps/CleanClassroom_Auto3.umap'
+[2017.11.21-05.38.26:100][379]LogSavePackage:Display: Finished SavePackage F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/Autosaves/Game/Maps/CleanClassroom_Auto3.umap
+[2017.11.21-05.38.26:132][379]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/CleanClassroom' took 96.682
+[2017.11.21-05.38.26:132][379]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 96.682
+[2017.11.21-07.14.01:246][490]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.21-07.14.17:065][418]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.21-07.14.41:327][859]Cmd: SELECT NONE
+[2017.11.21-07.16.11:819][159]Cmd: SELECT NONE
+[2017.11.21-07.16.19:660][591]LogActorFactory: Actor Factory created Cube
+[2017.11.21-07.16.22:158][733]LogActorFactory: Actor Factory created Cube
+[2017.11.21-07.16.37:869][574]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.11.21-07.16.38:070][574]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.11.21-07.16.38:097][574]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.11.21-07.16.38:159][574]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.21-07.16.39:663][627]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2017.11.21-07.16.39:663][627]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.21-07.16.39:663][627]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.11.21-07.17.13:023][514]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Book11)
+[2017.11.21-07.17.26:921][107]LogMaterial: Missing cached shader map for material Mat_Simple, compiling. 
+[2017.11.21-07.17.27:119][107]LogMaterial: Missing cached shader map for material Mat_Simple, compiling. 
+[2017.11.21-07.17.27:149][107]LogMaterial: Missing cached shader map for material Mat_Simple, compiling. 
+[2017.11.21-07.17.27:269][107]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_3, compiling. 
+[2017.11.21-07.17.27:276][107]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.21-07.17.30:200][236]MaterialEditorStats: Info Base pass shader: 168 instructions
+[2017.11.21-07.17.30:201][236]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.11.21-07.17.30:201][236]MaterialEditorStats: Info Texture samplers: 9/16
+[2017.11.21-07.17.30:201][236]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.21-07.17.44:380][ 12]Cmd: SELECT NONE
+[2017.11.21-07.18.10:804][462]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.11.21-07.18.34:771][838]EditorErrors: New page: Actor attachment
+[2017.11.21-07.18.53:956][980]EditorErrors: New page: Actor attachment
+[2017.11.21-07.19.12:859][ 90]Cmd: SELECT NONE
+[2017.11.21-07.19.17:460][349]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.11.21-07.19.28:508][919]Cmd: DELETE
+[2017.11.21-07.19.28:508][919]Cmd: ACTOR DELETE
+[2017.11.21-07.19.28:511][919]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.21-07.19.28:527][919]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2017.11.21-07.19.35:558][316]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.11.21-07.23.25:463][426]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
+[2017.11.21-07.23.41:395][338]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Folder_02)
+[2017.11.21-07.24.14:506][219]EditorErrors: New page: Actor attachment
+[2017.11.21-07.24.22:454][633]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Folder_03)
+[2017.11.21-07.24.31:169][118]EditorErrors: New page: Actor attachment
+[2017.11.21-07.24.32:422][182]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ScienceLabTable2)
+[2017.11.21-07.24.41:504][683]EditorErrors: New page: Actor attachment
+[2017.11.21-07.25.14:052][475]EditorErrors: New page: Actor attachment
+[2017.11.21-07.26.17:217][925]Cmd: DELETE
+[2017.11.21-07.26.17:217][925]Cmd: ACTOR DELETE
+[2017.11.21-07.26.17:222][925]LogEditorActor: Deleted Actor: Brush
+[2017.11.21-07.26.18:251][925]LogEditorActor: Deleted 1 Actors (1.033 secs)
+[2017.11.21-07.26.49:485][409]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2017.11.21-07.26.49:651][409]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2017.11.21-07.26.49:676][409]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2017.11.21-07.26.49:743][409]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.11.21-07.26.49:761][409]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2017.11.21-07.26.51:047][465]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.11.21-07.26.51:048][465]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.21-07.26.51:048][465]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.21-07.27.18:251][703]LogMaterial: Missing cached shader map for material NewMaterial1, compiling. 
+[2017.11.21-07.27.18:326][703]LogMaterial: Missing cached shader map for material NewMaterial1, compiling. 
+[2017.11.21-07.27.18:352][703]LogMaterial: Missing cached shader map for material NewMaterial1, compiling. 
+[2017.11.21-07.27.19:563][759]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.11.21-07.27.19:563][759]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.21-07.27.19:563][759]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.21-07.27.23:954][  7]LogMaterial: Missing cached shader map for material NewMaterial1, compiling. 
+[2017.11.21-07.27.23:987][  7]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_6, compiling. 
+[2017.11.21-07.27.24:865][ 49]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.11.21-07.27.24:865][ 49]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.21-07.27.24:865][ 49]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.21-07.27.28:845][276]LogMaterial: Missing cached shader map for material NewMaterial1, compiling. 
+[2017.11.21-07.27.28:878][276]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_6, compiling. 
+[2017.11.21-07.27.29:781][316]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.11.21-07.27.29:781][316]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.21-07.27.29:781][316]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.21-07.27.30:406][352]LogMaterialEditor: Saving and Compiling material NewMaterial1
+[2017.11.21-07.27.31:110][352]LogMaterial: Missing cached shader map for material NewMaterial1, compiling. 
+[2017.11.21-07.27.31:187][352]LogMaterial: Missing cached shader map for material NewMaterial1, compiling. 
+[2017.11.21-07.27.31:213][352]LogMaterial: Missing cached shader map for material NewMaterial1, compiling. 
+[2017.11.21-07.27.31:262][352]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy NewMaterial1, compiling. 
+[2017.11.21-07.27.31:827][352]TextureStreamingBuild:Display: Compiling optional shaders took 0.573 seconds.
+[2017.11.21-07.27.33:422][352]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyAssets/NewMaterial1" FILE="F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/MyAssets/NewMaterial1.uasset" SILENT=true
+[2017.11.21-07.27.33:504][352]LogSavePackage: Save=48.40ms
+[2017.11.21-07.27.33:504][352]LogSavePackage: Moving 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/NewMaterial11EDD9E464D5FF6A03CA4D489146A797B.tmp' to 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/MyAssets/NewMaterial1.uasset'
+[2017.11.21-07.27.33:544][352]LogSavePackage:Display: Finished SavePackage F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/MyAssets/NewMaterial1.uasset
+[2017.11.21-07.27.33:559][352]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.11.21-07.27.33:559][352]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.21-07.27.33:559][352]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.11.21-07.27.44:439][818]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyAssets/Black_Mat" FILE="F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/MyAssets/Black_Mat.uasset" SILENT=true
+[2017.11.21-07.27.44:514][818]LogSavePackage: Save=45.65ms
+[2017.11.21-07.27.44:514][818]LogSavePackage: Moving 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/Black_MatB3A5BD7C4FB92F35022BD3893B40ACB7.tmp' to 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/MyAssets/Black_Mat.uasset'
+[2017.11.21-07.27.44:547][818]LogSavePackage:Display: Finished SavePackage F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/MyAssets/Black_Mat.uasset
+[2017.11.21-07.28.09:875][965]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.11.21-07.28.16:361][305]Cmd: SELECT NONE
+[2017.11.21-07.29.14:486][548]Cmd: POLY TEXPAN U=0.000000 V=4.000000
+[2017.11.21-07.29.14:686][560]Cmd: POLY TEXPAN U=0.000000 V=4.000000
+[2017.11.21-07.29.14:852][570]Cmd: POLY TEXPAN U=0.000000 V=4.000000
+[2017.11.21-07.29.15:052][582]Cmd: POLY TEXPAN U=0.000000 V=4.000000
+[2017.11.21-07.29.15:219][592]Cmd: POLY TEXPAN U=0.000000 V=4.000000
+[2017.11.21-07.30.41:401][977]LogEditorViewport: Clicking Background
+[2017.11.21-07.31.30:610][699]LogActorFactory: Actor Factory created Cube
+[2017.11.21-07.31.32:241][789]LogActorFactory: Actor Factory created Cube
+[2017.11.21-07.32.10:964][749]Cmd: DELETE
+[2017.11.21-07.32.10:964][749]Cmd: ACTOR DELETE
+[2017.11.21-07.32.10:969][749]LogEditorActor: Deleted Actor: Brush
+[2017.11.21-07.32.11:638][749]LogEditorActor: Deleted 1 Actors (0.674 secs)
+[2017.11.21-07.32.14:835][916]Cmd: DELETE
+[2017.11.21-07.32.14:835][916]Cmd: ACTOR DELETE
+[2017.11.21-07.32.14:840][916]LogEditorActor: Deleted Actor: Brush
+[2017.11.21-07.32.15:466][916]LogEditorActor: Deleted 1 Actors (0.630 secs)
+[2017.11.21-07.32.16:107][944]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.11.21-07.32.24:345][378]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.11.21-07.32.27:272][544]Cmd: TRANSACTION UNDO
+[2017.11.21-07.32.27:272][544]LogEditorTransaction: Undo Move Actors
+[2017.11.21-07.32.38:633][142]Cmd: SELECT NONE
+[2017.11.21-07.32.42:723][383]EditorErrors: New page: Actor attachment
+[2017.11.21-07.32.46:730][621]EditorErrors: New page: Actor attachment
+[2017.11.21-07.32.55:996][165]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.21-07.32.58:695][324]Cmd: DELETE
+[2017.11.21-07.32.58:695][324]Cmd: ACTOR DELETE
+[2017.11.21-07.32.58:697][324]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.21-07.32.58:708][324]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2017.11.21-07.35.08:995][ 86]LogEditorViewport: Clicking on Actor (context menu): Brush (Box Brush3)
+[2017.11.21-07.35.10:156][141]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2017.11.21-07.35.38:255][606]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight25)
+[2017.11.21-07.35.49:062][238]Cmd: TRANSACTION UNDO
+[2017.11.21-07.35.49:062][238]LogEditorTransaction: Undo Scale Actors
+[2017.11.21-07.35.49:065][238]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/CleanClassroom.CleanClassroom:PersistentLevel.SpotLight25.ArrowComponent0) Component already registered.
+[2017.11.21-07.35.49:065][238]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/CleanClassroom.CleanClassroom:PersistentLevel.SpotLight25.BillboardComponent_6) Component already registered.
+[2017.11.21-07.35.49:065][238]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/CleanClassroom.CleanClassroom:PersistentLevel.SpotLight27.ArrowComponent0) Component already registered.
+[2017.11.21-07.35.49:065][238]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/CleanClassroom.CleanClassroom:PersistentLevel.SpotLight27.BillboardComponent_8) Component already registered.
+[2017.11.21-07.35.49:065][238]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/CleanClassroom.CleanClassroom:PersistentLevel.SpotLight23.ArrowComponent0) Component already registered.
+[2017.11.21-07.35.57:840][757]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight25)
+[2017.11.21-07.36.03:045][ 66]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight23)
+[2017.11.21-07.36.05:288][197]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight27)
+[2017.11.21-07.36.07:030][298]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight25)
+[2017.11.21-07.36.08:928][408]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight23)
+[2017.11.21-07.36.52:535][962]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight28)
+[2017.11.21-07.37.18:500][468]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight24)
+[2017.11.21-07.37.21:816][663]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight30)
+[2017.11.21-07.37.23:376][753]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight24)
+[2017.11.21-07.37.40:105][729]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight33)
+[2017.11.21-07.38.26:819][491]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight25)
+[2017.11.21-07.40.12:786][847]LogSavePackage: Save=99219.06ms
+[2017.11.21-07.40.12:787][847]LogSavePackage: Moving 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/CleanClassroom_Auto4FC11C7E04BE844BBF42C9285BF0D23F5.tmp' to 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/Autosaves/Game/Maps/CleanClassroom_Auto4.umap'
+[2017.11.21-07.40.12:802][847]LogSavePackage:Display: Finished SavePackage F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/Autosaves/Game/Maps/CleanClassroom_Auto4.umap
+[2017.11.21-07.40.12:829][847]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/CleanClassroom' took 99.412
+[2017.11.21-07.40.12:829][847]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 99.412
+[2017.11.21-07.41.20:739][777]Cmd: SELECT NONE
+[2017.11.21-07.44.13:181][940]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.21-07.45.24:013][875]Cmd: SELECT NONE
+[2017.11.21-07.45.38:038][693]LogEditorViewport: Clicking on Actor (LMB): SpotLight (FrontLight)
+[2017.11.21-07.45.42:016][924]Cmd: SELECT NONE
+[2017.11.21-07.48.53:807][863]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (regina4)
+[2017.11.21-07.48.56:878][997]LogMaterial: Missing cached shader map for material Bodymat, compiling. 
+[2017.11.21-07.48.57:115][997]LogMaterial: Missing cached shader map for material Bodymat, compiling. 
+[2017.11.21-07.48.57:154][997]LogMaterial: Missing cached shader map for material Bodymat, compiling. 
+[2017.11.21-07.48.57:256][997]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.11.21-07.48.57:277][997]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.11.21-07.48.57:283][997]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.11.21-07.48.57:288][997]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.11.21-07.48.57:292][997]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.11.21-07.49.00:726][130]LogMaterial: Missing cached shader map for material Bodymat, compiling. 
+[2017.11.21-07.49.00:828][130]LogMaterial: Missing cached shader map for material Bodymat, compiling. 
+[2017.11.21-07.49.04:705][305]MaterialEditorStats: Info Base pass shader: 96 instructions
+[2017.11.21-07.49.04:705][305]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.11.21-07.49.04:705][305]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.11.21-07.49.04:705][305]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.21-07.49.06:900][429]LogMaterial: Missing cached shader map for material Bodymat, compiling. 
+[2017.11.21-07.49.06:984][429]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.11.21-07.49.08:847][524]LogMaterialEditor: Saving and Compiling material Bodymat
+[2017.11.21-07.49.09:689][524]LogMaterial: Missing cached shader map for material Bodymat, compiling. 
+[2017.11.21-07.49.09:862][524]LogMaterial: Missing cached shader map for material Bodymat, compiling. 
+[2017.11.21-07.49.10:096][524]LogMaterial: Missing cached shader map for material Bodymat, compiling. 
+[2017.11.21-07.49.10:228][524]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Bodymat, compiling. 
+[2017.11.21-07.49.14:577][524]TextureStreamingBuild:Display: Compiling optional shaders took 4.363 seconds.
+[2017.11.21-07.49.20:876][524]LogSavePackage: Save=82.24ms
+[2017.11.21-07.49.20:876][524]LogSavePackage: Moving 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/Bodymat3C3CC7B74972AD0BAC4064A45941B46B.tmp' to 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/HighSchoolClassroom/Characters/Regina/Bodymat.uasset'
+[2017.11.21-07.49.20:922][524]LogSavePackage:Display: Finished SavePackage F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/HighSchoolClassroom/Characters/Regina/Bodymat.uasset
+[2017.11.21-07.49.20:994][524]MaterialEditorStats: Info Base pass shader: 100 instructions
+[2017.11.21-07.49.20:994][524]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2017.11.21-07.49.20:994][524]MaterialEditorStats: Info Texture samplers: 7/16
+[2017.11.21-07.49.20:994][524]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.21-07.49.28:099][930]Cmd: SELECT NONE
+[2017.11.21-07.49.37:701][496]LogRenderer: Reallocating scene render targets to support 1932x1080 NumSamples 1 (Frame:542050).
+[2017.11.21-07.49.43:105][751]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (regina4)
+[2017.11.21-07.49.43:948][789]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.21-07.49.56:180][383]Cmd: SELECT NONE
+[2017.11.21-07.52.08:368][633]LogSavePackage: Save=106880.21ms
+[2017.11.21-07.52.08:368][633]LogSavePackage: Moving 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/CleanClassroom_Auto5D8F652AE46D19ABA581469BB50F5360C.tmp' to 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/Autosaves/Game/Maps/CleanClassroom_Auto5.umap'
+[2017.11.21-07.52.08:387][633]LogSavePackage:Display: Finished SavePackage F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/Autosaves/Game/Maps/CleanClassroom_Auto5.umap
+[2017.11.21-07.52.08:427][633]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/CleanClassroom' took 107.098
+[2017.11.21-07.52.08:427][633]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 107.098
+[2017.11.21-07.55.13:329][277]Cmd: SELECT NONE
+[2017.11.21-07.56.42:527][354]Cmd: SELECT NONE
+[2017.11.21-07.57.05:258][615]Cmd: SELECT NONE
+[2017.11.21-07.57.44:461][694]Cmd: SELECT NONE
+[2017.11.21-07.58.12:922][314]LogEditorViewport: Clicking on Actor (LMB): SpotLight (FrontLight)
+[2017.11.21-08.00.54:018][396]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/CleanClassroom" FILE="F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/Maps/CleanClassroom.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.21-08.02.35:751][396]LogSavePackage: Save=101562.70ms
+[2017.11.21-08.02.35:751][396]LogSavePackage: Moving 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/CleanClassroomAF26DD93478E158B8914CAB20EBA5F83.tmp' to 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/Maps/CleanClassroom.umap'
+[2017.11.21-08.02.36:007][396]LogSavePackage:Display: Finished SavePackage F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/Maps/CleanClassroom.umap
+[2017.11.21-08.02.36:369][396]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/cleanClassroom_BuiltData" FILE="F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/Maps/cleanClassroom_BuiltData.uasset" SILENT=true
+[2017.11.21-08.02.41:998][396]LogSavePackage: Save=5022.29ms
+[2017.11.21-08.02.41:998][396]LogSavePackage: Moving 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/cleanClassroom_BuiltData91BEA8D0426B0D5798B45AA44B94525E.tmp' to 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/Maps/cleanClassroom_BuiltData.uasset'
+[2017.11.21-08.02.42:061][396]LogSavePackage:Display: Finished SavePackage F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/Maps/cleanClassroom_BuiltData.uasset
+[2017.11.21-08.04.42:813][750]LogSavePackage: Save=141.62ms
+[2017.11.21-08.04.42:813][750]LogSavePackage: Moving 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/Topmat16F9D8EA046492544DE04E6B25456465F.tmp' to 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/HighSchoolClassroom/Characters/Regina/Topmat1.uasset'
+[2017.11.21-08.04.42:956][750]LogSavePackage:Display: Finished SavePackage F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/HighSchoolClassroom/Characters/Regina/Topmat1.uasset
+[2017.11.21-08.04.44:084][750]LogSavePackage: Save=977.93ms
+[2017.11.21-08.04.44:084][750]LogSavePackage: Moving 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/Topmat1FBCD879C49B1CCED837BA88C050CEC6E.tmp' to 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/HighSchoolClassroom/Characters/Remy/Topmat1.uasset'
+[2017.11.21-08.04.44:118][750]LogSavePackage:Display: Finished SavePackage F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/HighSchoolClassroom/Characters/Remy/Topmat1.uasset
+[2017.11.21-08.04.44:218][750]LogSavePackage: Save=28.80ms
+[2017.11.21-08.04.44:218][750]LogSavePackage: Moving 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/Inst_Door_016F5A0A6F47BA496D0C23B68E7749529A.tmp' to 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/HighSchoolClassroom/Materials/Instance/Inst_Door_01.uasset'
+[2017.11.21-08.04.44:270][750]LogSavePackage:Display: Finished SavePackage F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/HighSchoolClassroom/Materials/Instance/Inst_Door_01.uasset
+[2017.11.21-08.04.44:360][750]LogSavePackage: Save=25.64ms
+[2017.11.21-08.04.44:360][750]LogSavePackage: Moving 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/Inst_DoorFrame_011BD54C4449434C17CD82BE8FAB906310.tmp' to 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/HighSchoolClassroom/Materials/Instance/Inst_DoorFrame_01.uasset'
+[2017.11.21-08.04.44:401][750]LogSavePackage:Display: Finished SavePackage F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/HighSchoolClassroom/Materials/Instance/Inst_DoorFrame_01.uasset
+[2017.11.21-08.04.45:987][751]Cmd: QUIT_EDITOR
+[2017.11.21-08.04.46:523][751]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.11.21-08.04.46:719][751]LogExit: Preparing to exit.
+[2017.11.21-08.04.50:460][751]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2017.11.21-08.04.50:460][751]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2017.11.21-08.04.50:460][751]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2017.11.21-08.05.23:525][751]LogExit: Editor shut down
+[2017.11.21-08.05.23:555][751]LogExit: Transaction tracking system shut down
+[2017.11.21-08.05.34:736][751]LogObj: Freed 0b from 0 cluster array pools.
+[2017.11.21-08.05.34:736][751]LogExit: Object subsystem successfully closed.
+[2017.11.21-08.05.35:596][751]LogD3D11RHI: Shutdown
+[2017.11.21-08.05.35:596][751]LogD3D11RHI: CleanupD3DDevice
+[2017.11.21-08.05.36:973][751]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.11.21-08.05.42:236][751]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (528)
+[2017.11.21-08.05.42:236][751]LogModuleManager: Shutting down and abandoning module MaterialEditor (526)
+[2017.11.21-08.05.42:236][751]LogModuleManager: Shutting down and abandoning module StatsViewer (524)
+[2017.11.21-08.05.42:252][751]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (522)
+[2017.11.21-08.05.42:271][751]LogModuleManager: Shutting down and abandoning module CrashTracker (520)
+[2017.11.21-08.05.42:271][751]LogModuleManager: Shutting down and abandoning module SceneOutliner (518)
+[2017.11.21-08.05.42:271][751]LogModuleManager: Shutting down and abandoning module AddContentDialog (516)
+[2017.11.21-08.05.42:283][751]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.11.21-08.05.43:061][751]LogModuleManager: Shutting down and abandoning module WidgetCarousel (515)
+[2017.11.21-08.05.43:061][751]LogModuleManager: Shutting down and abandoning module EditorWidgets (512)
+[2017.11.21-08.05.43:061][751]LogModuleManager: Shutting down and abandoning module CollectionManager (510)
+[2017.11.21-08.05.43:098][751]LogDirectoryWatcher: A directory notification for 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/Collections/' was aborted.
+[2017.11.21-08.05.43:098][751]LogDirectoryWatcher: A directory notification for 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/Developers/colson/Collections/' was aborted.
+[2017.11.21-08.05.43:098][751]LogDirectoryWatcher: A directory notification for 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Saved/Collections/' was aborted.
+[2017.11.21-08.05.43:098][751]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.11.21-08.05.43:098][751]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.11.21-08.05.43:269][751]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.11.21-08.05.43:379][751]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.11.21-08.05.43:379][751]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.11.21-08.05.43:379][751]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.11.21-08.05.43:394][751]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.11.21-08.05.43:395][751]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.11.21-08.05.43:395][751]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.11.21-08.05.43:412][751]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.11.21-08.05.43:412][751]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.11.21-08.05.43:454][751]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.11.21-08.05.43:510][751]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.11.21-08.05.43:671][751]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.11.21-08.05.43:671][751]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.11.21-08.05.43:671][751]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.11.21-08.05.43:671][751]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.11.21-08.05.43:671][751]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.11.21-08.05.43:671][751]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.11.21-08.05.43:685][751]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.11.21-08.05.43:685][751]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.11.21-08.05.43:685][751]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.11.21-08.05.43:685][751]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.11.21-08.05.43:748][751]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.11.21-08.05.43:830][751]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.11.21-08.05.43:830][751]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.11.21-08.05.43:845][751]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.11.21-08.05.43:845][751]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.11.21-08.05.43:845][751]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.11.21-08.05.44:194][751]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.11.21-08.05.44:404][751]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.11.21-08.05.44:495][751]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.11.21-08.05.44:545][751]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.11.21-08.05.44:588][751]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.11.21-08.05.44:653][751]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.11.21-08.05.44:653][751]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.11.21-08.05.44:758][751]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.11.21-08.05.45:552][751]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.11.21-08.05.45:552][751]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.11.21-08.05.45:552][751]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.11.21-08.05.45:552][751]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.11.21-08.05.45:586][751]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.11.21-08.05.45:605][751]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.11.21-08.05.45:625][751]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.11.21-08.05.45:705][751]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.11.21-08.05.45:738][751]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.11.21-08.05.45:778][751]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.11.21-08.05.45:778][751]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.11.21-08.05.45:795][751]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.11.21-08.05.45:842][751]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.11.21-08.05.45:842][751]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.11.21-08.05.45:875][751]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.11.21-08.05.45:875][751]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.11.21-08.05.45:911][751]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.11.21-08.05.45:950][751]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.11.21-08.05.45:950][751]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.11.21-08.05.45:950][751]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.11.21-08.05.46:044][751]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.11.21-08.05.46:100][751]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.11.21-08.05.46:107][751]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.11.21-08.05.46:120][751]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.11.21-08.05.46:186][751]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.11.21-08.05.46:224][751]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.11.21-08.05.46:263][751]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.11.21-08.05.46:356][751]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.11.21-08.05.46:356][751]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.11.21-08.05.46:377][751]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.11.21-08.05.46:377][751]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.11.21-08.05.46:518][751]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.11.21-08.05.46:518][751]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.11.21-08.05.46:518][751]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.11.21-08.05.46:559][751]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.11.21-08.05.46:610][751]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.11.21-08.05.46:652][751]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.11.21-08.05.46:664][751]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.11.21-08.05.46:775][751]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.11.21-08.05.46:818][751]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.11.21-08.05.46:829][751]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.11.21-08.05.46:830][751]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.11.21-08.05.46:830][751]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.11.21-08.05.46:830][751]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.11.21-08.05.46:830][751]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.11.21-08.05.47:013][751]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.11.21-08.05.47:019][751]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.11.21-08.05.47:019][751]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.11.21-08.05.47:019][751]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.11.21-08.05.47:020][751]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.11.21-08.05.47:020][751]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.11.21-08.05.47:020][751]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.11.21-08.05.47:043][751]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.11.21-08.05.47:081][751]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.11.21-08.05.47:154][751]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.11.21-08.05.47:183][751]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.11.21-08.05.47:183][751]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.11.21-08.05.47:212][751]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.11.21-08.05.47:212][751]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.11.21-08.05.47:231][751]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.11.21-08.05.47:232][751]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.11.21-08.05.47:232][751]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.11.21-08.05.47:232][751]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.11.21-08.05.47:232][751]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.11.21-08.05.47:245][751]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.11.21-08.05.47:245][751]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.11.21-08.05.47:245][751]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.11.21-08.05.47:364][751]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.11.21-08.05.47:364][751]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.11.21-08.05.47:381][751]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.11.21-08.05.47:411][751]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.11.21-08.05.47:411][751]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.11.21-08.05.47:411][751]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.11.21-08.05.47:411][751]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.11.21-08.05.47:411][751]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.11.21-08.05.47:411][751]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.11.21-08.05.47:484][751]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.11.21-08.05.47:529][751]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.11.21-08.05.47:540][751]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.11.21-08.05.47:540][751]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.11.21-08.05.47:540][751]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.11.21-08.05.47:558][751]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.11.21-08.05.47:710][751]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.11.21-08.05.47:820][751]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.11.21-08.05.47:895][751]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.11.21-08.05.47:895][751]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.11.21-08.05.47:895][751]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.11.21-08.05.47:895][751]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.11.21-08.05.47:927][751]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.11.21-08.05.48:162][751]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.11.21-08.05.48:332][751]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.11.21-08.05.48:370][751]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.11.21-08.05.48:416][751]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.11.21-08.05.48:465][751]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.11.21-08.05.48:497][751]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.11.21-08.05.48:497][751]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.11.21-08.05.48:497][751]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.11.21-08.05.48:497][751]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.11.21-08.05.48:497][751]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.11.21-08.05.48:609][751]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.11.21-08.05.48:745][751]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.11.21-08.05.48:811][751]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.11.21-08.05.48:828][751]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.11.21-08.05.48:828][751]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.11.21-08.05.48:859][751]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.11.21-08.05.48:859][751]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.11.21-08.05.48:865][751]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.11.21-08.05.48:865][751]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.11.21-08.05.48:865][751]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.11.21-08.05.48:895][751]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.11.21-08.05.48:928][751]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.11.21-08.05.48:949][751]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.11.21-08.05.48:982][751]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.11.21-08.05.48:982][751]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.11.21-08.05.49:007][751]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.11.21-08.05.49:048][751]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.11.21-08.05.49:060][751]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.11.21-08.05.49:060][751]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.11.21-08.05.49:114][751]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.11.21-08.05.49:114][751]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.11.21-08.05.49:167][751]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.11.21-08.05.49:186][751]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.11.21-08.05.49:256][751]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.11.21-08.05.49:381][751]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.11.21-08.05.49:488][751]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.11.21-08.05.49:488][751]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.11.21-08.05.49:566][751]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.11.21-08.05.49:698][751]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.11.21-08.05.49:698][751]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.11.21-08.05.49:730][751]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.11.21-08.05.49:730][751]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.11.21-08.05.49:730][751]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.11.21-08.05.49:731][751]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.11.21-08.05.49:731][751]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.11.21-08.05.49:731][751]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.11.21-08.05.50:587][751]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.11.21-08.05.50:587][751]LogDirectoryWatcher: A directory notification for 'F:/EAE 3660/dream team/bedroom, classroom, stairs/Content/' was aborted.
+[2017.11.21-08.05.50:587][751]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.11.21-08.05.50:587][751]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.11.21-08.05.50:654][751]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.11.21-08.05.50:659][751]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.11.21-08.05.50:659][751]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.11.21-08.05.50:659][751]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.11.21-08.05.50:659][751]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.11.21-08.05.50:894][751]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.11.21-08.05.50:908][751]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.11.21-08.05.50:919][751]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.11.21-08.05.50:927][751]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.11.21-08.05.50:998][751]LogDerivedDataCache: Shutdown
+[2017.11.21-08.05.50:998][751]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.11.21-08.05.50:998][751]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.11.21-08.05.51:015][751]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.11.21-08.05.51:061][751]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.11.21-08.05.51:070][751]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.11.21-08.05.51:091][751]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.11.21-08.05.51:117][751]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.11.21-08.05.51:117][751]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.11.21-08.05.51:117][751]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.11.21-08.05.51:131][751]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.11.21-08.05.51:166][751]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.11.21-08.05.51:166][751]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.11.21-08.05.51:166][751]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.11.21-08.05.51:166][751]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.11.21-08.05.51:166][751]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.11.21-08.05.51:183][751]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.11.21-08.05.51:194][751]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.11.21-08.05.51:194][751]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.11.21-08.05.51:194][751]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.11.21-08.05.51:225][751]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.11.21-08.05.51:240][751]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.11.21-08.05.51:240][751]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.11.21-08.05.51:240][751]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.11.21-08.05.51:253][751]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.11.21-08.05.51:253][751]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.11.21-08.05.51:274][751]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.11.21-08.05.51:274][751]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.11.21-08.05.51:281][751]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.11.21-08.05.51:303][751]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.11.21-08.05.51:313][751]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.11.21-08.05.51:333][751]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.11.21-08.05.51:333][751]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.11.21-08.05.51:340][751]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.11.21-08.05.51:340][751]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.11.21-08.05.51:341][751]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.11.21-08.05.51:341][751]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.11.21-08.05.51:341][751]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.11.21-08.05.51:341][751]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.11.21-08.05.51:341][751]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.11.21-08.05.51:341][751]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.11.21-08.05.51:341][751]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.11.21-08.05.51:341][751]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.11.21-08.05.51:341][751]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.11.21-08.05.51:341][751]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.11.21-08.05.51:361][751]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.11.21-08.05.51:361][751]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.11.21-08.05.51:382][751]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.11.21-08.05.51:383][751]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.11.21-08.05.51:383][751]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.11.21-08.05.51:383][751]LogOnline:Display: Unloading online subsystem: NULL
+[2017.11.21-08.05.51:495][751]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.11.21-08.05.51:624][751]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.11.21-08.05.51:624][751]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.11.21-08.05.51:652][751]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BCBF30514-457C-6C89-E56B-54866927524C%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=4f5ceedf44d9b7c3d4bdf2b89031907f%7C6e002c7316ca4d2e852f0c890395a9ee%7C348abf01-cd0b-407a-9603-5cf39c6746a3&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.11.21-08.05.51:667][751]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.11.21-08.05.51:690][751]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.11.21-08.05.51:713][751]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.11.21-08.05.51:727][751]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.11.21-08.05.51:797][751]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.11.21-08.05.51:819][751]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.11.21-08.05.51:819][751]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.11.21-08.05.51:819][751]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.11.21-08.05.51:819][751]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.11.21-08.05.51:981][751]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.11.21-08.05.52:013][751]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.11.21-08.05.52:013][751]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.11.21-08.05.52:043][751]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.11.21-08.05.52:043][751]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.11.21-08.05.52:043][751]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.11.21-08.05.52:043][751]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.11.21-08.05.52:066][751]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.11.21-08.05.52:081][751]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.11.21-08.05.52:099][751]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.11.21-08.05.52:123][751]LogExit: Exiting.
+[2017.11.21-08.05.52:284][751]Log file closed, 11/21/17 01:05:52
