@@ -1,0 +1,694 @@
+﻿Log file open, 11/25/17 19:24:34
+LogInit:Display: Running engine for game: Classes&Bedroom
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-879660793) SRandInit(-879660793).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.101882
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.11.26-02.24.36:078][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.26-02.24.36:078][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.26-02.24.36:197][  0]LogInit: Computer: UNAMIS2016
+[2017.11.26-02.24.36:197][  0]LogInit: User: colson
+[2017.11.26-02.24.36:197][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.11.26-02.24.36:197][  0]LogInit: High frequency timer resolution =2.531249 MHz
+[2017.11.26-02.24.36:197][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2017.11.26-02.24.36:197][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.26-02.24.36:197][  0]LogMemory: Process Physical Memory: 274.11 MB used, 274.11 MB peak
+[2017.11.26-02.24.36:197][  0]LogMemory: Process Virtual Memory: 261.18 MB used, 261.18 MB peak
+[2017.11.26-02.24.36:197][  0]LogMemory: Physical Memory: 7676.34 MB used,  4550.25 MB free, 12226.59 MB total
+[2017.11.26-02.24.36:197][  0]LogMemory: Virtual Memory: 638.72 MB used,  4550.25 MB free, 134217728.00 MB total
+[2017.11.26-02.24.36:749][  0]LogInit: Using OS detected language (en-US).
+[2017.11.26-02.24.36:750][  0]LogInit: Using OS detected locale (en-US).
+[2017.11.26-02.24.36:770][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.11.26-02.24.50:196][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.26-02.24.50:237][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 965M' (Feature Level 11_0)
+[2017.11.26-02.24.50:237][  0]LogD3D11RHI:       1969/0/6113 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.11.26-02.24.50:270][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.11.26-02.24.50:270][  0]LogD3D11RHI:       0/0/6113 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.11.26-02.24.50:270][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.11.26-02.24.50:279][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.26-02.24.50:279][  0]LogD3D11RHI:     GPU DeviceId: 0x1619 (for the marketing name, search the web for "GPU Device Id")
+[2017.11.26-02.24.50:279][  0]LogWindows: EnumDisplayDevices:
+[2017.11.26-02.24.50:279][  0]LogWindows:    0. 'NVIDIA GeForce GTX 965M' (P:1 D:1)
+[2017.11.26-02.24.50:279][  0]LogWindows:    1. 'NVIDIA GeForce GTX 965M' (P:0 D:1)
+[2017.11.26-02.24.50:279][  0]LogWindows:    2. 'NVIDIA GeForce GTX 965M' (P:0 D:0)
+[2017.11.26-02.24.50:280][  0]LogWindows:    3. 'NVIDIA GeForce GTX 965M' (P:0 D:0)
+[2017.11.26-02.24.50:280][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.11.26-02.24.50:280][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 965M
+[2017.11.26-02.24.50:280][  0]LogD3D11RHI:   Driver Version: 368.39 (internal:10.18.13.6839, unified:368.39)
+[2017.11.26-02.24.50:280][  0]LogD3D11RHI:      Driver Date: 6-2-2016
+[2017.11.26-02.24.50:280][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.11.26-02.24.50:338][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.26-02.24.50:350][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.11.26-02.24.50:441][  0]LogShaderCompilers: Guid format shader working directory is -29 characters bigger than the processId version (../../../../../../Users/colso/Documents/GitHub/Dreamer/bedroom& classrooms/Intermediate/Shaders/WorkingDirectory/16124/).
+[2017.11.26-02.24.50:441][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/colso/AppData/Local/Temp/UnrealShaderWorkingDir/E457AA2D493150426B636C8AB18AB18C/'.
+[2017.11.26-02.24.50:441][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.11.26-02.24.52:819][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.26-02.24.52:876][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.11.26-02.24.52:932][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.26-02.24.52:986][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.11.26-02.24.53:092][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.11.26-02.24.53:170][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.26-02.24.53:238][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.26-02.24.53:332][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.26-02.24.53:379][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.11.26-02.24.53:481][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.11.26-02.24.53:561][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.26-02.24.53:661][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.26-02.24.53:742][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.26-02.24.53:825][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.26-02.24.53:912][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.26-02.24.54:051][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.26-02.24.54:051][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.26-02.24.54:152][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.11.26-02.24.54:345][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.11.26-02.24.54:375][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.11.26-02.24.54:450][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.26-02.24.54:537][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.26-02.24.54:624][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.26-02.24.54:847][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.11.26-02.24.54:848][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.11.26-02.24.56:993][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.11.26-02.25.15:592][  0]LogDerivedDataCache: Loaded boot cache 18.57s 90MB C:/Users/colso/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.11.26-02.25.15:593][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/colso/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.11.26-02.25.15:593][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/colso/Documents/GitHub/Dreamer/bedroom& classrooms/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.26-02.25.15:593][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.26-02.25.15:593][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/colso/Documents/GitHub/Dreamer/bedroom& classrooms/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.26-02.25.15:593][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.26-02.25.15:772][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.26-02.25.15:784][  0]LogDerivedDataCache: Using Local data cache path C:/Users/colso/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.26-02.25.15:796][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.11.26-02.25.15:797][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.26-02.25.15:797][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.26-02.25.15:797][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.26-02.25.20:027][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.26-02.25.20:111][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.11.26-02.25.20:345][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.26-02.25.20:427][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.26-02.25.20:500][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.26-02.25.20:500][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.11.26-02.25.20:500][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.11.26-02.25.21:383][  0]LogNetVersion: Classes&Bedroom , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1722331080)
+[2017.11.26-02.25.21:450][  0]LogAssetRegistry: FAssetRegistry took 0.0253 seconds to start up
+[2017.11.26-02.25.21:578][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.105835 seconds
+[2017.11.26-02.25.21:584][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.11.26-02.25.21:584][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.11.26-02.25.21:584][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.26-02.25.21:655][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.26-02.26.02:788][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.26-02.26.02:842][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.26-02.26.03:990][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.26-02.26.04:522][  0]SourceControl: Info Source control is disabled
+[2017.11.26-02.26.04:546][  0]SourceControl: Info Source control is disabled
+[2017.11.26-02.26.04:642][  0]SourceControl: Info Source control is disabled
+[2017.11.26-02.26.04:727][  0]SourceControl: Info Source control is disabled
+[2017.11.26-02.26.06:427][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.26-02.26.07:336][  0]LogEngine: Initializing Engine...
+[2017.11.26-02.26.07:337][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.11.26-02.26.07:593][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.26-02.26.07:593][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.26-02.26.07:773][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.26-02.26.07:833][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.26-02.26.07:995][  0]LogInit: FAudioDevice initialized.
+[2017.11.26-02.26.08:067][  0]LogDerivedDataCache: Saved boot cache 0.07s 90MB C:/Users/colso/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.11.26-02.26.08:077][  0]LogInit: Texture streaming: Enabled
+[2017.11.26-02.26.08:257][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.26-02.26.08:270][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={7A8DC602-4ABC-ED2D-97DF-D8BBCC450261}
+[2017.11.26-02.26.08:789][  0]LogInit: Transaction tracking system initialized
+[2017.11.26-02.26.09:249][  0]BlueprintLog: New page: Editor Load
+[2017.11.26-02.26.10:906][  0]LocalizationService: Info Localization service is disabled
+[2017.11.26-02.26.12:230][  0]LogConsoleResponse:Display: 
+[2017.11.26-02.26.13:513][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.26-02.26.13:513][  0]LogCook:Display: Mobile HDR setting 1
+[2017.11.26-02.26.14:507][  0]LogFileCache: Scanning file cache for directory 'C:/Users/colso/Documents/GitHub/Dreamer/bedroom& classrooms/Content/' took 0.14s
+[2017.11.26-02.26.16:939][  0]SourceControl: Info Source control is disabled
+[2017.11.26-02.26.17:132][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.11.26-02.26.17:134][  0]LogSlate: Took 0.000275 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.26-02.26.33:934][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.11.26-02.26.33:949][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.11.26-02.26.36:108][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.11.26-02.26.36:122][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.11.26-02.26.37:522][  0]Cmd: MAP LOAD FILE="../../../../../../Users/colso/Documents/GitHub/Dreamer/bedroom& classrooms/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.26-02.26.37:523][  0]LogEditorServer:Warning: Can't find file '../../../../../../Users/colso/Documents/GitHub/Dreamer/bedroom& classrooms/Content/StarterContent/Maps/Minimal_Default.umap'
+[2017.11.26-02.26.37:523][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.26-02.26.37:583][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 60.584ms to complete.
+[2017.11.26-02.26.37:583][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.061
+[2017.11.26-02.26.37:899][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_e8_0///####STATCAT_Advanced#### old //STATGROUP_Threads//SplashScreenThread///Thread_5638_0///####STATCAT_Advanced####
+[2017.11.26-02.26.37:899][  0]LogCollectionManager: Loaded 0 collections in 0.001590 seconds
+[2017.11.26-02.26.37:980][  0]LogFileCache: Scanning file cache for directory 'C:/Users/colso/Documents/GitHub/Dreamer/bedroom& classrooms/Saved/Collections/' took 0.01s
+[2017.11.26-02.26.37:980][  0]LogFileCache: Scanning file cache for directory 'C:/Users/colso/Documents/GitHub/Dreamer/bedroom& classrooms/Content/Developers/colson/Collections/' took 0.01s
+[2017.11.26-02.26.37:980][  0]LogFileCache: Scanning file cache for directory 'C:/Users/colso/Documents/GitHub/Dreamer/bedroom& classrooms/Content/Collections/' took 0.01s
+[2017.11.26-02.26.37:980][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.11.26-02.26.37:990][  0]LogContentBrowser: Native class hierarchy populated in 0.0098 seconds. Added 2329 classes and 491 folders.
+[2017.11.26-02.26.38:058][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.11.26-02.26.43:746][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.11.26-02.26.44:108][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.11.26-02.26.44:153][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.11.26-02.26.44:162][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.11.26-02.26.44:238][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.11.26-02.26.44:238][  0]LogLoad: (Engine Initialization) Total time: 137.79 seconds
+[2017.11.26-02.26.44:238][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.27 seconds
+[2017.11.26-02.26.44:238][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.11.26-02.26.44:238][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.11.26-02.26.44:256][  0]LogOcInput: OculusInput pre-init called
+[2017.11.26-02.26.44:256][  0]LogHMD: Starting GearVRController plugin
+[2017.11.26-02.26.44:290][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.11.26-02.26.44:355][  0]LogSlate: Took 0.062480 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.26-02.26.44:355][  0]LogSlate: Took 0.000181 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.26-02.26.44:532][  2]LogRenderer: Reallocating scene render targets to support 1132x928 NumSamples 1 (Frame:1).
+[2017.11.26-02.26.44:742][  2]LogAssetRegistry: Asset discovery search completed in 83.3136 seconds
+[2017.11.26-02.26.44:745][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.11.26-02.26.44:745][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000042 seconds (updated 0 objects)
+[2017.11.26-02.26.49:498][287]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/colso/Documents/GitHub/Dreamer/bedroom& classrooms/Content/' took 5.23s
+[2017.11.26-02.28.02:968][678]LogSlate: Took 0.022450 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.26-02.28.21:335][746]LogRenderer: Reallocating scene render targets to support 1272x928 NumSamples 1 (Frame:5144).
+[2017.11.26-02.28.21:439][747]LogRenderer: Reallocating scene render targets to support 1320x928 NumSamples 1 (Frame:5146).
+[2017.11.26-02.28.21:576][748]LogRenderer: Reallocating scene render targets to support 1384x928 NumSamples 1 (Frame:5148).
+[2017.11.26-02.28.21:663][749]LogRenderer: Reallocating scene render targets to support 1388x928 NumSamples 1 (Frame:5150).
+[2017.11.26-02.28.34:910][454]LogSlate: Took 0.000151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.26-02.28.34:970][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/Book10_FoliageType'
+[2017.11.26-02.28.34:970][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/Book10_FoliageType' while loading ../../../../../../Users/colso/Documents/GitHub/Dreamer/bedroom& classrooms/Content/Maps/CleanClassroom.umap.
+[2017.11.26-02.28.34:970][454]LoadErrors:Error: Error /Game/Maps/CleanClassroom : Can't find file for asset. /Game/HighSchoolClassroom/Meshes/Book10_FoliageType
+[2017.11.26-02.28.34:970][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/Book2_FoliageType'
+[2017.11.26-02.28.34:970][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/Book2_FoliageType' while loading ../../../../../../Users/colso/Documents/GitHub/Dreamer/bedroom& classrooms/Content/Maps/CleanClassroom.umap.
+[2017.11.26-02.28.34:970][454]LoadErrors:Error: Error /Game/Maps/CleanClassroom : Can't find file for asset. /Game/HighSchoolClassroom/Meshes/Book2_FoliageType
+[2017.11.26-02.28.34:970][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/Book3_FoliageType'
+[2017.11.26-02.28.34:970][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/Book3_FoliageType' while loading ../../../../../../Users/colso/Documents/GitHub/Dreamer/bedroom& classrooms/Content/Maps/CleanClassroom.umap.
+[2017.11.26-02.28.34:970][454]LoadErrors:Error: Error /Game/Maps/CleanClassroom : Can't find file for asset. /Game/HighSchoolClassroom/Meshes/Book3_FoliageType
+[2017.11.26-02.28.34:971][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/Book4_FoliageType'
+[2017.11.26-02.28.34:971][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/Book4_FoliageType' while loading ../../../../../../Users/colso/Documents/GitHub/Dreamer/bedroom& classrooms/Content/Maps/CleanClassroom.umap.
+[2017.11.26-02.28.34:971][454]LoadErrors:Error: Error /Game/Maps/CleanClassroom : Can't find file for asset. /Game/HighSchoolClassroom/Meshes/Book4_FoliageType
+[2017.11.26-02.28.34:971][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/Book5_FoliageType'
+[2017.11.26-02.28.34:971][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/Book5_FoliageType' while loading ../../../../../../Users/colso/Documents/GitHub/Dreamer/bedroom& classrooms/Content/Maps/CleanClassroom.umap.
+[2017.11.26-02.28.34:971][454]LoadErrors:Error: Error /Game/Maps/CleanClassroom : Can't find file for asset. /Game/HighSchoolClassroom/Meshes/Book5_FoliageType
+[2017.11.26-02.28.34:971][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/Book6_FoliageType'
+[2017.11.26-02.28.34:971][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/Book6_FoliageType' while loading ../../../../../../Users/colso/Documents/GitHub/Dreamer/bedroom& classrooms/Content/Maps/CleanClassroom.umap.
+[2017.11.26-02.28.34:971][454]LoadErrors:Error: Error /Game/Maps/CleanClassroom : Can't find file for asset. /Game/HighSchoolClassroom/Meshes/Book6_FoliageType
+[2017.11.26-02.28.34:972][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/Book7_FoliageType'
+[2017.11.26-02.28.34:972][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/Book7_FoliageType' while loading ../../../../../../Users/colso/Documents/GitHub/Dreamer/bedroom& classrooms/Content/Maps/CleanClassroom.umap.
+[2017.11.26-02.28.34:972][454]LoadErrors:Error: Error /Game/Maps/CleanClassroom : Can't find file for asset. /Game/HighSchoolClassroom/Meshes/Book7_FoliageType
+[2017.11.26-02.28.34:972][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/Book8_FoliageType'
+[2017.11.26-02.28.34:972][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/Book8_FoliageType' while loading ../../../../../../Users/colso/Documents/GitHub/Dreamer/bedroom& classrooms/Content/Maps/CleanClassroom.umap.
+[2017.11.26-02.28.34:972][454]LoadErrors:Error: Error /Game/Maps/CleanClassroom : Can't find file for asset. /Game/HighSchoolClassroom/Meshes/Book8_FoliageType
+[2017.11.26-02.28.34:972][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/Book9_FoliageType'
+[2017.11.26-02.28.34:972][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/Book9_FoliageType' while loading ../../../../../../Users/colso/Documents/GitHub/Dreamer/bedroom& classrooms/Content/Maps/CleanClassroom.umap.
+[2017.11.26-02.28.34:972][454]LoadErrors:Error: Error /Game/Maps/CleanClassroom : Can't find file for asset. /Game/HighSchoolClassroom/Meshes/Book9_FoliageType
+[2017.11.26-02.28.35:005][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/CrumpledPaper_01_FoliageType'
+[2017.11.26-02.28.35:005][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/CrumpledPaper_01_FoliageType' while loading ../../../../../../Users/colso/Documents/GitHub/Dreamer/bedroom& classrooms/Content/Maps/CleanClassroom.umap.
+[2017.11.26-02.28.35:005][454]LoadErrors:Error: Error /Game/Maps/CleanClassroom : Can't find file for asset. /Game/HighSchoolClassroom/Meshes/CrumpledPaper_01_FoliageType
+[2017.11.26-02.28.35:005][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/CrumpledPaper_02_FoliageType'
+[2017.11.26-02.28.35:005][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/CrumpledPaper_02_FoliageType' while loading ../../../../../../Users/colso/Documents/GitHub/Dreamer/bedroom& classrooms/Content/Maps/CleanClassroom.umap.
+[2017.11.26-02.28.35:005][454]LoadErrors:Error: Error /Game/Maps/CleanClassroom : Can't find file for asset. /Game/HighSchoolClassroom/Meshes/CrumpledPaper_02_FoliageType
+[2017.11.26-02.28.35:005][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/Marker_FoliageType'
+[2017.11.26-02.28.35:005][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/Marker_FoliageType' while loading ../../../../../../Users/colso/Documents/GitHub/Dreamer/bedroom& classrooms/Content/Maps/CleanClassroom.umap.
+[2017.11.26-02.28.35:005][454]LoadErrors:Error: Error /Game/Maps/CleanClassroom : Can't find file for asset. /Game/HighSchoolClassroom/Meshes/Marker_FoliageType
+[2017.11.26-02.28.35:005][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/Notebook_FoliageType'
+[2017.11.26-02.28.35:005][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/Notebook_FoliageType' while loading ../../../../../../Users/colso/Documents/GitHub/Dreamer/bedroom& classrooms/Content/Maps/CleanClassroom.umap.
+[2017.11.26-02.28.35:005][454]LoadErrors:Error: Error /Game/Maps/CleanClassroom : Can't find file for asset. /Game/HighSchoolClassroom/Meshes/Notebook_FoliageType
+[2017.11.26-02.28.35:005][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/OpenBook_FoliageType'
+[2017.11.26-02.28.35:006][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/OpenBook_FoliageType' while loading ../../../../../../Users/colso/Documents/GitHub/Dreamer/bedroom& classrooms/Content/Maps/CleanClassroom.umap.
+[2017.11.26-02.28.35:006][454]LoadErrors:Error: Error /Game/Maps/CleanClassroom : Can't find file for asset. /Game/HighSchoolClassroom/Meshes/OpenBook_FoliageType
+[2017.11.26-02.28.35:006][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/OpenNotebook_FoliageType'
+[2017.11.26-02.28.35:006][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/OpenNotebook_FoliageType' while loading ../../../../../../Users/colso/Documents/GitHub/Dreamer/bedroom& classrooms/Content/Maps/CleanClassroom.umap.
+[2017.11.26-02.28.35:006][454]LoadErrors:Error: Error /Game/Maps/CleanClassroom : Can't find file for asset. /Game/HighSchoolClassroom/Meshes/OpenNotebook_FoliageType
+[2017.11.26-02.28.35:771][454]LogSlate: Took 0.000198 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.26-02.28.35:845][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/Book10_FoliageType'
+[2017.11.26-02.28.35:845][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/Book10_FoliageType' while loading ../../../../../../Users/colso/Documents/GitHub/Dreamer/bedroom& classrooms/Content/Maps/CleanClassroom.umap.
+[2017.11.26-02.28.35:845][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/Book2_FoliageType'
+[2017.11.26-02.28.35:845][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/Book2_FoliageType' while loading ../../../../../../Users/colso/Documents/GitHub/Dreamer/bedroom& classrooms/Content/Maps/CleanClassroom.umap.
+[2017.11.26-02.28.35:845][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/Book3_FoliageType'
+[2017.11.26-02.28.35:845][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/Book3_FoliageType' while loading ../../../../../../Users/colso/Documents/GitHub/Dreamer/bedroom& classrooms/Content/Maps/CleanClassroom.umap.
+[2017.11.26-02.28.35:846][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/Book4_FoliageType'
+[2017.11.26-02.28.35:846][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/Book4_FoliageType' while loading ../../../../../../Users/colso/Documents/GitHub/Dreamer/bedroom& classrooms/Content/Maps/CleanClassroom.umap.
+[2017.11.26-02.28.35:846][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/Book5_FoliageType'
+[2017.11.26-02.28.35:846][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/Book5_FoliageType' while loading ../../../../../../Users/colso/Documents/GitHub/Dreamer/bedroom& classrooms/Content/Maps/CleanClassroom.umap.
+[2017.11.26-02.28.35:846][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/Book6_FoliageType'
+[2017.11.26-02.28.35:846][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/Book6_FoliageType' while loading ../../../../../../Users/colso/Documents/GitHub/Dreamer/bedroom& classrooms/Content/Maps/CleanClassroom.umap.
+[2017.11.26-02.28.35:846][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/Book7_FoliageType'
+[2017.11.26-02.28.35:846][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/Book7_FoliageType' while loading ../../../../../../Users/colso/Documents/GitHub/Dreamer/bedroom& classrooms/Content/Maps/CleanClassroom.umap.
+[2017.11.26-02.28.35:846][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/Book8_FoliageType'
+[2017.11.26-02.28.35:847][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/Book8_FoliageType' while loading ../../../../../../Users/colso/Documents/GitHub/Dreamer/bedroom& classrooms/Content/Maps/CleanClassroom.umap.
+[2017.11.26-02.28.35:847][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/Book9_FoliageType'
+[2017.11.26-02.28.35:847][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/Book9_FoliageType' while loading ../../../../../../Users/colso/Documents/GitHub/Dreamer/bedroom& classrooms/Content/Maps/CleanClassroom.umap.
+[2017.11.26-02.28.35:856][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/CrumpledPaper_01_FoliageType'
+[2017.11.26-02.28.35:856][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/CrumpledPaper_01_FoliageType' while loading ../../../../../../Users/colso/Documents/GitHub/Dreamer/bedroom& classrooms/Content/Maps/CleanClassroom.umap.
+[2017.11.26-02.28.35:856][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/CrumpledPaper_02_FoliageType'
+[2017.11.26-02.28.35:856][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/CrumpledPaper_02_FoliageType' while loading ../../../../../../Users/colso/Documents/GitHub/Dreamer/bedroom& classrooms/Content/Maps/CleanClassroom.umap.
+[2017.11.26-02.28.35:913][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/Marker_FoliageType'
+[2017.11.26-02.28.35:913][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/Marker_FoliageType' while loading ../../../../../../Users/colso/Documents/GitHub/Dreamer/bedroom& classrooms/Content/Maps/CleanClassroom.umap.
+[2017.11.26-02.28.35:915][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/Notebook_FoliageType'
+[2017.11.26-02.28.35:915][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/Notebook_FoliageType' while loading ../../../../../../Users/colso/Documents/GitHub/Dreamer/bedroom& classrooms/Content/Maps/CleanClassroom.umap.
+[2017.11.26-02.28.35:921][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/OpenBook_FoliageType'
+[2017.11.26-02.28.35:921][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/OpenBook_FoliageType' while loading ../../../../../../Users/colso/Documents/GitHub/Dreamer/bedroom& classrooms/Content/Maps/CleanClassroom.umap.
+[2017.11.26-02.28.35:925][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/OpenNotebook_FoliageType'
+[2017.11.26-02.28.35:925][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/OpenNotebook_FoliageType' while loading ../../../../../../Users/colso/Documents/GitHub/Dreamer/bedroom& classrooms/Content/Maps/CleanClassroom.umap.
+[2017.11.26-02.28.35:968][454]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_DeskLamp_Mat_Inst'
+[2017.11.26-02.28.35:968][454]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_DeskLamp_Mat_Inst' while loading ../../../../../../Users/colso/Documents/GitHub/Dreamer/bedroom& classrooms/Content/Realistic_rendering/Mesh/SM_DeskLamp.uasset.
+[2017.11.26-02.28.35:969][454]LoadErrors:Error: Error /Game/Realistic_rendering/Mesh/SM_DeskLamp : Can't find file for asset. /Game/ArchVis/Materials/M_DeskLamp_Mat_Inst
+[2017.11.26-02.28.35:969][454]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_FloorLamp_Mat_Inst'
+[2017.11.26-02.28.35:969][454]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_FloorLamp_Mat_Inst' while loading ../../../../../../Users/colso/Documents/GitHub/Dreamer/bedroom& classrooms/Content/Realistic_rendering/Mesh/SM_DeskLamp.uasset.
+[2017.11.26-02.28.35:969][454]LoadErrors:Error: Error /Game/Realistic_rendering/Mesh/SM_DeskLamp : Can't find file for asset. /Game/ArchVis/Materials/M_FloorLamp_Mat_Inst
+[2017.11.26-02.28.35:969][454]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_DeskLamp_Mat_Inst'
+[2017.11.26-02.28.35:969][454]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_DeskLamp_Mat_Inst' while loading ../../../../../../Users/colso/Documents/GitHub/Dreamer/bedroom& classrooms/Content/Realistic_rendering/Mesh/SM_DeskLamp.uasset.
+[2017.11.26-02.28.35:969][454]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_FloorLamp_Mat_Inst'
+[2017.11.26-02.28.35:969][454]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_FloorLamp_Mat_Inst' while loading ../../../../../../Users/colso/Documents/GitHub/Dreamer/bedroom& classrooms/Content/Realistic_rendering/Mesh/SM_DeskLamp.uasset.
+[2017.11.26-02.28.36:091][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/Book10_FoliageType'
+[2017.11.26-02.28.36:091][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/Book10_FoliageType' while loading NULL.
+[2017.11.26-02.28.36:091][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/Book2_FoliageType'
+[2017.11.26-02.28.36:091][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/Book2_FoliageType' while loading NULL.
+[2017.11.26-02.28.36:091][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/Book3_FoliageType'
+[2017.11.26-02.28.36:091][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/Book3_FoliageType' while loading NULL.
+[2017.11.26-02.28.36:091][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/Book4_FoliageType'
+[2017.11.26-02.28.36:091][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/Book4_FoliageType' while loading NULL.
+[2017.11.26-02.28.36:091][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/Book5_FoliageType'
+[2017.11.26-02.28.36:091][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/Book5_FoliageType' while loading NULL.
+[2017.11.26-02.28.36:091][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/Book6_FoliageType'
+[2017.11.26-02.28.36:091][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/Book6_FoliageType' while loading NULL.
+[2017.11.26-02.28.36:091][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/Book7_FoliageType'
+[2017.11.26-02.28.36:091][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/Book7_FoliageType' while loading NULL.
+[2017.11.26-02.28.36:092][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/Book8_FoliageType'
+[2017.11.26-02.28.36:092][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/Book8_FoliageType' while loading NULL.
+[2017.11.26-02.28.36:092][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/Book9_FoliageType'
+[2017.11.26-02.28.36:092][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/Book9_FoliageType' while loading NULL.
+[2017.11.26-02.28.36:092][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/CrumpledPaper_01_FoliageType'
+[2017.11.26-02.28.36:092][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/CrumpledPaper_01_FoliageType' while loading NULL.
+[2017.11.26-02.28.36:092][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/CrumpledPaper_02_FoliageType'
+[2017.11.26-02.28.36:092][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/CrumpledPaper_02_FoliageType' while loading NULL.
+[2017.11.26-02.28.36:092][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/Marker_FoliageType'
+[2017.11.26-02.28.36:092][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/Marker_FoliageType' while loading NULL.
+[2017.11.26-02.28.36:092][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/Notebook_FoliageType'
+[2017.11.26-02.28.36:092][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/Notebook_FoliageType' while loading NULL.
+[2017.11.26-02.28.36:092][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/OpenBook_FoliageType'
+[2017.11.26-02.28.36:092][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/OpenBook_FoliageType' while loading NULL.
+[2017.11.26-02.28.36:093][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/OpenNotebook_FoliageType'
+[2017.11.26-02.28.36:093][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/OpenNotebook_FoliageType' while loading NULL.
+[2017.11.26-02.28.36:093][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/Book10_FoliageType'
+[2017.11.26-02.28.36:093][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/Book10_FoliageType' while loading NULL.
+[2017.11.26-02.28.36:093][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/Book2_FoliageType'
+[2017.11.26-02.28.36:093][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/Book2_FoliageType' while loading NULL.
+[2017.11.26-02.28.36:093][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/Book3_FoliageType'
+[2017.11.26-02.28.36:093][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/Book3_FoliageType' while loading NULL.
+[2017.11.26-02.28.36:093][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/Book4_FoliageType'
+[2017.11.26-02.28.36:093][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/Book4_FoliageType' while loading NULL.
+[2017.11.26-02.28.36:093][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/Book5_FoliageType'
+[2017.11.26-02.28.36:093][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/Book5_FoliageType' while loading NULL.
+[2017.11.26-02.28.36:093][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/Book6_FoliageType'
+[2017.11.26-02.28.36:093][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/Book6_FoliageType' while loading NULL.
+[2017.11.26-02.28.36:094][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/Book7_FoliageType'
+[2017.11.26-02.28.36:094][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/Book7_FoliageType' while loading NULL.
+[2017.11.26-02.28.36:094][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/Book8_FoliageType'
+[2017.11.26-02.28.36:094][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/Book8_FoliageType' while loading NULL.
+[2017.11.26-02.28.36:094][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/Book9_FoliageType'
+[2017.11.26-02.28.36:094][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/Book9_FoliageType' while loading NULL.
+[2017.11.26-02.28.36:094][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/CrumpledPaper_01_FoliageType'
+[2017.11.26-02.28.36:094][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/CrumpledPaper_01_FoliageType' while loading NULL.
+[2017.11.26-02.28.36:094][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/CrumpledPaper_02_FoliageType'
+[2017.11.26-02.28.36:094][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/CrumpledPaper_02_FoliageType' while loading NULL.
+[2017.11.26-02.28.36:094][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/Marker_FoliageType'
+[2017.11.26-02.28.36:094][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/Marker_FoliageType' while loading NULL.
+[2017.11.26-02.28.36:094][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/Notebook_FoliageType'
+[2017.11.26-02.28.36:094][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/Notebook_FoliageType' while loading NULL.
+[2017.11.26-02.28.36:095][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/OpenBook_FoliageType'
+[2017.11.26-02.28.36:095][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/OpenBook_FoliageType' while loading NULL.
+[2017.11.26-02.28.36:095][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/OpenNotebook_FoliageType'
+[2017.11.26-02.28.36:095][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/OpenNotebook_FoliageType' while loading NULL.
+[2017.11.26-02.28.36:153][454]LogMaterial: Uniform references updated for custom material expression TemporalAA SampleID.
+[2017.11.26-02.28.36:154][454]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.26-02.28.36:642][454]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_DeskLamp_Mat_Inst'
+[2017.11.26-02.28.36:642][454]LoadErrors: Info Failed to load /Game/ArchVis/Materials/M_DeskLamp_Mat_Inst.M_DeskLamp_Mat_Inst Referenced by SM_DeskLamp
+[2017.11.26-02.28.36:643][454]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_DeskLamp_Mat_Inst' while loading NULL.
+[2017.11.26-02.28.36:643][454]LogLinker:Warning: Can't find file '/Game/ArchVis/Materials/M_FloorLamp_Mat_Inst'
+[2017.11.26-02.28.36:643][454]LoadErrors: Info Failed to load /Game/ArchVis/Materials/M_FloorLamp_Mat_Inst.M_FloorLamp_Mat_Inst Referenced by SM_DeskLamp
+[2017.11.26-02.28.36:643][454]LogLinker:Warning: Can't find file for asset '/Game/ArchVis/Materials/M_FloorLamp_Mat_Inst' while loading NULL.
+[2017.11.26-02.28.38:079][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/OpenNotebook_FoliageType'
+[2017.11.26-02.28.38:079][454]LoadErrors: Info Failed to load /Game/HighSchoolClassroom/Meshes/OpenNotebook_FoliageType.OpenNotebook_FoliageType Referenced by InstancedFoliageActor_0
+[2017.11.26-02.28.38:079][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/OpenNotebook_FoliageType' while loading NULL.
+[2017.11.26-02.28.38:079][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/OpenBook_FoliageType'
+[2017.11.26-02.28.38:079][454]LoadErrors: Info Failed to load /Game/HighSchoolClassroom/Meshes/OpenBook_FoliageType.OpenBook_FoliageType Referenced by InstancedFoliageActor_0
+[2017.11.26-02.28.38:080][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/OpenBook_FoliageType' while loading NULL.
+[2017.11.26-02.28.38:080][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/Notebook_FoliageType'
+[2017.11.26-02.28.38:080][454]LoadErrors: Info Failed to load /Game/HighSchoolClassroom/Meshes/Notebook_FoliageType.Notebook_FoliageType Referenced by InstancedFoliageActor_0
+[2017.11.26-02.28.38:080][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/Notebook_FoliageType' while loading NULL.
+[2017.11.26-02.28.38:080][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/Marker_FoliageType'
+[2017.11.26-02.28.38:080][454]LoadErrors: Info Failed to load /Game/HighSchoolClassroom/Meshes/Marker_FoliageType.Marker_FoliageType Referenced by InstancedFoliageActor_0
+[2017.11.26-02.28.38:080][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/Marker_FoliageType' while loading NULL.
+[2017.11.26-02.28.38:080][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/CrumpledPaper_02_FoliageType'
+[2017.11.26-02.28.38:080][454]LoadErrors: Info Failed to load /Game/HighSchoolClassroom/Meshes/CrumpledPaper_02_FoliageType.CrumpledPaper_02_FoliageType Referenced by InstancedFoliageActor_0
+[2017.11.26-02.28.38:080][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/CrumpledPaper_02_FoliageType' while loading NULL.
+[2017.11.26-02.28.38:080][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/CrumpledPaper_01_FoliageType'
+[2017.11.26-02.28.38:080][454]LoadErrors: Info Failed to load /Game/HighSchoolClassroom/Meshes/CrumpledPaper_01_FoliageType.CrumpledPaper_01_FoliageType Referenced by InstancedFoliageActor_0
+[2017.11.26-02.28.38:080][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/CrumpledPaper_01_FoliageType' while loading NULL.
+[2017.11.26-02.28.38:081][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/Book10_FoliageType'
+[2017.11.26-02.28.38:081][454]LoadErrors: Info Failed to load /Game/HighSchoolClassroom/Meshes/Book10_FoliageType.Book10_FoliageType Referenced by InstancedFoliageActor_0
+[2017.11.26-02.28.38:081][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/Book10_FoliageType' while loading NULL.
+[2017.11.26-02.28.38:081][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/Book2_FoliageType'
+[2017.11.26-02.28.38:081][454]LoadErrors: Info Failed to load /Game/HighSchoolClassroom/Meshes/Book2_FoliageType.Book2_FoliageType Referenced by InstancedFoliageActor_0
+[2017.11.26-02.28.38:081][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/Book2_FoliageType' while loading NULL.
+[2017.11.26-02.28.38:081][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/Book3_FoliageType'
+[2017.11.26-02.28.38:082][454]LoadErrors: Info Failed to load /Game/HighSchoolClassroom/Meshes/Book3_FoliageType.Book3_FoliageType Referenced by InstancedFoliageActor_0
+[2017.11.26-02.28.38:082][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/Book3_FoliageType' while loading NULL.
+[2017.11.26-02.28.38:082][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/Book4_FoliageType'
+[2017.11.26-02.28.38:082][454]LoadErrors: Info Failed to load /Game/HighSchoolClassroom/Meshes/Book4_FoliageType.Book4_FoliageType Referenced by InstancedFoliageActor_0
+[2017.11.26-02.28.38:082][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/Book4_FoliageType' while loading NULL.
+[2017.11.26-02.28.38:082][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/Book5_FoliageType'
+[2017.11.26-02.28.38:082][454]LoadErrors: Info Failed to load /Game/HighSchoolClassroom/Meshes/Book5_FoliageType.Book5_FoliageType Referenced by InstancedFoliageActor_0
+[2017.11.26-02.28.38:082][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/Book5_FoliageType' while loading NULL.
+[2017.11.26-02.28.38:082][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/Book6_FoliageType'
+[2017.11.26-02.28.38:082][454]LoadErrors: Info Failed to load /Game/HighSchoolClassroom/Meshes/Book6_FoliageType.Book6_FoliageType Referenced by InstancedFoliageActor_0
+[2017.11.26-02.28.38:083][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/Book6_FoliageType' while loading NULL.
+[2017.11.26-02.28.38:083][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/Book7_FoliageType'
+[2017.11.26-02.28.38:083][454]LoadErrors: Info Failed to load /Game/HighSchoolClassroom/Meshes/Book7_FoliageType.Book7_FoliageType Referenced by InstancedFoliageActor_0
+[2017.11.26-02.28.38:083][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/Book7_FoliageType' while loading NULL.
+[2017.11.26-02.28.38:083][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/Book8_FoliageType'
+[2017.11.26-02.28.38:083][454]LoadErrors: Info Failed to load /Game/HighSchoolClassroom/Meshes/Book8_FoliageType.Book8_FoliageType Referenced by InstancedFoliageActor_0
+[2017.11.26-02.28.38:083][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/Book8_FoliageType' while loading NULL.
+[2017.11.26-02.28.38:084][454]LogLinker:Warning: Can't find file '/Game/HighSchoolClassroom/Meshes/Book9_FoliageType'
+[2017.11.26-02.28.38:084][454]LoadErrors: Info Failed to load /Game/HighSchoolClassroom/Meshes/Book9_FoliageType.Book9_FoliageType Referenced by InstancedFoliageActor_0
+[2017.11.26-02.28.38:084][454]LogLinker:Warning: Can't find file for asset '/Game/HighSchoolClassroom/Meshes/Book9_FoliageType' while loading NULL.
+[2017.11.26-02.28.52:345][454]MapCheck:Warning: Warning InstancedFoliageActor_0 Foliage instances for a missing static mesh have been removed. 
+[2017.11.26-02.28.52:678][454]LogAIModule: Creating AISystem for world CleanClassroom
+[2017.11.26-02.28.52:726][454]Cmd: MAP LOAD FILE="../../../../../../Users/colso/Documents/GitHub/Dreamer/bedroom& classrooms/Content/Maps/CleanClassroom.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.26-02.28.52:726][454]LightingResults: New page: Lighting Build
+[2017.11.26-02.28.52:770][454]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0005 seconds. Added 5 classes and 0 folders.
+[2017.11.26-02.28.52:770][454]LoadErrors: New page: Loading map: CleanClassroom.umap
+[2017.11.26-02.28.52:771][454]MapCheck: New page: Map Check
+[2017.11.26-02.28.52:771][454]LightingResults: New page: Lighting Build
+[2017.11.26-02.28.54:663][454]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 1024X1024)
+[2017.11.26-02.28.54:891][454]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2017.11.26-02.28.55:154][454]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 1024X1024)
+[2017.11.26-02.28.55:505][454]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1, 1024X1024)
+[2017.11.26-02.28.55:639][454]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2017.11.26-02.28.55:754][454]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1, 1024X1024)
+[2017.11.26-02.28.55:978][454]LogTexture:Display: Building textures: SkyOcclusion0_6 (AutoDXT, 1024X512)
+[2017.11.26-02.28.56:066][454]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2017.11.26-02.28.56:219][454]LogTexture:Display: Building textures: SkyOcclusion1_4 (AutoDXT, 1024X512)
+[2017.11.26-02.28.57:228][454]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.26-02.28.57:312][454]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.26-02.28.57:447][454]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 135.215ms to complete.
+[2017.11.26-02.28.57:448][454]LogFileHelpers: Loading map 'CleanClassroom' took 4.723
+[2017.11.26-02.28.57:490][454]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.28.57:490][454]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.28.57:491][454]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.28.57:491][454]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.29.02:819][654]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.29.02:819][654]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.29.02:820][654]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.29.02:820][654]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.29.34:523][371]Cmd: TRANSACTION UNDO
+[2017.11.26-02.29.34:523][371]LogEditorTransaction: Undo Foliage Editing
+[2017.11.26-02.29.34:572][371]LogSlate: Took 0.000164 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.26-02.30.26:459][415]Cmd: TRANSACTION UNDO
+[2017.11.26-02.30.26:459][415]LogEditorTransaction: Undo Foliage Editing
+[2017.11.26-02.30.36:942][901]Cmd: TRANSACTION UNDO
+[2017.11.26-02.30.36:942][901]LogEditorTransaction: Undo Foliage Editing
+[2017.11.26-02.30.37:896][931]Cmd: TRANSACTION UNDO
+[2017.11.26-02.30.37:896][931]LogEditorTransaction: Undo Edit Max
+[2017.11.26-02.30.38:685][955]Cmd: TRANSACTION UNDO
+[2017.11.26-02.30.38:685][955]LogEditorTransaction: Undo Edit Min
+[2017.11.26-02.30.41:844][122]Cmd: TRANSACTION UNDO
+[2017.11.26-02.30.41:844][122]LogEditorTransaction: Undo Foliage Editing
+[2017.11.26-02.30.53:314][560]Cmd: TRANSACTION UNDO
+[2017.11.26-02.30.53:314][560]LogEditorTransaction: Undo Foliage Editing
+[2017.11.26-02.30.54:339][616]Cmd: TRANSACTION UNDO
+[2017.11.26-02.30.54:339][616]LogEditorTransaction: Undo Edit Min
+[2017.11.26-02.31.04:230][178]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.31.04:230][178]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.31.04:230][178]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.31.04:230][178]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.31.06:992][337]LogEditorViewport: Clicking on Actor (LMB): InstancedFoliageActor (InstancedFoliageActor)
+[2017.11.26-02.31.10:223][527]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.31.10:223][527]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.31.10:223][527]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.31.10:223][527]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.31.22:888][276]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.26-02.31.27:793][566]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.26-02.31.32:508][841]Cmd: TRANSACTION UNDO
+[2017.11.26-02.31.32:508][841]LogEditorTransaction: Undo Move Actors
+[2017.11.26-02.31.33:835][910]Cmd: TRANSACTION UNDO
+[2017.11.26-02.31.33:835][910]LogEditorTransaction: Undo Clicking on Actors
+[2017.11.26-02.31.34:615][954]Cmd: TRANSACTION UNDO
+[2017.11.26-02.31.34:615][954]LogEditorTransaction: Undo Foliage Editing
+[2017.11.26-02.31.37:530][126]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.31.37:530][126]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.31.37:530][126]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.31.37:530][126]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.31.49:024][642]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.31.49:024][642]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.31.49:025][642]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.31.49:025][642]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.31.58:186][144]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.31.58:186][144]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.31.58:186][144]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.31.58:186][144]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.32.03:684][459]Cmd: TRANSACTION UNDO
+[2017.11.26-02.32.03:684][459]LogEditorTransaction: Undo Foliage Editing
+[2017.11.26-02.32.11:669][880]Cmd: TRANSACTION UNDO
+[2017.11.26-02.32.11:669][880]LogEditorTransaction: Undo Foliage Editing
+[2017.11.26-02.32.16:700][116]Cmd: TRANSACTION UNDO
+[2017.11.26-02.32.16:700][116]LogEditorTransaction: Undo Foliage Editing
+[2017.11.26-02.32.25:666][604]Cmd: TRANSACTION UNDO
+[2017.11.26-02.32.25:666][604]LogEditorTransaction: Undo Foliage Editing
+[2017.11.26-02.32.32:878][945]Cmd: TRANSACTION UNDO
+[2017.11.26-02.32.32:878][945]LogEditorTransaction: Undo Foliage Editing
+[2017.11.26-02.32.47:485][393]Cmd: TRANSACTION UNDO
+[2017.11.26-02.32.47:485][393]LogEditorTransaction: Undo Foliage Editing
+[2017.11.26-02.33.10:662][121]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.11.26-02.33.12:752][126]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.11.26-02.33.17:994][371]Cmd: TRANSACTION UNDO
+[2017.11.26-02.33.17:994][371]LogEditorTransaction: Undo Foliage Editing
+[2017.11.26-02.33.35:065][121]Cmd: TRANSACTION UNDO
+[2017.11.26-02.33.35:065][121]LogEditorTransaction: Undo Foliage Editing
+[2017.11.26-02.33.51:981][720]Cmd: TRANSACTION UNDO
+[2017.11.26-02.33.51:981][720]LogEditorTransaction: Undo Foliage Editing
+[2017.11.26-02.34.07:487][269]Cmd: TRANSACTION UNDO
+[2017.11.26-02.34.07:487][269]LogEditorTransaction: Undo Foliage Editing
+[2017.11.26-02.34.19:388][702]Cmd: TRANSACTION UNDO
+[2017.11.26-02.34.19:388][702]LogEditorTransaction: Undo Foliage Editing
+[2017.11.26-02.34.25:146][951]Cmd: TRANSACTION UNDO
+[2017.11.26-02.34.25:146][951]LogEditorTransaction: Undo Foliage Editing
+[2017.11.26-02.34.42:519][583]Cmd: TRANSACTION UNDO
+[2017.11.26-02.34.42:519][583]LogEditorTransaction: Undo Foliage Editing
+[2017.11.26-02.34.51:471][ 39]Cmd: TRANSACTION UNDO
+[2017.11.26-02.34.51:471][ 39]LogEditorTransaction: Undo Foliage Editing
+[2017.11.26-02.35.02:024][416]Cmd: TRANSACTION UNDO
+[2017.11.26-02.35.02:024][416]LogEditorTransaction: Undo Foliage Editing
+[2017.11.26-02.35.46:091][608]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.35.46:091][608]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.35.46:091][608]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.35.46:091][608]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.36.29:481][ 95]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.36.29:481][ 95]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.36.29:481][ 95]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.36.29:481][ 95]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.36.47:145][826]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.36.47:145][826]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.36.47:146][826]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.36.47:146][826]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.37.12:857][ 63]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.37.12:857][ 63]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.37.12:857][ 63]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.37.12:857][ 63]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.37.36:898][468]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.37.36:898][468]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.37.36:898][468]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.37.36:898][468]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.37.49:180][193]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.37.49:180][193]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.37.49:181][193]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.37.49:181][193]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.38.00:145][829]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.38.00:145][829]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.38.00:145][829]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.38.00:146][829]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.38.07:764][268]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.38.07:764][268]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.38.07:765][268]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.38.07:765][268]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.38.20:872][954]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.38.20:872][954]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.38.20:872][954]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.38.20:872][954]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.38.29:231][169]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.38.29:231][169]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.38.29:232][169]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.38.29:232][169]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.38.30:667][173]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.11.26-02.38.49:580][258]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.38.49:580][258]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.38.49:580][258]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.38.49:580][258]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.38.58:476][784]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.38.58:476][784]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.38.58:477][784]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.38.58:477][784]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.39.47:146][207]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.39.47:146][207]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.39.47:146][207]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.39.47:146][207]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.40.57:493][145]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.40.57:493][145]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.40.57:493][145]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.40.57:493][145]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.41.12:624][971]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.41.12:624][971]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.41.12:624][971]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.41.12:624][971]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.41.12:860][985]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2017.11.26-02.41.38:891][105]LogActorFactory: Actor Factory created OpenBook
+[2017.11.26-02.41.43:593][148]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.41.43:593][148]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.41.43:594][148]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.41.43:594][148]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.41.44:430][180]LogActorFactory: Actor Factory created OpenNotebook
+[2017.11.26-02.41.57:446][629]LogActorFactory: Actor Factory created Folder_02
+[2017.11.26-02.41.59:696][652]LogSavePackage: Save=168.58ms
+[2017.11.26-02.41.59:696][652]LogSavePackage: Moving '../../../../../../Users/colso/Documents/GitHub/Dreamer/bedroom& classrooms/Saved/Folder_02_FoliageType7595AC9044615E44C4E1B08456E418D7.tmp' to '../../../../../../Users/colso/Documents/GitHub/Dreamer/bedroom& classrooms/Content/HighSchoolClassroom/Meshes/Folder_02_FoliageType.uasset'
+[2017.11.26-02.41.59:699][652]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/colso/Documents/GitHub/Dreamer/bedroom& classrooms/Content/HighSchoolClassroom/Meshes/Folder_02_FoliageType.uasset
+[2017.11.26-02.42.00:484][684]LogActorFactory: Actor Factory created Folder_03
+[2017.11.26-02.42.02:748][714]LogSavePackage: Save=15.40ms
+[2017.11.26-02.42.02:748][714]LogSavePackage: Moving '../../../../../../Users/colso/Documents/GitHub/Dreamer/bedroom& classrooms/Saved/Folder_03_FoliageType95A5FB9D42EE619B8D09BE83B4D39A09.tmp' to '../../../../../../Users/colso/Documents/GitHub/Dreamer/bedroom& classrooms/Content/HighSchoolClassroom/Meshes/Folder_03_FoliageType.uasset'
+[2017.11.26-02.42.02:751][714]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/colso/Documents/GitHub/Dreamer/bedroom& classrooms/Content/HighSchoolClassroom/Meshes/Folder_03_FoliageType.uasset
+[2017.11.26-02.42.05:701][835]LogActorFactory: Actor Factory created CrumpledPaper_01
+[2017.11.26-02.42.08:187][866]LogSavePackage: Save=14.24ms
+[2017.11.26-02.42.08:187][866]LogSavePackage: Moving '../../../../../../Users/colso/Documents/GitHub/Dreamer/bedroom& classrooms/Saved/CrumpledPaper_01_FoliageType2448B4024D0E44B1020E5AA6B80A4FC7.tmp' to '../../../../../../Users/colso/Documents/GitHub/Dreamer/bedroom& classrooms/Content/HighSchoolClassroom/Meshes/CrumpledPaper_01_FoliageType.uasset'
+[2017.11.26-02.42.08:281][866]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/colso/Documents/GitHub/Dreamer/bedroom& classrooms/Content/HighSchoolClassroom/Meshes/CrumpledPaper_01_FoliageType.uasset
+[2017.11.26-02.42.11:134][929]LogSavePackage: Save=14.94ms
+[2017.11.26-02.42.11:134][929]LogSavePackage: Moving '../../../../../../Users/colso/Documents/GitHub/Dreamer/bedroom& classrooms/Saved/CrumpledPaper_02_FoliageTypeC74F5D224723A47993B04889ABF839DC.tmp' to '../../../../../../Users/colso/Documents/GitHub/Dreamer/bedroom& classrooms/Content/HighSchoolClassroom/Meshes/CrumpledPaper_02_FoliageType.uasset'
+[2017.11.26-02.42.11:137][929]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/colso/Documents/GitHub/Dreamer/bedroom& classrooms/Content/HighSchoolClassroom/Meshes/CrumpledPaper_02_FoliageType.uasset
+[2017.11.26-02.42.22:479][548]Cmd: TRANSACTION UNDO
+[2017.11.26-02.42.22:479][548]LogEditorTransaction: Undo Foliage Editing
+[2017.11.26-02.42.27:390][729]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.11.26-02.42.27:890][729]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.11.26-02.42.52:361][696]Cmd: TRANSACTION UNDO
+[2017.11.26-02.42.52:361][696]LogEditorTransaction: Undo Foliage Editing
+[2017.11.26-02.42.57:059][950]Cmd: TRANSACTION UNDO
+[2017.11.26-02.42.57:059][950]LogEditorTransaction: Undo Foliage Editing
+[2017.11.26-02.43.11:493][679]LogEditorViewport: Clicking on Actor (LMB): InstancedFoliageActor (InstancedFoliageActor)
+[2017.11.26-02.43.14:681][857]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.43.14:681][857]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.43.14:681][857]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.43.14:681][857]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.43.25:777][499]LogEditorViewport: Clicking on Actor (LMB): InstancedFoliageActor (InstancedFoliageActor)
+[2017.11.26-02.43.26:498][539]LogEditorViewport: Clicking on Actor (LMB): InstancedFoliageActor (InstancedFoliageActor)
+[2017.11.26-02.43.26:709][541]LogEditorViewport: Clicking on Actor (double click): InstancedFoliageActor (InstancedFoliageActor)
+[2017.11.26-02.43.35:644][ 57]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.43.35:644][ 57]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.43.35:644][ 57]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.43.35:644][ 57]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.43.43:258][502]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.43.43:258][502]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.43.43:258][502]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.43.43:258][502]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.43.54:858][ 81]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2017.11.26-02.43.56:811][186]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.43.56:811][186]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.43.56:812][186]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.43.56:812][186]AssetCheck:Error: Error Rust_D Rust_D Same lighting guid, modify or touch any property in the texture editor to generate a new guid and fix the issue.
+[2017.11.26-02.44.00:268][368]Cmd: SELECT NONE
+[2017.11.26-02.44.05:147][601]MapCheck: New page: Map Check
+[2017.11.26-02.44.05:265][601]Cmd: MAP REBUILD ALLVISIBLE
+[2017.11.26-02.44.05:363][601]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.11.26-02.44.06:961][601]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2017.11.26-02.44.20:714][601]LogCrashTracker: 
+
+
+[2017.11.26-02.44.20:714][601]LogCrashTracker: 
+
+
+[2017.11.26-02.44.20:714][601]LogWindows:Error: === Critical error: ===
+[2017.11.26-02.44.20:714][601]LogWindows:Error: 
+[2017.11.26-02.44.20:714][601]LogWindows:Error: Assertion failed: Settings [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Runtime\Foliage\Private\InstancedFoliage.cpp] [Line: 2358] 
+[2017.11.26-02.44.20:714][601]LogWindows:Error: 
+[2017.11.26-02.44.20:714][601]LogWindows:Error: 
+[2017.11.26-02.44.20:714][601]LogWindows:Error: 
+[2017.11.26-02.44.20:714][601]LogWindows:Error: KERNELBASE.dll!0x0000000085719E08
+[2017.11.26-02.44.20:714][601]LogWindows:Error: UE4Editor-Core.dll!0x000000004E20AFFE
+[2017.11.26-02.44.20:714][601]LogWindows:Error: UE4Editor-Core.dll!0x000000004E02249B
+[2017.11.26-02.44.20:714][601]LogWindows:Error: UE4Editor-Core.dll!0x000000004DFB0849
+[2017.11.26-02.44.20:714][601]LogWindows:Error: UE4Editor-Foliage.dll!0x0000000059A6873B
+[2017.11.26-02.44.20:714][601]LogWindows:Error: UE4Editor-UnrealEd.dll!0x0000000049E4F8C4
+[2017.11.26-02.44.20:714][601]LogWindows:Error: UE4Editor-UnrealEd.dll!0x0000000049E461FB
+[2017.11.26-02.44.20:714][601]LogWindows:Error: UE4Editor-UnrealEd.dll!0x0000000049E35350
+[2017.11.26-02.44.20:714][601]LogWindows:Error: UE4Editor-UnrealEd.dll!0x0000000049E1ABA2
+[2017.11.26-02.44.20:714][601]LogWindows:Error: UE4Editor-UnrealEd.dll!0x000000004A6216B6
+[2017.11.26-02.44.20:714][601]LogWindows:Error: UE4Editor-UnrealEd.dll!0x0000000049DB5CC2
+[2017.11.26-02.44.20:714][601]LogWindows:Error: UE4Editor-LevelEditor.dll!0x00000000304CDB9C
+[2017.11.26-02.44.20:714][601]LogWindows:Error: UE4Editor-LevelEditor.dll!0x00000000304E8E07
+[2017.11.26-02.44.20:714][601]LogWindows:Error: UE4Editor-Slate.dll!0x000000004CA4EB7F
+[2017.11.26-02.44.20:714][601]LogWindows:Error: UE4Editor-Slate.dll!0x000000004CB47862
+[2017.11.26-02.44.20:714][601]LogWindows:Error: UE4Editor-Slate.dll!0x000000004CB4D588
+[2017.11.26-02.44.20:714][601]LogWindows:Error: UE4Editor-Slate.dll!0x000000004CAB3B42
+[2017.11.26-02.44.20:714][601]LogWindows:Error: UE4Editor-Slate.dll!0x000000004CAB4EC9
+[2017.11.26-02.44.20:714][601]LogWindows:Error: UE4Editor-Slate.dll!0x000000004CB27775
+[2017.11.26-02.44.20:714][601]LogWindows:Error: UE4Editor-Slate.dll!0x000000004CBD8F57
+[2017.11.26-02.44.20:714][601]LogWindows:Error: UE4Editor-Slate.dll!0x000000004CC05D7B
+[2017.11.26-02.44.20:714][601]LogWindows:Error: UE4Editor-Slate.dll!0x000000004CB4F5FD
+[2017.11.26-02.44.20:714][601]LogWindows:Error: UE4Editor-Slate.dll!0x000000004CA29E9C
+[2017.11.26-02.44.20:714][601]LogWindows:Error: UE4Editor-Slate.dll!0x000000004C9F9835
+[2017.11.26-02.44.20:714][601]LogWindows:Error: UE4Editor-Slate.dll!0x000000004CA9E5E2
+[2017.11.26-02.44.20:714][601]LogWindows:Error: UE4Editor-Slate.dll!0x000000004CA8720F
+[2017.11.26-02.44.20:714][601]LogWindows:Error: UE4Editor-Slate.dll!0x000000004CA78391
+[2017.11.26-02.44.20:714][601]LogWindows:Error: UE4Editor-Core.dll!0x000000004E20175B
+[2017.11.26-02.44.20:714][601]LogWindows:Error: UE4Editor-Core.dll!0x000000004E1EB7D1
+[2017.11.26-02.44.20:714][601]LogWindows:Error: UE4Editor-Core.dll!0x000000004E2033DB
+[2017.11.26-02.44.20:714][601]LogWindows:Error: UE4Editor-Core.dll!0x000000004E1E7B22
+[2017.11.26-02.44.20:714][601]LogWindows:Error: USER32.dll!0x000000008816BC50
+[2017.11.26-02.44.20:714][601]LogWindows:Error: USER32.dll!0x000000008816B5CF
+[2017.11.26-02.44.20:714][601]LogWindows:Error: UE4Editor-Core.dll!0x000000004E203CE6
+[2017.11.26-02.44.20:714][601]LogWindows:Error: UE4Editor.exe!0x00000000D596DB44
+[2017.11.26-02.44.20:714][601]LogWindows:Error: UE4Editor.exe!0x00000000D595F0B0
+[2017.11.26-02.44.20:714][601]LogWindows:Error: UE4Editor.exe!0x00000000D595F12A
+[2017.11.26-02.44.20:714][601]LogWindows:Error: UE4Editor.exe!0x00000000D5970CF9
+[2017.11.26-02.44.20:714][601]LogWindows:Error: UE4Editor.exe!0x00000000D59725F7
+[2017.11.26-02.44.20:714][601]LogWindows:Error: KERNEL32.DLL!0x0000000088CD2774
+[2017.11.26-02.44.20:714][601]LogWindows:Error: ntdll.dll!0x0000000088F10D51
+[2017.11.26-02.44.20:714][601]LogWindows:Error: ntdll.dll!0x0000000088F10D51
+[2017.11.26-02.44.20:714][601]LogWindows:Error: 
+[2017.11.26-02.44.20:734][601]LogExit: Executing StaticShutdownAfterError
+[2017.11.26-02.44.21:181][601]LogWindows: FPlatformMisc::RequestExit(1)
+[2017.11.26-02.44.21:181][601]Log file closed, 11/25/17 19:44:21
